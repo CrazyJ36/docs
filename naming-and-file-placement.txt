@@ -1,0 +1,3 @@
+ How to name programs and scripts when they are addons for other apps:
+/Development/(apps-code-type-like"bash")/"app"-"funtion".sh
+. example: /Development/bash/gdrive-lsdir.sh
