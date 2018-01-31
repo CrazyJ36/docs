@@ -1,0 +1,50 @@
+I3 wm usage Reference.
+Press {Mod} first in all key combinations 
+ 
+Basic:
+mod + Enter - open new terminal
+mod + Left or J - focus left
+mod + Down or K - focus down
+mod + Up or L - focus up
+mod + Right or  ; - focus right
+mod + Space - toggle focus mode (lose focus)
+
+Moving windows:
+mod + Shift + Left or J - move window left
+mod + Shift+ Down or K - move window down
+mod + Shift + Up of L	- move window up
+mod + Shift + Righit or ; - move window right
+
+Modifying windows:
+mod + F - toggle fullscreen
+mod  + V + Enter - split a window vertically
+mod + H + Enter - split a window horizontally
+mod + R  -  resize mode (inverted arrow keys resize view. Esc to exit)
+
+Changing the container layout (Only effects vertical or horizontal group):.
+mod + E - default "normal" layout
+mod + S - stacking
+mod + W - tabbed
+
+Floating
+mod + Shift + Space - toggle floating current window
+Mouse or  mod + Mouse - drag floating
+
+Using workspaces
+mod + 0-9	- switch to another workspace
+mod + Shift + 0-9 - move a window to another workspace
+
+Opening applications / Closing windows
+mod + D - open application launcher (dmenu)
+mod + Shift + Q - kill a window
+
+Restart / Exit
+mod + Shift + C - reload the configuration file
+mod + Shift + R - restart i3 inplace
+mod + Shift + E - exit i3
+
+
+Copyright © 2012, Michael Stapelberg 
+All rights reserved 
+Designed by Zeus Panchenko, updated by Moritz Bandemer
+

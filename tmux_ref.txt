@@ -1,0 +1,204 @@
+Custom version usage. Relates to custom .tmux.conf
+ which is included in this directory.
+
+****
+Syntax:
+##Catergory
+
+#thing to do
+possible command1
+possible command 2
+
+#Next thing to do
+
+##Next Catergory
+****
+
+##Sessions
+
+Prefix Alt-B
+
+#Starts A new tmux session
+tmux
+tmux new
+tmux new-session
+:new
+
+#Starts new session with name
+tmux new -s mysession
+:new -s mysession
+
+#Kill/delete session mysession
+tmux kill-ses -t mysession
+tmux kill-session -t mysession
+
+#Kill/delete all sessions but current 
+tmux kill-session -a 
+
+#Kill/delete all sessions but mysession 
+tmux kill-session -a -t mysession
+
+#Rename Session
+Ctrl + b $
+
+#Detach from session
+Ctrl + b d
+
+#Show all sessions
+tmux ls
+tmux list-sessions 
+Ctrl + b s
+
+#Attach to last session
+tmux a
+tmux at
+tmux attach
+tmux attach-session
+
+#Attach to session with name mysession
+tmux a -t mysession
+tmux at -t mysession
+tmux attach -t mysession 
+tmux attach-session -t mysession
+
+#Move to previous session
+Ctrl + b (
+
+#Move to next session
+Ctrl + b )
+
+
+##Windows
+
+#Start new session with named session and named window
+tmux new -s mysession -n mywindow
+
+#Create Window
+#Ctrl + b c
+
+#Rename Current Window
+Ctrl + b ,
+
+#Close current window
+Ctrl + b &
+
+#Previous window
+Ctrl + b p
+
+#NextWindow
+Ctrl + b n
+
+#Switch to  window by number
+Ctrl + b 0...9
+
+#Reorder Window , swap windows 2 and 1
+swap-window -s 2 -t 1
+
+#Move current window to left by one position
+swap-window -t -1
+
+
+##Panes
+
+#Toggle last active pane
+Ctrl + b ;
+
+#Split pane vertically |
+Ctrl + b v
+
+#Split pane horizontally - 
+Ctrl + b s
+
+#Move current pane left
+Ctrl + b {
+
+#Move current pane right
+Ctrl + b }
+
+#Switch to pane to the direction
+Ctrl + b up,down,left,right
+
+#Toggle synchronize panes
+#(to send commands to all terminals)
+setw synchronize-panes
+
+#Toggle between pane layouts
+Ctrl + b Space 
+
+#Swith to next pane
+Ctrl + b o 
+
+#Show pane numbers
+Ctrl + b q
+
+#Switch to pane number by number
+Ctrl + b q 0...9
+
+#Toggle pane zoom
+Ctrl + b z
+
+#Break current pane to window
+Ctrl + b !
+
+#Resize panes by 1 line
+arrows
+
+#Resize pane by 5 lines 
+Crtl + b arrows  
+
+#Close current pane
+Ctrl + b x
+
+
+##Copy Mode
+
+#Use vi keys fpr buffer
+:setw -g mode-keys vi
+
+#Enter copy mode
+Ctrl + b [
+
+#Enter copy mode & scroll up one page
+Ctrl + b PgUp
+
+#Quit copy mode
+q
+
+#Go to top line
+g
+
+#Go to bottom line
+G
+
+#Scroll up down or move cursor position
+Arrows
+
+#Move cursor forward one word at a time
+w
+
+#Move cursor backward one word at a time
+b
+
+#Search forward
+/
+
+#Search backward
+?
+
+#Next keyword occurance 
+n
+
+#Previous keyword occurance
+N
+
+#Start selection
+Space
+
+#Clear selection 
+Esc
+
+#Copy selection
+Enter
+
+#Paste contents of buffer_0
+Ctrl + b ]

@@ -1,0 +1,7 @@
+To cut/copy/paste text
+
+-arrows to set cursor to any starting position for cut/copy.
+-alt-a to start text selection move arrows to where to end for cut/copy.
+-alt-6 to copy selected text
+-ctrl-k to cut text
+-ctrl-u to paste at any position in file.

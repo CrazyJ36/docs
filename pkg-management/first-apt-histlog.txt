@@ -1,0 +1,5 @@
+
+Start-Date: 2017-07-19  22:36:19
+Commandline: apt-get install -yfq --no-install-recommends openssh-server
+Install: libkrb5-3:armhf (1.13.2+dfsg-5, automatic), libgssapi-krb5-2:armhf (1.13.2+dfsg-5, automatic), libwrap0:armhf (7.6.q-25, automatic), openssh-sftp-server:armhf (1:7.2p2-4, automatic), libk5crypto3:armhf (1.13.2+dfsg-5, automatic), libkrb5support0:armhf (1.13.2+dfsg-5, automatic), libkeyutils1:armhf (1.5.9-8ubuntu1, automatic), openssh-server:armhf (1:7.2p2-4), openssh-client:armhf (1:7.2p2-4, automatic), libedit2:armhf (3.1-20150325-1ubuntu2, automatic)
+End-Date: 2017-07-19  22:36:46
