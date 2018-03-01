@@ -1,0 +1,21 @@
+﻿Kotlin Usages
+
+Main: starts executing code 
+fun main(args:Array<String>) {
+}
+
+Variables and Values:
+- var: mutable, can be altered after initialization
+- val: immutable, can not be altered after initialization.
+can be put outside functions
+
+Strings:
+-print(“text”): prints on the same lines as your command prompt 
+-println(“text”) prints in A new line
+-values can be printed inside (“string declaration text”)
+by using println(“my text is $val”) like bash.
+
+Operators:
+“=” is an assignment operator (eg. x = 2).
+“==” checks if two values hold the same data (eg. if(8 == 8) returns true.
+

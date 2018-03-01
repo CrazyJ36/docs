@@ -1,0 +1,93 @@
+﻿Install/setup
+Install Ubuntu Mini, don’t install any extra packages offered during the installation.
+keep packages small size, build from source,
+watch performance/ processes
+
+no terminal at boot, blinking cursor:
+When booted, press ctrl+alt+F1 for first to start A tty in the virtual tty desktops that Ubuntu mini comes with.
+
+Wifi setup
+After installing Ubuntu Mini on an old toshiba laptop, (even though during install it could connect to the internet to download required packages) when booted I had no internet,though adapters were shown to the system fine. Follow exactly this website for that situation: https://www.blackmoreops.com/2014/09/18/connect-to-wifi-network-from-command-line-in-linux/ no extra apps/packages needed.
+
+
+Full Linux Programs I use
+
+
+nano alpine python python3 openjdk-8-jdk vlc libportaudio2 pulseaudio pavucontrol dialog tightvncserver moreutils python-pip npm 
+howdoi fish wget dtrx libjpeg8-dev perl screen/tmux android-tools-adb pianobar mplayer aptitude i3 hwinfo xclip iotop htop w3m software-properties-common
+
+
+pip install
+rainbowstream mps
+
+npm install -g
+how2
+
+CONFIGURE APPS
+
+VLC
+enable run as root:
+sed -i 's/geteuid/getppid/' /usr/bin/vlc
+
+NPM
+set path
+ln -s /usr/bin/nodejs /usr/bin/node
+
+Window Manager (I3)
+In LinuxDeploy app:
+make </storage/sdcard0> mounted.
+
+In linux:
+-<apt-get install x11vnc>
+
+Using bVNC App, I get custom resolution:
+
+-<cd .ssh>
+-<ssh-keygen -t rsa -b 4096 -f id_rsa>
+-make key password
+-<cp id_rsa id_rsa.pub /storage/sdcard0/Download>
+-New connection with bvnc Vnc over SSH
+-Bvnc>Manage Key>Enter “id_rsa” at bottom
+-enter key password at top field
+-set slider to “4096”
+-tap Import
+
+At bVnc main screen:
+-AutoX resolution should be W=525xH=605 to make room for Hackers Keyboard on sceen.
+-Enter server “localhost”
+-Enter user
+-Enter ssh key in passphrase
+
+Back in Linux:
+cd ~/.ssh
+touch authorized_keys
+chmod 600 authorized_keys
+cat id_rsa.pub >> authorized_keys
+
+Connect
+
+
+DOWNLOADS
+wget http://georgielabs.altervista.org/SoundWire_Server_RPi.tar.gz
+This staysbacked up in cloud storage “Programs”.
+
+
+TERMUX
+For additional functionality/packages:
+
+packages install python nodejs
+
+This allows for pip and npm package managers, Greatly improving what can be done with just Termux. 
+
+pip install mps rainbowstream
+npm install how2
+etc..
+
+Development Environment
+
+Java:
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java9-installer
+sudo apt-get install oracle-java9-set-default

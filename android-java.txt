@@ -1,0 +1,78 @@
+﻿Android Usages
+Button
+findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+   @Override
+   public void onClick(View view) {
+       //...Stuff.. can do many things as below..
+   });
+}
+Multiple Buttons
+findViewById(R.id.button1).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Toast.makeText(MainActivity.this, "Toast Text", Toast.LENGTH_SHORT).show();
+    }
+});
+findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Toast.makeText(MainActivity.this, ”Another Toast”, Toast.LENGTH_SHORT).show();
+    }
+});
+Toast
+Toast.makeText(MainActivity.this, "The Text to show", Toast.LENGTH_SHORT).show();
+Intents
+Start Another Activity Screen
+findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
+@Override
+    public void onClick(View v) {
+        Intent twoActivity = new Intent(MainActivity.this, TwoActivity.class);
+        startActivity(twoActivity);
+    } 
+});
+This uses A button (id:button) in MainActivity, requires A second .java activity (TwoActivity.java).
+Needs two layout.xmls’, and two Activity.javas’.
+Call “TextField” Phone Number
+final EditText editText1 = (EditText) findViewById(R.id.editText1);
+Button button1 = (Button) findViewById(R.id.button1);       
+button1.setOnClickListener(new View.OnClickListener() {	
+    @Override	
+    public void onClick(View view) {
+        String phone = editText1.getText().toString();
+        Intent intent = new Intent (Intent.ACTION_CALL,Uri.parse("tel:phone"));
+
+Call Number “Text Fields Number 2”
+EditText usrNum = (EditText) findViewById(R.id.numField);
+String num = usrNum.getText().toString();
+Uri data = Uri.parse("tel:" + num);
+Intent call = new Intent(Intent.ACTION_CALL, data);
+if (ActivityCompat.checkSelfPermission(MainActivity.this,
+Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
+    return;
+    }
+startActivity(call);
+
+
+
+
+Open “Fields” WebPage:
+EditText usrUrl = (EditText) findViewById(R.id.urlField);
+String url = usrUrl.getText().toString();
+Intent webPage = new Intent(Intent.ACTION_VIEW,Uri.parse(url));
+startActivity(webPage);
+
+
+
+SEND "FIELDs" MESSAGE:
+
+String message = editText1.getText().toString();
+Intent intent = new Intent (Intent.ACTION_VIEW);
+intent.setType("vnd.android-dir/mms-sms");
+intent.putExtra("sms_body", message);
+
+
+LAUNCH OTHER APPS:
+
+Intent launchApp = getPackageManager().getLaunchIntentForPackage("com.package.address");
+
+

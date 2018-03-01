@@ -1,0 +1,23 @@
+﻿Linux and Termux usage
+
+To use Ubuntu with proot in Termux:
+$ wget https://raw.githubusercontent.com/Neo-Oli/termux-ubuntu/master/ubuntu.sh
+$ ./ubuntu.sh
+
+~/.bashrc additions:
+# Add permanent .bash_aliases to permanently add
+# simple commands like 'ls -a':
+if [ -f ~/.bash_aliases ]; then
+    . ~/.bash_aliases
+fi
+
+# Set PATH so it includes user's private 
+# /home/'user'/bin for complex scripts
+if [ -d "$HOME/bin" ] ; then
+    PATH="$HOME/bin:$PATH"
+fi
+
+add useful items ~/.bash_aliases file:
+alias la="ls -a"
+
+
