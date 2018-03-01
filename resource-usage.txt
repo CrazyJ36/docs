@@ -1,0 +1,30 @@
+DISK USAGE:
+Get megabtye usage of single directory or file
+# - du (disk usage)
+# options:
+# -h - show disk usage in human readable format (kilobytes,megabytes)
+# -s - show summary of all items in folder
+# -c - shows total space of multiple folders
+$ du -hs file-folder
+    size of folder
+$ du -h folder
+    show all files abd their size
+$ du -hsc folder1 folder2 
+    total sum of two folders
+
+CPU:
+Get processor usage percentage per process
+# - top (task manager)
+# shows cpu/memory usage percentage in colums
+$ top
+
+MEMORY:
+Get free ram memory
+# - free (shows free memory)
+# options:
+# --mega shows memory in megabytes
+$ free --mega
+
+NETWORK:
+
+GRAPHICS:
