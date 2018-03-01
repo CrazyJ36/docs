@@ -1,0 +1,24 @@
+﻿Using functions
+defining use of A funtion that already exists:
+Function varName = new Funtion();
+ex.:
+Date date = new Date();
+Button button = new Button();
+
+then they can be used from variable
+
+Text
+-print text to std.out
+System.out.println("foo bar");
+
+- print A string
+String newStr = "string tj";
+System.out.println(newStr);
+
+Math
+-math operator exact answer
+number1 = 5
+number2 = 4
+answer = ((double)number1) / number 2
+
+

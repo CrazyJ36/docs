@@ -1,0 +1,396 @@
+#Taken from html, there may be junk!
+Regular Expressions in Linux Explained with Examples
+
+Regular expressions (Regexp)is one of the advanced concept we require to
+write efficient shell scripts and for effective system administration.
+Basically regular expressions are divided in to 3 types for better
+understanding.
+
+1)Basic Regular expressions
+
+2)Interval Regular expressions (Use option -E for grep and -r for sed)
+
+3)Extended Regular expressions (Use option -E for grep and -r for sed)
+
+Some FAQ's before starting Regular expressions
+
+What is a Regular expression?
+
+A regular expression is a concept of matching a pattern in a given string.
+
+Which commands/programming languages support regular expressions?
+vi, tr, rename, grep, sed, awk, perl, python etc.
+
+Basic Regular Expressions
+
+Basic regular expressions: This set includes very basic set of regular
+expressions which do not require any options to execute. This set of regular
+expressions are developed long time back.
+
+^ ?Caret/Power symbol to match a starting at the beginning of line.
+
+$ ?To match end of the line
+
+* ?0 or more occurrence of the previous character.
+
+. ?To match any character
+
+[] ?Range of character
+
+[^char] ?negate of occurrence of a character set
+
+<word> ?Actual word finding
+
+?Escape character
+
+Lets start with our Regexp with examples, so that we can understand it
+better.
+
+^ Regular Expression
+
+Example 1: Find all the files in a given directory
+
+ls -l | grep ^-
+
+As you are aware that the first character in ls -l output, ? is for regular
+files and d for directories in a given folder. Let us see what ^- indicates.
+The ^ symbol is for matching line starting, ^- indicates what ever lines
+starts with -, just display them. Which indicates a regular file in Linux/
+Unix.
+
+If we want to find all the directories in a folder use grep ^d option along
+ls -l as shown below
+
+ls -l | grep ^d
+
+How about character files and block files?
+
+ls -l | grep ^c
+
+ls -l | grep ^b
+
+We can even find the lines which are commented using ^ operator with below
+example
+
+grep '^#' filename
+
+How about finding lines in a file which starts with 'abc'
+
+grep '^abc' filename
+
+We can have number of examples with this ^ option.
+
+$ Regular Expression
+
+Example 2: Match all the files which ends with sh
+
+ls -l | grep sh$
+
+As $ indicates end of the line, the above command will list all the files
+whose names end with sh.
+
+how about finding lines in a file which ends with dead
+
+grep 'dead$' filename
+
+How about finding empty lines in a file?
+
+grep '^$' filename
+
+ * Regular Expression
+
+Example 3: Match all files which have a word twt, twet, tweet etc in the
+file name.
+
+ls -l | grep 'twe*t'
+
+How about searching for apple word which was spelled wrong in a given file
+where apple is misspelled as ale, aple, appple, apppple, apppppple etc. To
+find all patterns
+
+grep 'ap*le' filename
+
+Readers should observe that the above pattern will match even ale word as *
+indicates 0 or more of the previous character occurrence.
+
+. Regular Expression
+
+Example 4: Filter a file which contains any single character between t and t
+in a file name.
+
+ls -l | grep 't.t'
+
+Here . will match any single character. It can match tat, t3t, t.t, t&t etc
+any single character between t and t letters.
+
+How about finding all the file names which starts with a and end with x
+using regular expressions?
+
+ls -l | grep 'a.*x'
+
+The above .* indicates any number of characters
+
+Note: .* in this combination . indicates any character and it repeated(*) 0
+or more number of times.
+Suppose you have files as..
+awx
+awex
+aweex
+awasdfx
+a35dfetrx
+etc.. it will find all the files/folders which start with a and ends with x
+in our example.
+
+[] Square braces/Brackets Regular Expression
+
+Example 5: Find all the files which contains a number in the file name
+between a and x
+
+ls -l | grep 'a[0-9]x'
+
+This will find all the files which is
+a0xsdf
+asda1xsdfas
+..
+..
+asdfdsara9xsdf
+etc.
+
+So where ever it finds a number it will try to match that number.
+
+Some of the range operator examples for  you.
+
+[a-z] ?Match's any single char between a to z.
+
+[A-Z] ?Match's any single char between A to Z.
+
+[0-9] ?Match's any single char between 0 to 9.
+
+[a-zA-Z0-9] ? Match's any single character either a to z or A to Z or 0 to 9
+
+[!@#$%^] ? Match's any ! or @ or # or $ or % or ^ character.
+
+You just have to think what you want match and keep those character in the
+braces/Brackets.
+
+[^char] Regular Expression
+
+Example6: Match all the file names except a or b or c in it?s filenames
+
+ls | grep  '[^abc]'
+
+This will give output all the file names except files which contain a or b
+or c.
+
+<word> Regular expression
+
+Example7: Search for a word abc, for example I should not get abcxyz or
+readabc in my output.
+
+grep '<abc>' filename
+
+Escape Regular Expression 
+
+Example 8: Find files which contain [ in it?s name, as [ is a
+special charter we have to escape it
+
+grep "[" filename
+
+or
+
+grep '[[]' filename
+
+Note: If you observe [] is used to negate the meaning of [ regular
+expressions, so if you want to find any specail char keep them in [] so that
+it will not be treated as special char.
+
+Note: No need to use -E to use these regular expressions with grep. We have
+egrep and fgrep which are equal to ?grep -E?. I suggest you just concentrate
+on grep to complete your work, don't go for other commands if grep is there
+to resolve your issues. Stay tuned to our next post on Regular expressions.
+
+Share:
+
+          
+
+Rate:
+
+PreviousRedhat Enterprise Linux version 6 aka RHEL6 features
+NextRegular expressions in Linux -II
+
+About The Author
+
+[8f71515aab81c5a2f6b9a2f]
+
+Surendra Anne
+
+Mr Surendra Anne is from Vijayawada, Andhra Pradesh, India. He is a Linux/
+Open source supporter who believes in Hard work, A down to earth person,
+Likes to share knowledge with others, Loves dogs, Likes photography. He
+works as Devops Engineer with Taggle systems, an IOT automatic water
+metering company, Sydney . You can contact him at surendra (@) linuxnix dot
+com.
+
+  *  
+  *  
+  *  
+
+Related Posts
+
+How to write shell script in Linux professionally
+
+How to write shell script in Linux professionally
+
+August 14, 2011
+
+Vi editor: Delete matched search pattern from a file
+
+Vi editor: Delete matched search pattern from a file
+
+May 3, 2013
+
+Shell script: Convert decimal to ascii values
+
+Shell script: Convert decimal to ascii values
+
+December 20, 2012
+
+Mysql: How to find table and database size?
+
+Mysql: How to find table and database size?
+
+January 9, 2017
+
+  * Pingback: SED(Steam EDitor ) Explained in detail for Linux/Unix | The
+    Linux Juggernaut()
+
+  * Dfksf
+   
+    well explained
+
+  * Pingback: Learn SED with examples | The Linux Juggernaut()
+
+  * gouthamk10
+   
+    good work
+
+  * Pingback: How To List Only Alphabetical Filename in Linux | The Linux
+    Juggernaut()
+
+  * Pingback: Regular expressions in Linux -II | The Linux Juggernaut()
+
+  * bozo
+   
+    s/Carrot/Caret/
+
+      + Surendra
+       
+        thanks for the typo.. updated the post.
+
+  * m_theredhead
+   
+    Example 3 and 4 are not quite right. They both say ?Match all files
+    which starts with ? but really match all files that contain blah. You
+    need a ^ to match the beginning. For example, creating a file called
+    ?atweet? will match using the example.
+
+      + Surendra
+       
+        Updated the points 3 and 4
+
+  * Fuzzy
+   
+    Minor typo? you have ?expect? in a number of places you mean ?except?
+
+      + Surendra
+       
+        thanks for the hands up.. updated the post..
+
+  * Pingback: Regular Expressions in Linux Explained with Examples |
+    Thelinuxgeek()
+
+  * Pingback: Links 18/10/2012: Wine 1.5.15, Mageia 3 Alpha 2 | Techrights()
+
+  * vishnu sakhamuri
+   
+    please change Ex 4, it will list not only files end with ?x?, it also
+    list files not also end with x. like below
+
+    asfsdfdsxdfdsfsd
+    akljljlxq
+
+    to return, only lines start with a and end with x, the RegExp is ?a.*x$?
+
+    and in Example 8, there typo, it made your special, a specail.
+
+  * arjun
+   
+    how to match name with mail in given file  by shell scripting
+
+  * arjun
+   
+    hi friends,how to match name with mail in given file  by shell scripting
+
+  * anonym
+   
+    This is great, I really love your work, made my life easier.
+
+    But?i don't understand the part that you are a Linux evanghelist?? Is
+    linux considered a religion?
+
+      + Surendra Anne
+       
+        No.. but I use evanghelist in way to convay that I love Linux and
+        spread it.
+
+  * udit prasad mishra
+   
+    why command ls -l | fgrep ^- doesnot work.
+
+      + Surendra Anne
+       
+        Its not fgrep, but its grep. Can I know the error when you execute
+        this command?
+
+  * Zahid Hussain
+   
+    Thank you for nice share. However, I think there is some typo error.
+
+     
+
+    Published = [A-Z] ?Match?s any single char between a to z.
+
+    Required = [A-Z] ?Match?s any single char between A to Z.
+
+      + Surendra Anne
+       
+        Thanks for headsup Zahid. Updated the post.
+
+  * Subhaprasad Mukherjee
+   
+    Can someone explain something to me? If I am using ls -l | grep ^- to
+    find all files, why does the ^ character here signify start of line and
+    not negation?
+
+      + Surendra Anne
+       
+        Because its not with in []. if you use ^ wit [^], that indicates
+        negate all the charecters which are in that braces.
+
+  * Babab Dayryam
+   
+    match a pattern in multiple files.Do i need to use a for/while loop
+    inside grep command.
+
+      + Surendra
+       
+        no need a for loop, just use grep?s opetions -r and bash glob
+        options. For example: In order to search for a word in all files in
+        present working directory use below command
+
+        grep ?babab? *
+
+        Suppose if you want to search even in subdirectories, use -r which
+        is recursive.
+
+        grep -r ?babab? *
