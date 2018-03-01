@@ -1,0 +1,5 @@
+#ls command usage.
+
+ls	shows all file and folder names
+ls -a	shows hidden files and indicates a directory by "folder/" instead of "folder"
+ls -l   shows last time modified permissions and other properties
