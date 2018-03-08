@@ -1,0 +1,102 @@
+﻿ PAGE 2   |   Shortcut Keys for Windows 10
+
+IT Showcase Productivity Guide
+Shortcut Keys for Windows 10
+This guide lists shortcut keys that you can use from the desktop in Windows 10.
+Shortcut
+Description
+Windows key 
+Open and close the Start menu. 
++1, +2, etc.
+Switch to the desktop and launch the nth application in the taskbar. For example, +1 launches whichever application is first in the list, numbered from left to right.
++A
+Open the action center.
++B
+Highlight the notification area.
++C
+Launch Cortana into listening mode. If Cortana is unavailable or disabled, this shortcut has no function.
+ Users can begin to speak to Cortana immediately. 
++D
+Switch between Show Desktop (hides/shows any applications and other windows) and the previous state.
++E
+Switch to the desktop and launch File Explorer with the Quick Access tab displayed. 
++H
+Open the Share  charm.
++I
+Open the Settings  app.
++K
+Open the Connect pane to connect to wireless displays and audio devices.
++L
+Lock the device and go to the Lock screen.
++M
+Switch to the desktop and minimize all open windows.
++O
+Lock device orientation.
++P
+Open the Project pane to search and connect to external displays and projectors. 
++R
+Display the Run dialog box.
++S
+Launch Cortana. Cortana is only available in certain countries/regions, and some Cortana features might not be available everywhere. If Cortana is unavailable or disabled, this command opens Search.
+ Users can begin to type a query immediately. 
++T
+Cycle through the apps on the taskbar.
++U
+Launch the Ease of Access Center.
++V
+Cycle through notifications.
++X
+Open the advanced menu in the lower-left corner of the screen.
++Z
+Open the app-specific command bar.
++ENTER
+Launch Narrator.
++SPACEBAR
+Switch input language and keyboard layout.
++TAB
+Open Task view.
++,
+Peek at the desktop.
++Plus Sign
+Zoom in.
++Minus Sign
+Zoom out.
++ESCAPE
+Close Magnifier.
++LEFT ARROW
+Dock the active window to the left half of the monitor.
++RIGHT ARROW
+Dock the active window to the right half of the monitor.
++UP ARROW
+Maximize the active window vertically and horizontally.
++DOWN ARROW
+Restore or minimize the active window.
++SHIFT+UP ARROW
+Maximize the active window vertically, maintaining the current width.
++SHIFT+
+DOWN ARROW
+Restore or minimize the active window vertically, maintaining the current width.
++SHIFT+LEFT ARROW
+With multiple monitors, move the active window to the monitor on the left.
++SHIFT+RIGHT ARROW
+With multiple monitors, move the active window to the monitor on the right.
++HOME
+Minimize all nonactive windows; restore on second keystroke.
++PRNT SCRN
+Take a picture of the screen and place it in the Computer>Pictures>Screenshots folder.
++CTRL+LEFT/RIGHT arrow
+Switch to the next or previous virtual desktop.
++CTRL+D
+Create a new virtual desktop.
++CTRL+F4
+Close the current virtual desktop.
++?
+Launch the Windows Feedback App.
+
+For more information
+Microsoft IT Showcase Productivity
+http://microsoft.com/itshowcase/Productivity 
+Windows
+http://windows.microsoft.com 
+
+This guide is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, AS TO THE INFORMATION IN THIS DOCUMENT. © 2015 Microsoft Corporation. All rights reserved.
