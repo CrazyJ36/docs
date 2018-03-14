@@ -1,0 +1,10 @@
+to set font in ubuntu mini/server tty prompt:
+
+$ sudo dpkg-reconfigure console-setup
+- first select UTF-8
+- select guess best character set
+- select font and size
+
+this should update some kernel stuff and font should be applied. If not reboot.
+or to apply now use:
+$ setupcon
