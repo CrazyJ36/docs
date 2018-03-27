@@ -1,4 +1,0 @@
-C:\Users\CrazyJ36\AppData\Local\Programs\Python\Python36\python.exe -i "C:\Users\CrazyJ36\Documents\Development\Python\"
-
-
-# copy, paste and edit the end to point to a file in the development directory 

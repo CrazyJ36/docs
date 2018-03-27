@@ -1,0 +1,11 @@
+ISSUES
+-When starting an app with an EditText, the keyboard shows
+automatically.
+-when selecting an EditText field, the keyboard can overlap.
+
+FIX
+add android:windowSoftInputMode="stateHidden|adjustPan" to the line:
+<activity android:name=".MainActivity">
+
+like so:
+<activity android:name=".MainActivity" android:windowSoftInputMode="stateHidden|adjustPan" > 
