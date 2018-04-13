@@ -1,0 +1,1 @@
+Never add a RecyclerView or ListView to a scroll view. Doing so results in poor user interface performance and a poor user experience.
