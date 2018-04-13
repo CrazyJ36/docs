@@ -8,3 +8,7 @@ $ sudo dpkg-reconfigure console-setup
 this should update some kernel stuff and font should be applied. If not reboot.
 or to apply now use:
 $ setupcon
+
+Find Terminal width and height:
+tput cols -shows columbs
+tput lines -shows rows

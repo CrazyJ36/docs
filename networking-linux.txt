@@ -1,0 +1,5 @@
+ Show adapter device interface name
+iw dev
+
+Check wifi connection 
+iw <device> link

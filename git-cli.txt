@@ -116,4 +116,19 @@ build/
 temp-*
 A text file named .gitignore suppresses accidental versioning of
 files and paths matching the specified patterns
-
+Search commits
+- git log --grep=<regex>
+
+Save Credentials locally
+-git config credential.helper store
+(connect again)git push http://example.com/repo.git
+Username: <type your username>
+Password: <type your password>
+[several days later]
+-git push http://example.com/repo.git
+[your credentials are used automatically]
+
+Save credentials temporarily 
+-git config credential.helper 'cache --timeout=300' (seconds)
+
+

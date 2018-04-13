@@ -1,0 +1,6 @@
+-SEE LAST OF SYSTEM LOGS
+tail /var/log/syslog
+less /var/log/syslog
+
+REALTIME LOG
+dmesg
