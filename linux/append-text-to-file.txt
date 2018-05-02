@@ -1,0 +1,12 @@
+#USING ECHO:
+#Add 1 line:
+$ echo 'content' >> file.txt
+or 
+$ echo "content" >> file.txt
+
+#Add multiple lines:
+Press enter during typing command, before desired new line.
+$ echo 'line 1 
+line 2' >> file.txt
+
+

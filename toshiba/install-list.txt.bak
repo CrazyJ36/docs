@@ -1,0 +1,26 @@
+GIT:
+libpsl5
+librtmp1
+libcurl3-gnutls
+perl-modules-5.26
+libperl5.26
+perl
+liberror-perl
+git-man
+libpsl5
+git
+
+CURL:
+curl
+libcurl4:i386
+
+W3M:
+w3m
+libgc1c2
+libgpm2
+
+SSH-SERVER, SSHPASS:
+libwrap0
+openssh-server
+openssh-sftp-server
+sshpass
