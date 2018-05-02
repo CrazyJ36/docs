@@ -1,0 +1,10 @@
+gcc can use optimization as 
+
+gcc -march=pentium -mtune=pentium -O3 file.c
+
+The 3 Flags are for optimization.
+I'm not sure if -march or -mtune are correctly set.
+-march=native will do.
+-O3 (letter O), enables optimization options during compile time.
+The pentium-builder package auto does this when you configure A few items. See man builder-cc.
+
