@@ -1,4 +1,0 @@
-  binutils binutils-common binutils-i686-linux-gnu cpp cpp-7 gcc gcc-7
-  libasan4 libatomic1 libbinutils libcc1-0 libcilkrts5 libgcc-7-dev libgomp1
-  libisl19 libitm1 libmpc3 libmpfr6 libmpx2 libquadmath0 libubsan0
-  pentium-builder
