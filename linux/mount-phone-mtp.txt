@@ -1,0 +1,21 @@
+TODO: find out how to mount android fs with default packages,
+so nothing has to be installed. otherwise, this method works great 
+with little storage occupied.
+
+fusermount should already be installed with ubuntu mini.
+
+Install these:
+$ sudo apt-get install libmtp-common libmtp9 jmtpfs
+
+Android should be in mtp usb mode, (developer options off?).
+
+$ mkdir ~/phone
+
+or any other directory, though this doesn't work with root file points (eg. /mnt).
+
+$ fmtpfs ~/phone
+
+you can now manipulate, list, copy, etc.. internal storage.
+
+to unmount:
+$ fusermount -u ~/phone

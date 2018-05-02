@@ -1,5 +1,4 @@
-# APT
-GIT:
+#GIT:
 libpsl5
 librtmp1
 libcurl3-gnutls
@@ -11,20 +10,25 @@ git-man
 libpsl5
 git
 
-CURL:
+#CURL:
 curl
 libcurl4:i386
 
-W3M:
+#W3M:
 w3m
 libgc1c2
 libgpm2
 
-SSH-SERVER, SSHPASS:
+#SSH-SERVER, SSHPASS:
 libwrap0
 openssh-server
 openssh-sftp-server
 sshpass
 
-# Manual bin
+#GOOGLER manual bin:
 /usr/local/bin/googler
+
+#JMTPFS:
+libmtp-common
+libmtp9
+jmtpfs
