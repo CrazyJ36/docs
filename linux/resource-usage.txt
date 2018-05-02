@@ -18,6 +18,11 @@ Get processor usage percentage per process
 # shows cpu/memory usage percentage in colums
 $ top
 
+PROCESSES
+show running processes
+# 
+$ ps
+
 MEMORY:
 Get free ram memory
 # - free (shows free memory)
