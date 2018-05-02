@@ -1,0 +1,5 @@
+
+  ca-certificates-java java-common libavahi-client3 libavahi-common-data
+  libavahi-common3 libcups2 libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4
+  libnss3 libxi6 libxrender1 libxtst6 openjdk-11-jdk-headless
+  openjdk-11-jre-headless x11-common

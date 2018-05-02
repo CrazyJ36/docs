@@ -34,24 +34,22 @@ libmtp9
 jmtpfs
 
 #JAVA
-ca-certificates-java
-default-jdk-headless
-default-jre-headless
-java-common
-libavahi-client3
-libavahi-common-data
-libavahi-common3
-libcups2 
-libjpeg-turbo8
-libjpeg8
-liblcms2-2
-libnspr4
-libnss3
-libxi6
-libxrender1
-libxtst6
-openjdk-11-jdk-headless
-openjdk-11-jre-headless
-x11-common
+  ca-certificates-java java-common libavahi-client3 libavahi-common-data
+  libavahi-common3 libcups2 libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4
+  libnss3 libxi6 libxrender1 libxtst6 openjdk-11-jdk-headless
+  openjdk-11-jre-headless x11-common
 
+# Alpine
+mlock
+alpine
+
+# poppler-utils
+  fontconfig-config fonts-dejavu-core libcairo2 libfontconfig1 libjbig0
+  libpixman-1-0 libpoppler73 libtiff5 libxcb-render0 libxcb-shm0 poppler-utils
+
+# howdoi
+  howdoi libxslt1.1 python3-certifi python3-chardet python3-cssselect
+  python3-idna python3-lxml python3-pkg-resources python3-pygments
+  python3-pyquery python3-requests python3-requests-cache python3-six
+  python3-urllib3 python3-webob
 
