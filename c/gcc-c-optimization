@@ -1,10 +1,12 @@
 gcc can use optimization as 
 
-gcc -march=pentium -mtune=pentium -O3 file.c
+Use these commands:
+export DEBIAN_BUILDARCH=pentium
+export DEBIAN_GCCVER=7
+gcc -mtune=pentium -O3 file.c
 
 The 3 Flags are for optimization.
-I'm not sure if -march or -mtune are correctly set.
--march=native will do.
--O3 (letter O), enables optimization options during compile time.
-The pentium-builder package auto does this when you configure A few items. See man builder-cc.
+-march=native could do for unknown(by me) platfroms.
+-O3 (letter O), enables optimization options(level 3) during compile time.
+The pentium-builder package enabled good speed with the above command. See man builder-cc.
 
