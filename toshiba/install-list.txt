@@ -117,8 +117,3 @@ pentium-builder
 # Zip Unzip
 zip
 unzip
-
-# byobu
-byobu gawk libevent-2.1-6 libsigsegv2 libutempter0 net-tools pastebinit
-python3-newt run-one tmux
-
