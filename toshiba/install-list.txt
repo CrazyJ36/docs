@@ -117,3 +117,30 @@ pentium-builder
 # Zip Unzip
 zip
 unzip
+
+# alsa-base sound
+alsa-base
+linux-sound-base
+
+# alse-utils
+alsa-utils
+libasound2
+libasound2-data
+libfftw3-single3
+libsamplerate0
+
+# pianobar
+fontconfig libao-common libao4 libass9 libavcodec57 libavfilter6
+  libavformat57 libavresample3 libavutil55 libbluray2 libbs2b0 libchromaprint1
+  libcroco3 libcrystalhd3 libdatrie1 libfftw3-double3 libflite1
+  libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common libgme0 libgraphite2-3 libgsm1
+  libharfbuzz0b libmp3lame0 libmpg123-0 libmysofa0 libnorm1 libogg0
+  libopenjp2-7 libopenmpt0 libopus0 libpango-1.0-0 libpangocairo-1.0-0
+  libpangoft2-1.0-0 libpgm-5.2-0 libpiano0 libpostproc54 librsvg2-2
+  librubberband2 libshine3 libsnappy1v5 libsodium23 libsoxr0 libspeex1
+  libssh-gcrypt-4 libswresample2 libswscale4 libthai-data libthai0 libtheora0
+  libtwolame0 libva-drm2 libva-x11-2 libva2 libvdpau1 libvorbis0a
+  libvorbisenc2 libvorbisfile3 libvpx5 libwavpack1 libwebp6 libwebpmux3
+  libx264-152 libx265-146 libxfixes3 libxvidcore4 libzmq5 libzvbi-common
+  libzvbi0 pianobar
+
