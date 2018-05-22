@@ -1,0 +1,3 @@
+cat /proc/version
+
+Shows kernel version and build date.

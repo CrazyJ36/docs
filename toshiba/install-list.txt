@@ -144,3 +144,10 @@ fontconfig libao-common libao4 libass9 libavcodec57 libavfilter6
   libx264-152 libx265-146 libxfixes3 libxvidcore4 libzmq5 libzvbi-common
   libzvbi0 pianobar
 
+
+# make
+make
+
+# ncurses5-dev
+libncurses5-dev
+libtinfo-dev
