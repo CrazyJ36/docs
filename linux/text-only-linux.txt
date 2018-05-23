@@ -1,0 +1,6 @@
+edit /etc/default/grub: 
+GRUB_CMDLINE_LINUX_DEFAULT="text"
+GRUB_TERMINAL=console After saving 
+
+sudo update-grub
+sudo systemctl set-default multi-user.target

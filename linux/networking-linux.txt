@@ -1,5 +1,12 @@
- Show adapter device interface name
+Sometimes switch pc wireless switch on-off A few times.
+
+# Show adapter device interface name
 iw dev
 
-Check wifi connection 
+# Check wifi connection 
 iw <device> link
+
+# Check whether wifi enabled:
+sudo ip link set wlp*s0 ip
+
+
