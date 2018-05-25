@@ -66,3 +66,167 @@ libwrap0 openssh-server openssh-sftp-server sshpass
 # w3m
 libgc1c2 libgpm2 w3m
 
+# xchm
+libchm1 libwxbase3.0-0v5 libwxgtk3.0-0v5 xchm
+
+# lxde
+apport apport-symptoms aspell aspell-en avahi-daemon clipit cracklib-runtime
+  deluge deluge-common deluge-gtk dirmngr enchant evince evince-common ffmpeg
+  fonts-droid-fallback fonts-freefont-ttf fonts-noto-mono gdisk geoclue-2.0
+  gnome-desktop3-data gnome-disk-utility gnome-system-tools gnupg gnupg-l10n
+  gnupg-utils gpg gpg-agent gpg-wks-client gpg-wks-server gpgconf gpgsm
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good
+  gstreamer1.0-pulseaudio gstreamer1.0-x gucharmap hunspell-en-us
+  iio-sensor-proxy libaa1 libappindicator1 libappstream4 libarchive13
+  libaspell15 libassuan0 libasyncns0 libatasmart4 libauthen-sasl-perl
+  libavahi-core7 libavahi-glib1 libavc1394-0 libavdevice57 libblas3
+  libblockdev-crypto2 libblockdev-fs2 libblockdev-loop2 libblockdev-part-err2
+  libblockdev-part2 libblockdev-swap2 libblockdev-utils2 libblockdev2
+  libboost-python1.65.1 libboost-system1.65.1 libbrotli1 libcaca0
+  libcanberra-gtk3-0 libcanberra-gtk3-module libcanberra0 libcdio-cdda2
+  libcdio-paranoia2 libcdio17 libcdparanoia0 libcrack2 libcupsfilters1
+  libcupsimage2 libdaemon0 libdata-dump-perl libdbusmenu-glib4
+  libdbusmenu-gtk4 libdc1394-22 libdjvulibre-text libdjvulibre21
+  libdouble-conversion1 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2
+  libdrm-radeon1 libdv4 libdvdnav4 libdvdread4 libenchant1c2a
+  libencode-locale-perl libevdev2 libevdocument3-4 libevview3-3
+  libfile-basedir-perl libfile-desktopentry-perl libfile-listing-perl
+  libfile-mimeinfo-perl libflac8 libfluidsynth1 libfont-afm-perl libfontenc1
+  libgeoclue-2-0 libgfortran4 libgl1 libgl1-mesa-dri libgl1-mesa-glx
+  libglade2-0 libglx-mesa0 libglx0 libgnome-desktop-3-17 libgpgme11
+  libgraphene-1.0-0 libgs9 libgs9-common libgstreamer-gl1.0-0
+  libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0
+  libgstreamer1.0-0 libgucharmap-2-90-7 libgudev-1.0-0 libgxps2
+  libharfbuzz-icu0 libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libhunspell-1.6-0 libhyphen0 libiec61883-0
+  libijs-0.35 libindicator7 libinput-bin libinput10 libio-html-perl
+  libio-socket-ssl-perl libipc-system-simple-perl libjack-jackd2-0 libjansson4
+  libjavascriptcoregtk-4.0-18 libjbig2dec0 libkpathsea6 libksba8 liblapack3
+  libldb1 libllvm6.0 libltdl7 liblua5.2-0 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl liblzo2-2 libmad0 libmailtools-perl libmbim-glib4
+  libmbim-proxy libmikmod3 libmm-glib0 libmtdev1 libnautilus-extension1a
+  libnet-dbus-perl libnet-http-perl libnet-smtp-ssl-perl libnet-ssleay-perl
+  libnotify4 libnpth0 libnss-mdns liboobs-1-5 libopenal-data libopenal1
+  liborc-0.4-0 libpackagekit-glib2-18 libpaper-utils libpaper1
+  libparted-fs-resize0 libpciaccess0 libpoppler-glib8 libportmidi0 libpulse0
+  libpwquality-common libpwquality1 libpython-stdlib libpython2.7
+  libpython2.7-minimal libpython2.7-stdlib libqmi-glib5 libqmi-proxy
+  libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5positioning5
+  libqt5printsupport5 libqt5qml5 libqt5quick5 libqt5script5 libqt5sensors5
+  libqt5svg5 libqt5webchannel5 libqt5webkit5 libqt5widgets5 libqt5xml5
+  libraw1394-11 libsdl-image1.2 libsdl-mixer1.2 libsdl-ttf2.0-0
+  libsdl1.2debian libsdl2-2.0-0 libsecret-1-0 libsecret-common libsensors4
+  libshout3 libsmbclient libsmpeg0 libsndfile1 libsndio6.1 libspectre1
+  libstemmer0d libtag1v5 libtag1v5-vanilla libtalloc2 libtdb1 libtevent0
+  libtie-ixhash-perl libtimedate-perl libtorrent-rasterbar9 libtry-tiny-perl
+  libuchardet0 libudisks2-0 liburi-perl libuser1 libv4l-0 libv4lconvert0
+  libva-wayland2 libvisual-0.4-0 libvolume-key1 libwacom-bin libwacom-common
+  libwacom2 libwbclient0 libwebkit2gtk-4.0-37 libwebpdemux2 libwoff1
+  libwww-perl libwww-robotrules-perl libx11-protocol-perl libxatracker2
+  libxcb-glx0 libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-randr0
+  libxcb-render-util0 libxcb-shape0 libxcb-xinerama0 libxcb-xkb1 libxdo3
+  libxfont2 libxkbcommon-x11-0 libxkbfile1 libxml-parser-perl libxml-twig-perl
+  libxml-xpathengine-perl libxmmsclient-glib1 libxmmsclient6 libxv1 libxvmc1
+  libxxf86dga1 libyelp0 lxde lxmusic menu menu-xdg modemmanager mpv net-tools
+  notification-daemon packagekit packagekit-tools perl-openssl-defaults
+  phantomjs pinentry-curses policykit-1-gnome poppler-data python
+  python-appindicator python-asn1crypto python-attr python-automat
+  python-cairo python-cffi-backend python-chardet python-click python-colorama
+  python-constantly python-cryptography python-dbus python-enum34 python-gi
+  python-glade2 python-gobject python-gobject-2 python-gtk2 python-hyperlink
+  python-idna python-incremental python-ipaddress python-libtorrent
+  python-minimal python-notify python-numpy python-openssl python-pam
+  python-pkg-resources python-pyasn1 python-pyasn1-modules python-pygame
+  python-serial python-service-identity python-six python-talloc
+  python-twisted-bin python-twisted-core python-wicd python-xdg
+  python-zope.interface python2.7 python2.7-minimal python3-apport
+  python3-httplib2 python3-problem-report python3-pyxattr
+  python3-requests-unixsocket python3-systemd qt5-gtk-platformtheme
+  qttranslations5-l10n rfkill rtmpdump samba-libs smplayer smplayer-l10n
+  smplayer-themes sound-theme-freedesktop system-tools-backends
+  timgm6mb-soundfont udisks2 usb-modeswitch usb-modeswitch-data usermode wicd
+  wicd-daemon wicd-gtk x11-utils x11-xkb-utils xdg-utils xdotool xfonts-base
+  xfonts-encodings xfonts-utils xmms2-core xmms2-plugin-alsa
+  xmms2-plugin-id3v2 xmms2-plugin-mad xmms2-plugin-vorbis xserver-common
+  xserver-xorg xserver-xorg-core xserver-xorg-input-all
+  xserver-xorg-input-libinput xserver-xorg-input-wacom xserver-xorg-legacy
+  xserver-xorg-video-all xserver-xorg-video-amdgpu xserver-xorg-video-ati
+  xserver-xorg-video-fbdev xserver-xorg-video-intel xserver-xorg-video-nouveau
+  xserver-xorg-video-qxl xserver-xorg-video-radeon xserver-xorg-video-vesa
+  xserver-xorg-video-vmware yelp yelp-xsl youtube-dl
+
+# xorg lightdm
+acl activity-log-manager apg aptdaemon aptdaemon-data avahi-utils bluez
+  bluez-obexd cheese-common colord colord-data cups-pk-helper dconf-cli
+  desktop-file-utils diffstat dns-root-data dnsmasq-base evolution-data-server
+  evolution-data-server-common fonts-ubuntu gcr geoclue geoclue-ubuntu-geoip
+  gettext gir1.2-atk-1.0 gir1.2-freedesktop gir1.2-gdkpixbuf-2.0
+  gir1.2-gtk-3.0 gir1.2-ibus-1.0 gir1.2-notify-0.7 gir1.2-packagekitglib-1.0
+  gir1.2-pango-1.0 gir1.2-polkit-1.0 gir1.2-secret-1 gir1.2-vte-2.91
+  gkbd-capplet gnome-bluetooth gnome-control-center gnome-control-center-data
+  gnome-control-center-faces gnome-keyring gnome-keyring-pkcs11 gnome-menus
+  gnome-online-accounts gnome-power-manager gnome-screensaver
+  gnome-session-bin gnome-session-common gnome-settings-daemon
+  gnome-settings-daemon-schemas gnome-startup-applications gnome-user-docs
+  gsettings-ubuntu-schemas gstreamer1.0-clutter-3.0 gvfs gvfs-backends
+  gvfs-common gvfs-daemons gvfs-libs ibus im-config indicator-applet
+  indicator-application indicator-bluetooth indicator-common
+  indicator-datetime indicator-keyboard indicator-messages indicator-power
+  indicator-session indicator-sound intltool-debian ippusbxd iputils-arping
+  language-selector-gnome libaccounts-glib0 libappindicator3-1 libapt-pkg-perl
+  libarchive-zip-perl libasound2-plugins libbluetooth3 libboost-thread1.65.1
+  libcamel-1.2-61 libcanberra-pulse libcgi-fast-perl libcgi-pm-perl
+  libcheese-gtk25 libcheese8 libclass-accessor-perl libclone-perl
+  libclutter-1.0-0 libclutter-1.0-common libclutter-gst-3.0-0
+  libclutter-gtk-1.0-0 libcogl-common libcogl-pango20 libcogl-path20 libcogl20
+  libcolord-gtk1 libcolorhug2 libdbusmenu-gtk3-4 libdee-1.0-4
+  libdigest-hmac-perl libdpkg-perl libebackend-1.2-10 libebook-1.2-19
+  libebook-contacts-1.2-2 libecal-1.2-19 libedata-book-1.2-25
+  libedata-cal-1.2-28 libedataserver-1.2-23 libegl1-mesa libemail-valid-perl
+  libexporter-tiny-perl libfcgi-perl libfcitx-config4 libfcitx-gclient1
+  libfcitx-utils0 libfile-copy-recursive-perl libfile-fcntllock-perl
+  libgck-1-0 libgcr-base-3-1 libgcr-ui-3-1 libgd3 libgdata-common libgdata22
+  libgee-0.8-2 libgeoclue0 libgeocode-glib0 libgeonames-common libgeonames0
+  libgles2 libglu1-mesa libgmime-3.0-0 libgnome-bluetooth13 libgnome-menu-3-0
+  libgnomekbd-common libgnomekbd8 libgoa-1.0-0b libgoa-1.0-common
+  libgoa-backend-1.0-1 libgphoto2-6 libgphoto2-l10n libgphoto2-port12
+  libgrilo-0.3-0 libgtop-2.0-11 libgtop2-common libgusb2 libgweather-3-15
+  libgweather-common libibus-1.0-5 libical3 libido3-0.1-0 libieee1284-3
+  libimobiledevice6 libindicator3-7 libio-pty-perl libio-socket-inet6-perl
+  libio-string-perl libipc-run-perl liblightdm-gobject-1-0
+  liblist-moreutils-perl libmessaging-menu0 libndp0 libnet-dns-perl
+  libnet-domain-tld-perl libnet-ip-perl libnm-glib4 libnm-gtk0 libnm-util2
+  libnm0 libnma0 libnss-myhostname liboauth0 libpam-gnome-keyring
+  libpanel-applet3 libparse-debianchangelog-perl libperlio-gzip-perl
+  libphonenumber7 libplist3 libprotobuf10 libpulse-mainloop-glib0 libpulsedsp
+  libsane-common libsane1 libsbc1 libsnapd-glib1 libsocket6-perl libspeexdsp1
+  libsub-name-perl libteamdctl0 libtext-levenshtein-perl libtimezonemap-data
+  libtimezonemap1 libtotem-plparser-common libtotem-plparser18
+  libunity-control-center1 libunity-settings-daemon1 libupower-glib3
+  liburl-dispatcher1 libusbmuxd4 libwebrtc-audio-processing1
+  libwhoopsie-preferences0 libwhoopsie0 libxapian30 libxklavier16
+  libxml-libxml-perl libxml-namespacesupport-perl libxml-sax-base-perl
+  libxml-sax-expat-perl libxml-sax-perl libxml-simple-perl
+  libyaml-libyaml-perl libzeitgeist-2.0-0 lightdm lintian
+  mobile-broadband-provider-info mousetweaks nautilus-data network-manager
+  network-manager-gnome network-manager-pptp p11-kit p11-kit-modules patch
+  patchutils pinentry-gnome3 ppp pptp-linux pulseaudio
+  pulseaudio-module-bluetooth pulseaudio-utils python3-aptdaemon
+  python3-aptdaemon.gtk3widgets python3-cairo python3-cffi-backend
+  python3-cups python3-cupshelpers python3-defer python3-macaroonbakery
+  python3-nacl python3-protobuf python3-pymacaroons python3-rfc3339 python3-tz
+  python3-xdg rtkit sane-utils session-migration snapd squashfs-tools
+  system-config-printer system-config-printer-common
+  system-config-printer-udev t1utils ubuntu-docs ubuntu-system-service
+  ubuntu-touch-sounds unity-control-center unity-greeter unity-settings-daemon
+  update-inetd upower usbmuxd whoopsie-preferences x11-apps x11-session-utils
+  xbitmaps xfonts-scalable xinit xinput xorg xorg-docs-core zeitgeist-core
+
+# nvidia driver
+libnvidia-cfg1-390 xserver-xorg-video-nvidia-390
+
+# chromium-browser
+chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extr
+
