@@ -1,0 +1,4 @@
+-in grub choose recovery mode, or by holding shift after bios load.
+-choose root shell
+- to change system files:
+mount -o rw,remount /

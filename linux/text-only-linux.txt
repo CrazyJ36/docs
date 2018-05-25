@@ -4,3 +4,9 @@ GRUB_TERMINAL=console After saving
 
 sudo update-grub
 sudo systemctl set-default multi-user.target
+
+
+To revert:
+sudo systemctl set-default graphical.target
+
+Tip: Press ESC to show text boot during Ubuntu boot screen.
