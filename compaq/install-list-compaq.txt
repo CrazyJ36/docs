@@ -1,0 +1,68 @@
+#alpine
+mlock
+alpine
+
+# zip unzip
+zip
+unzip
+
+# alsa
+alsa-base alsa-utils libfftw3-single3 linux-sound-base
+
+# gcc 
+binutils binutils-common binutils-x86-64-linux-gnu cpp cpp-7 gcc gcc-7
+  gcc-7-base libasan4 libatomic1 libbinutils libcc1-0 libcilkrts5 libgcc-7-dev
+  libgomp1 libisl19 libitm1 liblsan0 libmpc3 libmpfr6 libmpx2 libquadmath0
+  libtsan0 libubsan0
+
+# git
+  git git-man libasn1-8-heimdal libcurl3-gnutls liberror-perl libgdbm-compat4
+  libgssapi3-heimdal libhcrypto4-heimdal libheimbase1-heimdal
+  libheimntlm0-heimdal libhx509-5-heimdal libkrb5-26-heimdal libldap-2.4-2
+  libldap-common libnghttp2-14 libperl5.26 libroken18-heimdal librtmp1
+  libsasl2-2 libsasl2-modules-db libwind0-heimdal perl perl-modules-5.26
+
+# howdoi
+ libxslt1.1 python3-certifi python3-chardet python3-cssselect python3-idna
+  python3-lxml python3-pkg-resources python3-pygments python3-pyquery
+  python3-requests python3-requests-cache python3-six python3-urllib3
+  python3-webob howdoi
+
+# jmtpfs
+jmtpfs libmtp-common libmtp9
+
+# libncurses-dev
+libc-dev-bin libc6-dev libncurses5-dev libtinfo-dev linux-libc-dev
+
+# openjdk-11-jdk-headless
+ca-certificates-java java-common libavahi-client3 libavahi-common-data
+libavahi-common3 libcups2 libxi6 libxtst6 openjdk-11-jdk-headless
+openjdk-11-jre-headless x11-common
+
+# pianobar
+fontconfig libao-common libao4 libasound2 libasound2-data libass9
+  libavcodec57 libavfilter6 libavformat57 libavresample3 libavutil55
+  libbluray2 libbs2b0 libchromaprint1 libcroco3 libcrystalhd3 libdatrie1
+  libfftw3-double3 libflite1 libgdk-pixbuf2.0-0 libgdk-pixbuf2.0-common
+  libgme0 libgraphite2-3 libgsm1 libharfbuzz0b libmp3lame0 libmpg123-0
+  libmysofa0 libnorm1 libogg0 libopenjp2-7 libopenmpt0 libopus0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpgm-5.2-0 libpiano0 libpostproc54
+  librsvg2-2 librubberband2 libsamplerate0 libshine3 libsnappy1v5 libsodium23
+  libsoxr0 libspeex1 libssh-gcrypt-4 libswresample2 libswscale4 libthai-data
+  libthai0 libtheora0 libtwolame0 libva-drm2 libva-x11-2 libva2 libvdpau1
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx5 libwavpack1 libwebp6
+  libwebpmux3 libx264-152 libx265-146 libxfixes3 libxvidcore4 libzmq5
+  libzvbi-common libzvbi0 pianobar
+
+
+# poppler-utils
+fontconfig-config fonts-dejavu-core libcairo2 libfontconfig1 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4 libnss3 libpixman-1-0
+  libpoppler73 libtiff5 libxcb-render0 libxcb-shm0 libxrender1 poppler-utils
+
+# ssh
+libwrap0 openssh-server openssh-sftp-server sshpass
+
+# w3m
+libgc1c2 libgpm2 w3m
+
