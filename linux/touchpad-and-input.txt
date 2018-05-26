@@ -1,0 +1,9 @@
+In Lubuntu terminal, the 'synclient' program can disable touchpad
+and do other 'input' things.
+
+To disable the touchpad:
+$ synclient TouchpadOff=1
+
+set TouchpadOff  flag to:
+0 - for Touchpad on
+1 - for Touchpad off
