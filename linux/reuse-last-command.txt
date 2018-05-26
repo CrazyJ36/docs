@@ -1,0 +1,7 @@
+The last argument
+!$
+
+Any index of last commands(arg1, arg2..):
+!:0   - 0 index first command (usually program name)
+!:1   - 1 index second command option(usally flag)
+!:2   - 2 index third command pointer(files, etc.)
