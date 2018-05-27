@@ -63,3 +63,12 @@ make
 # libncurses5-dev
 libncurses5-dev libtinfo-dev
 
+# tuxguitar
+tuxguitar-alsa
+osspd osspd-pulseaudio tuxguitar-jsa tuxguitar-oss
+default-jre default-jre-headless libactivation-java libatk-wrapper-java
+  libatk-wrapper-java-jni libbcmail-java libbcpkix-java libbcprov-java
+  libitext-java libjs-jquery libmail-java libswt-cairo-gtk-4-jni
+  libswt-gtk-4-java libswt-gtk-4-jni libswt-webkit-gtk-4-jni openjdk-11-jre
+  tuxguitar
+
