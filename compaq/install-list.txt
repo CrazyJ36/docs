@@ -142,3 +142,22 @@ jackd jackd2 jackd2-firewire libconfig++9v5 libdouble-conversion1 libffado2
   libxcb-xkb1 libxkbcommon-x11-0 libxml++2.6-2v5 python-dbus python-gi
   qjackctl qt5-gtk-platformtheme qttranslations5-l10n rakarrack
 
+# mksdcard 
+ gcc-8-base:i386 libc6:i386 libgcc1:i386 libgpm2:i386 libncurses5:i386
+  libstdc++6:i386 libtinfo5:i386 zlib1g:i386
+
+# bpython
+Building wheels for collected packages: curtsies
+Stored in directory: /home/thomas/.cache/pip/wheels/e4/de/23/a662faf3cc27489e1bfdcfdb2c22aa044bb5e2610645658ff1
+Successfully built curtsies
+Installing collected packages: pygments, greenlet, idna, urllib3, certifi, chardet, requests, blessings, typing, wcwidth, curtsies, six, bpython
+Successfully installed blessings-1.6.1 bpython-0.17.1 certifi-2018.4.16 chardet-3.0.4 curtsies-0.3.0 greenlet-0.4.13 idna-2.6 pygments-2.2.0 requests-2.18.4 six-1.11.0 typing-3.6.4 urllib3-1.22 wcwidth-0.1.7
+
+# python-pip
+libexpat1-dev libpython-all-dev libpython-dev libpython2.7-dev python-all
+  python-all-dev python-asn1crypto python-cffi-backend python-crypto
+  python-cryptography python-dev python-enum34 python-idna python-ipaddress
+  python-keyring python-keyrings.alt python-pip python-pip-whl
+  python-secretstorage python-setuptools python-six python-wheel python-xdg
+  python2.7-dev
+
