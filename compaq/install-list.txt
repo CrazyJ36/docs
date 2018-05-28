@@ -1,3 +1,4 @@
+
 # min browser (dpkg -i)
 min gconf-service gconf-service-backend gconf2 gconf2-common gvfs-bin
   libgconf-2-4
@@ -132,4 +133,12 @@ libgovirt-common libgovirt2 libgtk-vnc-2.0-0 libgvnc-1.0-0 libphodav-2.0-0
   libphodav-2.0-common libspice-client-glib-2.0-8 libspice-client-gtk-3.0-5
   libusbredirhost1 libvirt-glib-1.0-0 spice-client-glib-usb-acl-helper
   virt-viewer
+
+# rakarrack
+jackd jackd2 jackd2-firewire libconfig++9v5 libdouble-conversion1 libffado2
+  libfltk1.1 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5svg5
+  libqt5widgets5 libqt5x11extras5 libqt5xml5 libxcb-icccm4 libxcb-image0
+  libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0
+  libxcb-xkb1 libxkbcommon-x11-0 libxml++2.6-2v5 python-dbus python-gi
+  qjackctl qt5-gtk-platformtheme qttranslations5-l10n rakarrack
 

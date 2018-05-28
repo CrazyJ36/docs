@@ -1,0 +1,14 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  gcc-8-base:i386 libc6:i386 libgpm2:i386 libtinfo5:i386
+Suggested packages:
+  glibc-doc:i386 locales:i386 gpm:i386
+The following NEW packages will be installed:
+  gcc-8-base:i386 libc6:i386 libgcc1:i386 libgpm2:i386 libncurses5:i386
+  libstdc++6:i386 libtinfo5:i386 zlib1g:i386
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 3,303 kB of archives.
+After this operation, 14.1 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
