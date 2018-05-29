@@ -151,3 +151,6 @@ make
 # ncurses5-dev
 libncurses5-dev
 libtinfo-dev
+
+# htop
+htop
