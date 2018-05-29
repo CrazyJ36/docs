@@ -157,3 +157,9 @@ libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
   python-keyrings.alt python-pip python-secretstorage python-setuptools
   python-six python-wheel python-xdg python2.7-dev
 
+# web.py (pip)
+# (pip install!) 
+  net db utils web.py
+
+# tofrodos (convert to and from dos file format)
+tofrodos
