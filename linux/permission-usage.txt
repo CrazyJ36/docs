@@ -1,0 +1,55 @@
+# View file/folder permissions
+ls -l
+# Permissions look like this:
+-r--r--r-- thomas
+- permissions are broken into 4 sections.
+- the first dash indicates: -(is file),d(is directory),i(is link).
+- the next set of 3 dashes of characters signify permissions for 
+  the owner of the file.
+- the next set of 3 dashes are for members of the group
+  owning the file.
+- the next set of 3 dashes are for other users(os users).
+- the ticks can show: r(read),w(write),x(execute).
+- the word at the end is the groups who owns it.
+# chmod adds/removes permissions for owner(creator)
+Syntax: 
+chmod (+-rwx) 'name of file of directory.
+- this only changes permissions for the owner(creator) of the file.
+
+# Changing permissions for others
+Syntax: 
+chmod (goua+-rwx)
+- g(group),u(users),o(others),a(all)
+- a=r will give everyone read permission
+
+# Changing ownership of files/folders to groups
+Syntax:
+chgrp (name of group) 'name of file'
+
+# Changing ownership
+Syntax:
+chown (new owner name) 'name of file'
+
+# other
+- change user and group permission in one command:
+chown -R user:group /dir/path
+
+# numeric mode
+you add these numbers to develop A set of permission.
+repeat for who needs permission.
+0 = no permission
+1 = execute
+2 = write
+4 = read
+- all added would be 7, for rwx to user, group, and others,
+  you'd write 777.
+
+numbers reference:
+0 = ---
+1 = --1
+2 = -w-
+3 = -wx
+4 = r-
+5 = r-x
+6 = rw-
+7 = rwx

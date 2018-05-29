@@ -147,3 +147,6 @@ dh-python libexpat1-dev libpython3-dev libpython3.6-dev python-pip-whl python3-d
 # bpython
 idna, certifi, urllib3, chardet, requests, six, typing, wcwidth, blessings, curtsies, pygments, greenlet, bpython
 
+# chrome
+chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
+
