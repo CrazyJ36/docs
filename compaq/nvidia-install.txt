@@ -1,0 +1,22 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  build-essential dkms dpkg-dev fakeroot g++ g++-7 lib32gcc1
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libc6-i386 libcuda1-340 libdpkg-perl libfakeroot libfile-fcntllock-perl
+  libstdc++-7-dev libxnvctrl0 nvidia-opencl-icd-340 nvidia-settings
+  ocl-icd-libopencl1 pkg-config screen-resolution-extra xserver-xorg-legacy
+Suggested packages:
+  menu debian-keyring g++-multilib g++-7-multilib gcc-7-doc libstdc++6-7-dbg
+  bzr libstdc++-7-doc
+The following NEW packages will be installed:
+  build-essential dkms dpkg-dev fakeroot g++ g++-7 lib32gcc1
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
+  libc6-i386 libcuda1-340 libdpkg-perl libfakeroot libfile-fcntllock-perl
+  libstdc++-7-dev libxnvctrl0 nvidia-340 nvidia-opencl-icd-340 nvidia-settings
+  ocl-icd-libopencl1 pkg-config screen-resolution-extra xserver-xorg-legacy
+0 upgraded, 24 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0 B/83.4 MB of archives.
+After this operation, 392 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 

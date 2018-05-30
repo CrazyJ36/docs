@@ -107,9 +107,9 @@ libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
 tofrodos
 
 # nvidia drivers (drivers recommended by 'sudo ubuntu-drivers autoinstall')
-nvidia-prime
-build-essential dkms dpkg-dev fakeroot g++ g++-7 lib32gcc1
-  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl
-  libc6-i386 libcuda1-340 libdpkg-perl libfakeroot libfile-fcntllock-perl
-  libstdc++-7-dev libxnvctrl0 nvidia-340 nvidia-opencl-icd-340 nvidia-settings
-  ocl-icd-libopencl1 pkg-config screen-resolution-extra xserver-xorg-legacy
+nvidia-prime \
+build-essential dkms dpkg-dev fakeroot g++ g++-7 lib32gcc1 \
+  libalgorithm-diff-perl libalgorithm-diff-xs-perl libalgorithm-merge-perl \
+  libc6-i386 libcuda1-340 libdpkg-perl libfakeroot libfile-fcntllock-perl \
+  libstdc++-7-dev libxnvctrl0 nvidia-340 nvidia-opencl-icd-340 nvidia-settings \
+  ocl-icd-libopencl1 pkg-config screen-resolution-extra xserver-xorg-legacy \

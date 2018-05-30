@@ -1,0 +1,15 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  dkms lib32gcc1 libc6-i386 libcuda1-340 libxnvctrl0 ocl-icd-libopencl1
+  pkg-config screen-resolution-extra xserver-xorg-legacy
+Use 'sudo apt autoremove' to remove them.
+The following additional packages will be installed:
+  libnvidia-cfg1-390
+The following NEW packages will be installed:
+  libnvidia-cfg1-390 xserver-xorg-video-nvidia-390
+0 upgraded, 2 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,682 kB of archives.
+After this operation, 8,023 kB of additional disk space will be used.
+Do you want to continue? [Y/n] 
