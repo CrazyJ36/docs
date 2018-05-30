@@ -151,3 +151,5 @@ howdoi libxslt1.1 python3-certifi python3-chardet python3-cssselect
   python3-pyquery python3-requests python3-requests-cache python3-six
   python3-urllib3 python3-webob
 
+# web.py (pip3 install. this was the only package)
+web.py==0.40.dev0
