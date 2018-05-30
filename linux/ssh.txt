@@ -1,0 +1,5 @@
+# fix for: ssh commmand or appears successful then goes right back to bash prompt
+- cause: target system or ip address has probably changed.
+-fix: edit ~/.ssh/known_hosts
+delete the line that contains info for the desired(to-be-connected-to) ip address.
+connect again: ssh user@host. without using sshpass.
