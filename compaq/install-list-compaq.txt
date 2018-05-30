@@ -107,7 +107,7 @@ tofrodos
 python3-cssselect python3-lxml python3-pygments python3-pyquery
   python3-requests-cache python3-webob howdoi
 
-# vs code (version: 1.23.1-1525968403 amd64)
+# vs code (version: 1.23.1-1525968403 amd64). filename: code_1.23.1-1525968403_amd64.deb
 # installed with dpkg. package name: code
 # this added an apt source. you can remove it for local repositories with:
 # sudo rm /etc/apt/sources.list.d/vscode.list
