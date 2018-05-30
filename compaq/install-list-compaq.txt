@@ -121,3 +121,6 @@ pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 
 # python packages are harder to track.
 # if lost, view /etc/lib/python*/dist-packages
+
+# curses-menu pip3
+curses-menu
