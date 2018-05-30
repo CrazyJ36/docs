@@ -9,4 +9,5 @@ iw <device> link
 # Check whether wifi enabled:
 sudo ip link set wlp*s0 ip
 
-
+# list lan ip addresses
+arp (from net-tools package)
