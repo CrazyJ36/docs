@@ -24,6 +24,7 @@ git git-man liberror-perl
 # w3m
 libgc1c2 w3m
 
+
 # sshpass
 sshpass
 
@@ -39,10 +40,6 @@ ca-certificates-java java-common openjdk-11-jdk-headless
 
 # alpine
 alpine mlock
-
-# howdoi
-howdoi python3-cssselect python3-lxml python3-pygments python3-pyquery
-  python3-requests-cache python3-webob
 
 # gcc
 binutils binutils-common binutils-x86-64-linux-gnu gcc gcc-7 libasan4

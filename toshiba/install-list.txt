@@ -154,3 +154,6 @@ libtinfo-dev
 
 # htop
 htop
+
+# python3 webpy
+
