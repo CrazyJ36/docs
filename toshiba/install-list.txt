@@ -153,3 +153,6 @@ howdoi libxslt1.1 python3-certifi python3-chardet python3-cssselect
 
 # web.py (pip3 install. this was the only package)
 web.py==0.40.dev0
+
+# curses-menu (pip3 install. this was the only package)
+curses-menu
