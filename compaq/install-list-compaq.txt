@@ -96,10 +96,28 @@ libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
   python-keyrings.alt python-pip python-secretstorage python-setuptools
   python-six python-wheel python-xdg python2.7-dev
 
-# web.py (pip)
-# (pip install!) 
-  net db utils web.py
+# web.py (dev version for python3) 
+web.py-0.40.dev1
 
+# libapache2-mod-wsgi-py3(webpy alternate server)
+apache2-bin libapache2-mod-wsgi-py3 libapr1 libaprutil1
+  libaprutil1-dbd-sqlite3 libaprutil1-lda
+
+# apache2 (webpy alternate server)
+- Packages:
+  apache2 apache2-data apache2-utils
+- Enable Modules:
+mpm_event authz_core authz_host authn_core auth_basic access_compat authn_file authz_user alias dir autoindex 
+env mime negotiation setenvif filter deflate status reqtimeout
+- Enable Conf:
+charset localized-error-pages other-vhosts-access-log security serve-cgi-bin
+- Enable Site:
+000-default
+- Created Symlink:
+/etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
+/etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.servic
+
+ 
 # tofrodos (convert to and from dos file format)
 tofrodos
 
@@ -122,5 +140,5 @@ pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 # python packages are harder to track.
 # if lost, view /etc/lib/python*/dist-packages
 
-# curses-menu pip3
+# curses-menu pip3 and pip
 curses-menu
