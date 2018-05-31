@@ -6,19 +6,19 @@ git git-man liberror-perl
   libjs-node-uuid libjs-underscore libpython-stdlib libssl-dev libuv1
   libuv1-dev node-abbrev node-ansi node-ansi-color-table node-archy node-async
   node-balanced-match node-block-stream node-brace-expansion
-  node-builtin-modules node-combined-stream node-concat-map node-cookie-jar
-  node-delayed-stream node-forever-agent node-form-data node-fs.realpath
-  node-fstream node-fstream-ignore node-github-url-from-git node-glob
-  node-graceful-fs node-gyp node-hosted-git-info node-inflight node-inherits
-  node-ini node-is-builtin-module node-isexe node-json-stringify-safe
-  node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp
-  node-mute-stream node-node-uuid node-nopt node-normalize-package-data
-  node-npmlog node-once node-osenv node-path-is-absolute node-pseudomap
-  node-qs node-read node-read-package-json node-request node-retry node-rimraf
-  node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse
-  node-spdx-license-ids node-tar node-tunnel-agent node-underscore
-  node-validate-npm-package-license node-which node-wrappy node-yallist nodejs
-  nodejs-dev npm python python-minimal python-pkg-resources python2.7
+  node-builtin-modules node-combined-stream node-concat-map node-cookie-jar \
+  node-delayed-stream node-forever-agent node-form-data node-fs.realpath \
+  node-fstream node-fstream-ignore node-github-url-from-git node-glob \
+  node-graceful-fs node-gyp node-hosted-git-info node-inflight node-inherits \
+  node-ini node-is-builtin-module node-isexe node-json-stringify-safe \
+  node-lockfile node-lru-cache node-mime node-minimatch node-mkdirp \
+  node-mute-stream node-node-uuid node-nopt node-normalize-package-data \
+  node-npmlog node-once node-osenv node-path-is-absolute node-pseudomap \
+  node-qs node-read node-read-package-json node-request node-retry node-rimraf \
+  node-semver node-sha node-slide node-spdx-correct node-spdx-expression-parse \
+  node-spdx-license-ids node-tar node-tunnel-agent node-underscore \
+  node-validate-npm-package-license node-which node-wrappy node-yallist nodejs \
+  nodejs-dev npm python python-minimal python-pkg-resources python2.7 \
   python2.7-minimal
 
 # w3m
@@ -89,13 +89,6 @@ idna, certifi, urllib3, chardet, requests, six, typing, wcwidth, blessings, curt
 # chrome
 chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
 
-# python-pip
-libpython-all-dev libpython-dev libpython2.7-dev python-all python-all-dev
-  python-asn1crypto python-cffi-backend python-crypto python-cryptography
-  python-dev python-enum34 python-idna python-ipaddress python-keyring
-  python-keyrings.alt python-pip python-secretstorage python-setuptools
-  python-six python-wheel python-xdg python2.7-dev
-
 # web.py (dev version for python3) 
 web.py-0.40.dev1
 
@@ -104,15 +97,10 @@ apache2-bin libapache2-mod-wsgi-py3 libapr1 libaprutil1
   libaprutil1-dbd-sqlite3 libaprutil1-lda
 
 # apache2 (webpy alternate server)
-- Packages:
-  apache2 apache2-data apache2-utils
+apache2 apache2-data apache2-utils
 - Enable Modules:
 mpm_event authz_core authz_host authn_core auth_basic access_compat authn_file authz_user alias dir autoindex 
 env mime negotiation setenvif filter deflate status reqtimeout
-- Enable Conf:
-charset localized-error-pages other-vhosts-access-log security serve-cgi-bin
-- Enable Site:
-000-default
 - Created Symlink:
 /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
 /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.servic
@@ -133,7 +121,7 @@ code
 gconf-service gconf-service-backend gconf2-common libgconf-2-4
 
 # pylint
-#pip(3)
+#pip(3) static checker (syntax and/or code-completion)
 astroid-1.6.4 isort-4.3.4 lazy-object-proxy-1.3.1 mccabe-0.6.1 
 pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 
@@ -142,7 +130,3 @@ pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 
 # curses-menu pip3 and pip
 curses-menu
-
-# nmap
-libblas3 liblinear3 liblua5.3-0 nmap
-
