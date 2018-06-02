@@ -79,7 +79,7 @@ chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
 web.py-0.40.dev1
 
 # libapache2-mod-wsgi-py3(webpy alternate server)
-apache2-bin libapache2-mod-wsgi-py3 libapr1 libaprutil1
+apache2-bin libapr1 libaprutil1
   libaprutil1-dbd-sqlite3 libaprutil1-lda
 
 # apache2 (webpy alternate server)
@@ -112,7 +112,7 @@ astroid-1.6.4 isort-4.3.4 lazy-object-proxy-1.3.1 mccabe-0.6.1
 pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 
 # python packages are harder to track.
-# if lost, view /etc/lib/python*/dist-packages
+# if lost, view /usr/local/lib/python3.6/dist-packages
 
 # curses-menu pip3 and pip
 curses-menu
