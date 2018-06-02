@@ -79,11 +79,8 @@ chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
 web.py-0.40.dev1
 
 # libapache2-mod-wsgi-py3(webpy alternate server)
-apache2-bin libapr1 libaprutil1
-  libaprutil1-dbd-sqlite3 libaprutil1-lda
-
 # apache2 (webpy alternate server)
-apache2 apache2-data apache2-utils
+apache2 apache2-data apache2-utils apache2-bin libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-lda
 - Enable Modules:
 mpm_event authz_core authz_host authn_core auth_basic access_compat authn_file authz_user alias dir autoindex 
 env mime negotiation setenvif filter deflate status reqtimeout
