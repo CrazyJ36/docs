@@ -113,3 +113,17 @@ pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 
 # curses-menu pip3 and pip
 curses-menu
+
+# cadence
+installed: kxstudio-repos.deb (this added ppa)
+jack-tools libpulse-mainloop-glib0 libpulse0 libpulsedsp 
+pulseaudio pulseaudio-utils
+a2jmidid cadence cadence-data cadence-tools catia claudia jack-capture
+  ladish libaudio2 liblo7 libmng2 libmysqlclient20 libqt4-dbus
+  libqt4-declarative libqt4-designer libqt4-help libqt4-network libqt4-opengl
+  libqt4-script libqt4-scripttools libqt4-sql libqt4-sql-mysql libqt4-svg
+  libqt4-test libqt4-xml libqt4-xmlpatterns libqtassistantclient4 libqtcore4
+  libqtdbus4 libqtgui4 libsdl-image1.2 libsdl1.2debian meterbridge
+  mysql-common python3-dbus.mainloop.qt python3-pyqt4 python3-pyqt4.qtopengl
+  python3-sip qdbus qt-at-spi qtchooser qtcore4-l10n
+
