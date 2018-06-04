@@ -127,12 +127,10 @@ a2jmidid cadence cadence-data cadence-tools catia claudia jack-capture
   mysql-common python3-dbus.mainloop.qt python3-pyqt4 python3-pyqt4.qtopengl
   python3-sip qdbus qt-at-spi qtchooser qtcore4-l10n
 
-# build-essential(removed, these are needed by gtk)
-dpkg-dev fakeroot libalgorithm-diff-perl
+# libgtk
+dpkg-dev fakeroot libalgorithm-diff-perl at-spi2-core
   libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl libfakeroot
   libfile-fcntllock-perl libstdc++-7-dev
-
-# libgtk-3-dev
 autoconf automake autopoint autotools-dev build-essential debhelper
   dh-autoreconf dh-strip-nondeterminism dpkg-dev fakeroot g++ g++-7 gettext
   gir1.2-atspi-2.0 gir1.2-harfbuzz-0.0 icu-devtools intltool-debian
