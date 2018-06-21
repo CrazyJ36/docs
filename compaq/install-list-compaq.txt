@@ -58,7 +58,7 @@ android sdk is installed at:
 /home/thomas/Downloads/Apps/android-sdk
 
 # rakarrack
-jackd jackd2 jackd2-firewire libconfig++9v5 libdouble-conversion1 libffado2
+libconfig++9v5 libdouble-conversion1 libffado2
   libfltk1.1 libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5svg5
   libqt5widgets5 libqt5x11extras5 libqt5xml5 libxcb-icccm4 libxcb-image0
   libxcb-keysyms1 libxcb-randr0 libxcb-render-util0 libxcb-xinerama0
@@ -116,17 +116,7 @@ curses-menu
 
 # cadence
 installed: kxstudio-repos.deb (this added ppa)
-jack-tools libpulse-mainloop-glib0 libpulse0 libpulsedsp 
-pulseaudio pulseaudio-utils
-a2jmidid cadence cadence-data cadence-tools catia claudia jack-capture
-  ladish libaudio2 liblo7 libmng2 libmysqlclient20 libqt4-dbus
-  libqt4-declarative libqt4-designer libqt4-help libqt4-network libqt4-opengl
-  libqt4-script libqt4-scripttools libqt4-sql libqt4-sql-mysql libqt4-svg
-  libqt4-test libqt4-xml libqt4-xmlpatterns libqtassistantclient4 libqtcore4
-  libqtdbus4 libqtgui4 libsdl-image1.2 libsdl1.2debian meterbridge
-  mysql-common python3-dbus.mainloop.qt python3-pyqt4 python3-pyqt4.qtopengl
-  python3-sip qdbus qt-at-spi qtchooser qtcore4-l10n
-
+pulseaudio pavucontrol
 # libgtk
 dpkg-dev fakeroot libalgorithm-diff-perl at-spi2-core
   libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl libfakeroot
