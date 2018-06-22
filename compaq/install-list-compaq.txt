@@ -42,15 +42,6 @@ make
 # libncurses5-dev
 libncurses5-dev libtinfo-dev
 
-# tuxguitar
-tuxguitar-alsa
-osspd osspd-pulseaudio tuxguitar-jsa tuxguitar-oss
-default-jre default-jre-headless libactivation-java libatk-wrapper-java
-  libatk-wrapper-java-jni libbcmail-java libbcpkix-java libbcprov-java
-  libitext-java libjs-jquery libmail-java libswt-cairo-gtk-4-jni
-  libswt-gtk-4-java libswt-gtk-4-jni libswt-webkit-gtk-4-jni openjdk-11-jre
-  tuxguitar
-
 # android-studio
 # installed to:
 /home/thomas/Downloads/Apps/android-studio
@@ -88,10 +79,6 @@ env mime negotiation setenvif filter deflate status reqtimeout
 /etc/systemd/system/multi-user.target.wants/apache2.service → /lib/systemd/system/apache2.service.
 /etc/systemd/system/multi-user.target.wants/apache-htcacheclean.service → /lib/systemd/system/apache-htcacheclean.servic
 
- 
-# tofrodos (convert to and from dos file format)
-tofrodos
-
 # howdoi
 python3-cssselect python3-lxml python3-pygments python3-pyquery
   python3-requests-cache python3-webob howdoi
@@ -115,7 +102,6 @@ pylint-1.9.1 six-1.11.0 wrapt-1.10.11
 curses-menu
 
 # cadence
-installed: kxstudio-repos.deb (this added ppa)
 pulseaudio pavucontrol
 # libgtk
 dpkg-dev fakeroot libalgorithm-diff-perl at-spi2-core
