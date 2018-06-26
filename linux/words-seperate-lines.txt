@@ -1,0 +1,10 @@
+#Command makes a file with:
+this is a line
+# a new file with:
+this 
+is 
+a 
+line
+
+
+echo `cat tst.txt` | tr ' ' '\n' > tst-lined.txt

@@ -1,0 +1,9 @@
+Mono:
+$ pacmd load-module module-remap-sink sink_name=mono master=alsa_output.pci-0000_00_07.0.analog-stereo channels=2 channel_map=mono,mono
+
+This should stay as A permanent module. Do not re-enter this command, just switch with pavuctl(PulseAudio Volume Control).
+There will then be  A remapped output option in pavuctl
+
+To test speaker channels:
+$ speaker-test -c 2 -t sine
+
