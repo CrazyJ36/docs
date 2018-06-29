@@ -1,0 +1,30 @@
+## Reinstall grub if windpws bootloader replaced it in amy way.
+
+# see disks
+fdisk -l
+
+# mount linux partition. match sda<num> with your linux partition
+mount /dev/sda2 /mnt/
+mount -t proc none /mnt/proc
+mount -o bind /dev /mnt/dev
+mount -t sysfs sys /mnt/sys
+chroot /mnt/ /bin/bash
+update-grub
+
+# check and reboot
+/usr/sbin/grub-install --recheck --no-floppy /dev/sda
+sync & reboot
+
+
+## Fix windows mbr if windows doesn't start directly.
+## Make sure you try to boot any windows entry from grub
+## if resizing/moving partitions might have changed the mbr
+# try autofix
+chkdsk /r c:
+# fix boot sector on all windows partitions
+bootsect /nt60 ALL /force /mbr
+
+# repair mbr
+bootrec /fixmbr
+bootrec /fixboot
+bootrec /rebuildbcd
