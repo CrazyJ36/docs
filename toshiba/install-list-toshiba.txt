@@ -156,3 +156,8 @@ web.py==0.40.dev0
 
 # curses-menu (pip3 install. this was the only package)
 curses-menu
+
+# bpython
+Built: greenlet curtsies
+greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcwidth curtsies bpython
+
