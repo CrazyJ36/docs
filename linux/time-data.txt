@@ -1,0 +1,11 @@
+DATE TIME
+         Tue Jul 18 01:36:18 EDT 2017
+
+# Timezone
+$cat /etc/timezone
+        America/New_York
+$ date +'%:z %Z'
+        -4:00 EDT
+$ date +%Z
+        EDT
+          

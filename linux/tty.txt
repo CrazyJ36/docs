@@ -1,4 +1,4 @@
-to set font in ubuntu mini/server tty prompt:
+# Font in ubuntu mini/server tty prompt:
 
 $ sudo dpkg-reconfigure console-setup
 - first select UTF-8
@@ -9,6 +9,18 @@ this should update some kernel stuff and font should be applied. If not reboot.
 or to apply now use:
 $ setupcon
 
-Find Terminal width and height:
+# Find Terminal width and height:
 tput cols -shows columbs
 tput lines -shows rows
+
+# TTY Session management
+-see current session tty name:
+$ tty
+output:    /dev/tty1 or /dev/tty2 etc...
+
+Start/switch tty terminal after starting ubuntu mini:
+ctrl+alt+f1, ctrl+alt+f2, f1-f7
+f1-f6 are command line only, f7 runs your X session (your normal 
+desktop).
+
+alt-left/right - next previous tty buffer

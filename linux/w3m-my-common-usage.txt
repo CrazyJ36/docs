@@ -1,0 +1,89 @@
+common required tasks
+
+Show help
+H
+
+Save/edit webpage document
+esc-e 
+in nano ctrl-o to write to file as <filename>.txt
+
+
+
+Delete text before cursor(good for go to url, then start new search)
+ctrl-u
+
+Go to url
+shift-U
+Scroll down page (like touch browser)
+shift-j
+Scroll up page
+shift-k
+Back pages, close help etc...
+B
+
+Tab selection popup
+esc-t
+New tab
+T
+Close tab
+ctrl-q
+Next tab
+{
+Previous tab
+} 
+
+Show bookMarks
+esc-b
+Bookmark current page
+esc-a
+
+Save page as .txt (good for HowTo sites)
+-! - to execute shell
+- w3m dump <url> <filename>.txt
+
+Enter text in text field or form
+-enter -while cursor is anywhere in field then enter and submit text 
+in field that show at the bottom of buffer
+
+Scroll through clickable links
+Tab
+scrolls forward through near links.you can cursor to another position 
+to go tab through links in that area of the webpage
+
+Scroll back through links
+Esc-Tab
+
+List links in page as popup
+Esc-l - left arrow to close popup
+
+List w3m buffers (history, help, pages)
+- “s”
+
+Find in page
+- Ctrl-c - cancels find in page
+- / - search forward(down) in page
+- ? - search backward(up) in page
+-type search string, push “enter”
+- n - continue search forward
+- N continue search backward
+
+Downloads page view
+D
+
+Hostory page view
+-Ctrl-h
+
+Options page
+o
+
+Cookies list
+ctrl-k
+
+Shell with output
+!
+
+Wrapping mode in searches toggle
+ ctrl-w 
+
+Quit now
+Q - or 'q' for quit after confirming 
