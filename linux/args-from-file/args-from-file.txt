@@ -1,26 +1,26 @@
-you can use A files contents as arguments to A command 
-as:
-cmd < args.txt
+# Use file contents as arguments.
+#Depending on application, Syntax:
+$ program `cat file-with-args-list.txt`
+# or
+$ cmd < args.txt
 
-Example: 
-say file.txt contains:
-//-----
+
+## Example
+# Say file.txt contains:
 3
 2
 5
 4
 1
------//
 
-then, the bash command:
+# then, the bash command:
 $ sort < file.txt
-will make the file::
-//-----
+# will make the file::
 1
 2
 3
 4
 5
------//
 
-prompt displays the contents of file.txt in A logical order.
+# prompt displays the contents of file.txt in A logical 
+order.

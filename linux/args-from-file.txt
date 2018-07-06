@@ -1,2 +1,0 @@
-Syntax:
-program `cat file-with-args.txt`
