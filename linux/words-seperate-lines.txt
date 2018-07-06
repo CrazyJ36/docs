@@ -1,10 +1,16 @@
-#Command makes a file with:
+# The following command turns this::
 this is a line
-# a new file with:
+# into this:
 this 
 is 
 a 
 line
 
+$ echo `cat file.txt` | tr ' ' '\n' > file-lined.txt
 
-echo `cat tst.txt` | tr ' ' '\n' > tst-lined.txt
+# meaning:
+# echo file.txt, if there is a space(''), insert 
+# newline instead, and output this format to
+# file-lined.txt
+
+# the 'tr' command can replace text in this way.

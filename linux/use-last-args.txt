@@ -1,0 +1,13 @@
+# If the previous command had two arguments, like this:
+$ ls a.txt b.txt
+# and you wanted to re-use the first one
+# in A new command, you could type:
+$ program !:1
+# giving:
+a.txt
+# Or if you wanted both, you could type
+$ program !:1-2
+# this inserting the arguments:
+a.txt b.txt
+# You can extend this to any number of arguments, eg:
+$ program !:10-12
