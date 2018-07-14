@@ -1,2 +1,3 @@
 # Get return value or exit code of last command:
 echo $?
+
