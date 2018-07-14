@@ -1,0 +1,11 @@
+#start script, this start a new bash session:
+script
+
+# to stop and save the session.
+CTRL-D
+
+#the file name will be 'typescript' located in whichever directory
+# you were in when you started/stopped the script session.
+less typescript
+
+# move typescript to A safe place, or review and save.
