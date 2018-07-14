@@ -161,3 +161,5 @@ curses-menu
 Built: greenlet curtsies
 greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcwidth curtsies bpython
 
+#wipe
+wipe
