@@ -1,12 +1,15 @@
-gcc can use optimization as 
+GCC can be optimized for the best runtime program speed.
+Tested with, and this doc-file is for Toshiba-Ubuntu Laptop.
 
 Use these commands:
 export DEBIAN_BUILDARCH=pentium
 export DEBIAN_GCCVER=7
-gcc -mtune=pentium -O3 file.c
+builder-cc -mtune=pentium -march=native -O3 file.c -o prog-name
 
-The 3 Flags are for optimization.
--march=native could do for unknown(by me) platfroms.
--O3 (letter O), enables optimization options(level 3) during compile time.
-The pentium-builder package enabled good speed with the above command. See man builder-cc.
+-march and -mtune are similar.
+
+-O3 (letter O), enables optimization options(level 3) during compile time for the best run-time speed.
+
+The pentium-builder package enables gcc to build for the pentium architecture (Toshiba)
+with the above commands. See man builder-cc.
 
