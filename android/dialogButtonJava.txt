@@ -1,0 +1,15 @@
+Button major = (Button) findViewById(R.id.showMajor);
+        major.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                AlertDialog majorVarDialog = new AlertDialog.Builder(MainActivity.this).create();
+                majorVarDialog.setTitle("Major Variants");
+                majorVarDialog.setMessage("all of them unless conversion workds");
+                majorVarDialog.setButton(AlertDialog.BUTTON_NEUTRAL, "Ok",
+                        new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                            }
+                        });
+                majorVarDialog.show();
