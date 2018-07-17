@@ -1,4 +1,4 @@
-\# git
+# git
 libpsl5
 librtmp1
 libcurl3-gnutls
@@ -111,6 +111,10 @@ libasound2
 libasound2-data
 libfftw3-single3
 libsamplerate0
+
+# libasound2-dev
+libasound2-dev
+libasound2-doc
 
 # pianobar
 fontconfig libao-common libao4 libass9 libavcodec57 libavfilter6
