@@ -167,3 +167,5 @@ greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcw
 # apksigner(for android cli-builds, find binary instead)
 apksigner binfmt-support fastjar jarwrapper
 
+# adb (copied from ~/development/android/cli-build/86/android-sdk-linux_x86/platform-tools-21/adb)
+/usr/local/bin/adb
