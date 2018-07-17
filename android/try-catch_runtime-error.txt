@@ -1,0 +1,13 @@
+ #This block can be used to test certain common #runtime errors
+
+        String[] test = new String[] {"worked", "notworking"};
+
+	String success = test[0].toString();
+        String fail = test[1].toString();
+
+	try {
+            // Test some statements, then if successful:
+	    tv.setText(success);
+	} catch (PossibleError e) {
+            tv.setText(fail);
+        }
