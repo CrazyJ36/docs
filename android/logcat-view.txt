@@ -1,0 +1,7 @@
+# Clear previous logs
+"${SDK}/platform-tools/adb" logcat -c
+# start logging to file
+"${SDK}/platform-tools/adb" logcat >> log-file.txt
+# view log (java errors) are visible at point where the apps MainActivity starts
+less log-file.txt
+# search for app name in less (/ test)

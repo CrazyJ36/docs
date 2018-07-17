@@ -112,9 +112,8 @@ libasound2-data
 libfftw3-single3
 libsamplerate0
 
-# libasound2-dev
+# libasound2-dev (temporary as trying to develop with audio. will be removed soon)
 libasound2-dev
-libasound2-doc
 
 # pianobar
 fontconfig libao-common libao4 libass9 libavcodec57 libavfilter6
@@ -164,4 +163,7 @@ curses-menu
 # bpython
 Built: greenlet curtsies
 greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcwidth curtsies bpython
+
+# apksigner(for android cli-builds, find binary instead)
+apksigner binfmt-support fastjar jarwrapper
 
