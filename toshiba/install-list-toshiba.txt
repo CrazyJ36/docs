@@ -112,7 +112,7 @@ libasound2-data
 libfftw3-single3
 libsamplerate0
 
-# libasound2-dev (temporary as trying to develop with audio. will be removed soon)
+# libasound2-dev (for /usr/include/alsa)
 libasound2-dev
 
 # pianobar
