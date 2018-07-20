@@ -1,0 +1,7 @@
+It's easiest to only have and use the latest platfrom sdk installed.
+At least for lg connect(2.3.6) and zte blade z max(nougat) support use:
+in AndroidManifest.xml:
+<uses-sdk android:minSdkVersion="9" android:targetSdkVersion="28" />
+before application tag.
+
+The devices will pull there specific api levels at runtime to use themes, etc.
