@@ -2,6 +2,9 @@
 "${SDK}/platform-tools/adb" logcat -c
 # start logging to file
 "${SDK}/platform-tools/adb" logcat >> log-file.txt
+# open app on phone or do in app what is buggy.
+# ctrl-c when the logging should end
 # view log (java errors) are visible at point where the apps MainActivity starts
 less log-file.txt
-# search for app name in less (/ test)
+# search for app name in less (/ com.crazyj36.app), you can see
+# what app was doing at the time you touched it and see java errors
