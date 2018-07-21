@@ -185,3 +185,6 @@ pkg-config
   libstdc++6-arm64-cross libtsan0-arm64-cross libubsan0-arm64-cross
   linux-libc-dev-arm64-cross
 
+# openjdk-8-jdk-headless
+openjdk-8-jdk-headless openjdk-8-jre-headless
+
