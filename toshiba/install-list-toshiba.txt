@@ -175,16 +175,3 @@ libcaca-dev libcaca0 libpng-dev libslang2-dev zlib1g-dev
 
 # pkg-config
 pkg-config
-
-# gcc-7-aarch64-linux-gnu
-  binutils-aarch64-linux-gnu cpp-7-aarch64-linux-gnu gcc-7-aarch64-linux-gnu
-  gcc-7-aarch64-linux-gnu-base gcc-7-cross-base gcc-8-cross-base
-  libasan4-arm64-cross libatomic1-arm64-cross libc6-arm64-cross
-  libc6-dev-arm64-cross libgcc-7-dev-arm64-cross libgcc1-arm64-cross
-  libgomp1-arm64-cross libitm1-arm64-cross liblsan0-arm64-cross
-  libstdc++6-arm64-cross libtsan0-arm64-cross libubsan0-arm64-cross
-  linux-libc-dev-arm64-cross
-
-# openjdk-8-jdk-headless
-openjdk-8-jdk-headless openjdk-8-jre-headless
-
