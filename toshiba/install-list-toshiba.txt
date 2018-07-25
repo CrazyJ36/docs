@@ -130,7 +130,6 @@ fontconfig libao-common libao4 libass9 libavcodec57 libavfilter6
   libx264-152 libx265-146 libxfixes3 libxvidcore4 libzmq5 libzvbi-common
   libzvbi0 pianobar
 
-
 # make
 make
 
@@ -172,3 +171,7 @@ libcaca-dev libcaca0 libpng-dev libslang2-dev zlib1g-dev
 
 # pkg-config
 pkg-config
+
+# python3.7
+libpython3.7-minimal libpython3.7-stdlib python3.7 python3.7-minimal
+
