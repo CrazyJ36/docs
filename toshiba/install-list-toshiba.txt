@@ -161,12 +161,10 @@ Built: greenlet curtsies
 greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcwidth curtsies bpython
 
 # adb (copied from ~/development/android/cli-build/86/android-sdk-linux_x86/platform-tools-21/adb)
-/usr/local/bin/adb
+~/bin/adb
 
 # caca terminal graphics
 libcaca-dev libcaca0 libpng-dev libslang2-dev zlib1g-dev
-toilet-fonts caca-utils libgif7 libid3tag0 libimlib2
-
 
 # pkg-config
 pkg-config
