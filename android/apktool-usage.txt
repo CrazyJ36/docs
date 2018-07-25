@@ -1,0 +1,3 @@
+use apktool.jar 2.3.3 avoid wrapper
+enter all commands as su on linux(if, d ,b)
+when decompiling use apktool.jar d -f -r file.apk
