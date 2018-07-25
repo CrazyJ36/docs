@@ -103,3 +103,6 @@ from __future__ import module
 desc:
 The "__future__" module can bring Python3 features to Python2. 
 If i used "from __future__ import division", then all division in the current Python2 file would function as if Python3.
+
+def functions stop being executed after a return statement
+any cpde after return parameter wil not be executed.
