@@ -1,0 +1,1 @@
+caca-utils libgif7 libid3tag0 libimlib2

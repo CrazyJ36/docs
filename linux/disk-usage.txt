@@ -1,0 +1,8 @@
+# see pc free space
+df -h
+
+# see current folders/file size
+du -h <file/folder>
+
+# see size of all files in folder
+du -h * 

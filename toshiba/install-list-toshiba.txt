@@ -26,7 +26,7 @@ openssh-sftp-server
 sshpass
 
 # googler
-/usr/local/bin/googler
+~/bin/googler
 
 # jmtpfs
 libmtp-common
@@ -137,9 +137,6 @@ make
 libncurses5-dev
 libtinfo-dev
 
-# htop
-htop
-
 # python3-pip
 build-essential dpkg-dev fakeroot g++ g++-7 libalgorithm-diff-perl
   libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl libexpat1-dev
@@ -168,10 +165,9 @@ greenlet pygments urllib3 certifi chardet idna requests six blessings typing wcw
 
 # caca terminal graphics
 libcaca-dev libcaca0 libpng-dev libslang2-dev zlib1g-dev
+toilet-fonts caca-utils libgif7 libid3tag0 libimlib2
+
 
 # pkg-config
 pkg-config
-
-# python3.7
-libpython3.7-minimal libpython3.7-stdlib python3.7 python3.7-minimal
 
