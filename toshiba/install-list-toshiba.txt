@@ -169,3 +169,13 @@ libcaca-dev libcaca0 libpng-dev libslang2-dev zlib1g-dev
 # pkg-config
 pkg-config
 
+# apktool
+aapt android-framework-res android-libaapt android-libandroidfw
+  android-libbacktrace android-libbase android-libcutils android-liblog
+  android-libunwind android-libutils android-libziparchive apktool junit
+  libantlr-java libantlr3-runtime-java libapache-pom-java
+  libatinject-jsr330-api-java libcommons-cli-java libcommons-io-java
+  libcommons-lang3-java libcommons-parent-java libguava-java libjaxp1.3-java
+  libjsr305-java libprotobuf-lite10 libsmali-java libstringtemplate-java
+  libxmlunit-java libxpp3-java libyaml-snake-java p7zip p7zip-full
+
