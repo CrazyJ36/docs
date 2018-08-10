@@ -4,7 +4,7 @@
 - comma can be left at the end.
 - items are mutable/ can be changed, edited, removed, added.
 - items can be changed as: list[index] = value
-- slicable: print(list[0:2]) - print items 0-1
+- slicable, the same way as range: print(list[0:2]) - print items 0-1
 - can be nested
 # Dictionary- {"Key":"value", key: value}
 - uses square brackets to hold items
