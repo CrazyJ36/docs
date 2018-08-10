@@ -181,3 +181,6 @@ zipalign libzopfli1
 
 # apksigner
 apksigner fastjar jarwrapper
+
+# dos2unix
+dos2unix

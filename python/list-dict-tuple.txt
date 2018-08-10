@@ -1,0 +1,23 @@
+# List- ["item", "item",]
+- uses square brackets.
+- items[list_index] or characters[string_position].
+- comma can be left at the end.
+- items are mutable/ can be changed, edited, removed, added.
+- items can be changed as: list[index] = value
+- slicable: print(list[0:2]) - print items 0-1
+- can be nested
+# Dictionary- {"Key":"value", key: value}
+- uses square brackets to hold items
+- keys/values are immutable, cannot be changed.
+- can ony add items as: dist["new_key"] = value 
+- comma can be left at the end.
+- can be nested
+# Tuple-  ("item", "item1")
+- immutable, trying to reassign tuple item causes type error
+- can use parentheses, though not required
+- empty tuple can be created by : my_tuple = ()
+- values accessable with index: print(my_tuple[1])
+- faster memory usage than lists, due to not being changable
+- slicable like lists
+- can be nested
+
