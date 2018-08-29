@@ -1,0 +1,46 @@
+# Browse vim help
+To read help in normal mode(not insert mode, or input mode):
+:help
+
+Jump to links
+Ctrl-]
+
+back to previous topic
+Ctrl-T
+
+# Buffer (windows)
+list buffers, with unique numbers, filename, line number.
+:ls
+
+
+open all buffers into one window
+:ball
+
+switch buffers in single windowdirectly 
+ctrl-6
+
+switch buffer focus
+:b(num)
+
+buffer indicators in :ls
+% - current active buffer
+
+open new buffer
+:bad
+:badd another-file.txt
+
+close buffer number 2
+:bd 2
+
+# Use Terminal
+open a terminal buffer
+:term
+
+run command
+:term make myprogram
+
+run vim command while terminal is in use
+ctrl-w, :command
+
+close terminal and it's process
+ctrl-w, :q!
