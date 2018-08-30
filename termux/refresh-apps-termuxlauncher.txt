@@ -1,0 +1,4 @@
+# https://github.com/amsitlab/termuxlauncher/blob/master/README.md#Build
+# refresh installed apps
+$ termux-reload-settings
+or use actual launcher portion
