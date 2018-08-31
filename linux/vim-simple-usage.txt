@@ -16,7 +16,7 @@ list buffers, with unique numbers, filename, line number.
 open all buffers into one window
 :ball
 
-switch buffers in single windowdirectly 
+switch buffers in single window directly 
 ctrl-6
 
 switch buffer focus
