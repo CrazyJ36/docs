@@ -1,0 +1,104 @@
+You can have several classes in one file, extending one another,
+good for one part of a programs functionality, then
+many functional parts, methods, and attributes.
+
+There are 4 core concepts in OOP: encapsulation, inheritance,
+polymorphism, and abstraction.
+
+- The idea behind Encapsulation is to ensure that implementation
+details are not visible to users.
+Like A private, sensitive account info changable only by Inheritence
+(inherited by/into linked methods in other package classes 
+that get/set secure variables.)
+
+
+- Inheritance is the process that enables one class to acquire
+the properties (methods and variables) of another. With 
+inheritance, the information is placed in a more 
+manageable, hierarchical order.
+The class inheriting the properties of another is the 
+subclass (also called derived class, or child class);
+the class whose properties are inherited is the 
+superclass (base class, or parent class).
+To inherit from a class, use the extends keyword. 
+When one class is inherited from another class, it inherits 
+all of the superclass' non-private variables and methods.
+constructors(Class name = new Class();) are not inherited
+by subclasses, though instantiated in subclass when contructed.
+You can access the superclass from the subclass using the
+super keyword. 
+For example, super.var accesses the var member of the superclass.
+
+- Polymorphism, which refers to the idea of "having many forms", occurs when there is a hierarchy of classes related to 
+each other through inheritance. 
+A call to a member method will cause a different implementation to be executed, depending on the type of the
+object invoking the method.
+
+- Overriding is when a new extended subclass method uses the
+super-class' same method to do a different thing(completely
+different method statements.
+Rules for Method Overriding:
+1. Should have the same return type and arguments
+2. The access level cannot be more restrictive than the 
+  overridden method's access level
+  (Example: If the superclass method is declared public,
+   the overriding method in the sub class
+   can be neither private nor protected)
+3. A method declared final or static cannot be overridden
+4. If a method cannot be inherited, it cannot be overridden
+Constructors cannot be overridden
+Method overriding is also called runtime polymorphism.
+
+- method overloading: when methods have the same name, 
+but different parameters. This can be very useful when you need
+the same method functionality for different types of parameters.
+To change types used in methods using overloading:
+change method type(eg. int sum() to double sum()) and 
+change the paremeter data-types
+eg. double sum(double a, double b)
+the parameters should differ in their type, number or parameters, 
+or both. 
+overloading is also called compile-time polymorphism.
+
+- Abstract. An abstract method is a method that is declared 
+without an implementation (without braces, and followed
+by a semicolon): abstract void walk();
+Data abstraction provides the outside world with only 
+essential information, in a process of representing essential
+features without including implementation details.
+A good real-world example is a book. When you hear the term 
+book, you don't know the exact specifics, such as the page
+count, the color, or the size, but you understand the idea, or
+ abstraction, of a book.
+The concept of abstraction is that we focus on essential qualities, rather than the specific characteristics of one 
+particular example.
+
+In Java, abstraction is achieved using abstract
+classes and interfaces.
+An abstract class is defined using the abstract keyword.
+1. If a class is declared abstract it cannot be instantiated
+  (you cannot create objects of that type).
+2. To use an abstract class, you have to inherit it from 
+another class.
+3. Any class that contains an abstract method should be
+defined as abstract.
+An class containing an abstrat method is an abstract class.
+You can define classes and methods abstract, and inherit its
+methods,and define methods with statements.
+
+- An interface is a completely abstract class that contains
+only abstract methods.
+Some specifications for interfaces:
+1. Defined using the interface keyword.
+2. May contain only static final variables.
+3. Cannot contain a constructor because interfaces cannot 
+  be instantiated.
+4. Interfaces can extend other interfaces.
+5. A class can implement any number of interfaces.
+Interfaces have the following properties:
+1. An interface is implicitly abstract. You do not need to
+ use the abstract keyword while declaring an interface.
+2. Each method in an interface is also implicitly abstract,
+so the abstract keyword is not needed.
+3. Methods in an interface are implicitly public.
+
