@@ -1,0 +1,28 @@
+# How C programs are executed from source code(steps).
+1. Preprocessor
+   The first stage of any c/c++ program execution. Preprocessing processes objects: Header files
+(#include <stdio.h>), expands Macros(#define NAME value), Conditionals and other things
+of the program before compilation. So the computer shouldn't have work as much on these
+during run-time execution. Search google for 'gnu c preprocessor' for docs.
+
+2. Compiler
+   The generated output file after preprocessing with source code will pass to the compiler for compilation.
+The Compiler will compile the program, check errors and generates the object(assembly code) file.
+
+3. The Linker links object files, libraries and generates
+the executable program.
+
+4. Loader
+   The Loader loads the executable file into the main/primary memory, runs it.
+
+# Execution Files
+1. .c - Contains program source code.
+2. .i - Generated from '.c'. Contains preprocessed code.
+3. .s - Assembly code converted from '.i'.
+4. .o - Object(usable objects) code, used by libraries and linker.
+5. .exe/.out - linker, libraries are now executable.
+
+# How executables are used by the pc. (verify/research)
+Functions are operations taken up by the processor,
+Variables are stored in ram during computation.
+

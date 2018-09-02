@@ -1,0 +1,32 @@
+# archive files
+This simply stores multiple file into one files.tar
+
+archive files: file1.txt file2.txt file3.txt
+
+explaination in argument order:
+
+tar - linux utility to store multiple file in one file (archive)
+c - tar option to create archive
+f - tar option to use add files
+files.tar - output archive name
+file1.txt, file2.txt... - file to include in archive
+
+$ tar cf files.tar file1.txt file2.txt file3.txt
+
+# compress archive to reduce space
+This compresses the output files.tar from above to save some space
+
+compress files
+
+$ gzip file.tar
+
+# show compresses file contents from archive
+This shows file contents that are in a tar.gz
+zcat file.tar.gz 
+
+# decompress files
+This decompresses all files from tar.gz to make them regular files again.
+This works if files were first tar'd, then gzipped.
+
+$ tar xf file.tar.gz 
+
