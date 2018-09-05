@@ -184,6 +184,3 @@ apksigner fastjar jarwrapper
 
 # dos2unix
 dos2unix
-
-# vim
-vim vim-runtime
