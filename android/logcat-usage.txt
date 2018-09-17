@@ -1,3 +1,4 @@
+## Log to file
 # Clear previous logs
 "${SDK}/platform-tools/adb" logcat -c
 # start logging to file
@@ -8,3 +9,9 @@
 less log-file.txt
 # search for app name in less (/ com.crazyj36.app), you can see
 # what app was doing at the time you touched it and see java errors
+
+## Make Specific message in java:
+Log.i("MYLOGTAG", "console message to show")
+
+# Show only my tag and app in logcat output:
+$ adb logcat MYLOGTAG *:s
