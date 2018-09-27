@@ -1,0 +1,9 @@
+Remove files left in git repo
+example if you push A repo then want to add a .gitignore
+files from push are still in remote.
+this basically deletes remote and resyncs from local.
+
+git rm -r --cached .    # remember the dot here
+git add .
+git commit -m ".gitignore fix"
+git push

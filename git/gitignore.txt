@@ -1,0 +1,9 @@
+Exclude files in any folder from being pushed to A repo.
+
+in any folder create file: '.gitignore'
+simple add file names or whole directories to exclude:
+eg.:
+-----
+gradlew.bat
+build\
+-----
