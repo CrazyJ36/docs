@@ -1,0 +1,40 @@
+A generic shape defined in xml.
+Should be located at res/drawable/shapefile.xml
+
+Referencing:
+Java: R.drawable.filename
+XML: @package:drawable/filename or
+  android:background="@drawable/shapefile.xml
+
+Example Attributes:
+----------
+<?xml version="1.0" encoding="utf-8"?>
+<shape  # must be root element
+    xmlns:android="http://schemas.android.com/apk/res/android" # required, defines xml namespace, must be as stated here
+    android:shape=["rectangle" | "oval" | "line" | "ring"] > # type of shape rectangle is default. shapes fit, fill, or span containing view. line requires <stroke> to define width of line.
+    <corners
+        android:radius="int"
+        android:topLeftRadius="int"  />  # or topRightRadius, bottomLeftRadius, bottomRightRadius.
+    <gradient
+        android:angle="int"
+        android:centerX="float"  # or centerY
+        android:centerColor="int"
+        android:endColor="color"
+        android:gradientRadius="int"
+        android:startColor="color"
+        android:type=["linear" | "radial" | "sweep" ]
+        android:useLevel=["true" | "false"] />
+ 
+    <padding
+        android:left="int"  # or android:[right | left | top | bottom]="int" />
+    <size
+        android:[width | height]="int" />
+    <solid 
+        android:color="color" />
+    <stroke
+        android:width="int"
+        android:color="color"
+        android:dashWidth="int"
+        android:dashGap="int" />
+</shape>
+----------

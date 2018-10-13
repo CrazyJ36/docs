@@ -8,4 +8,5 @@ add android:windowSoftInputMode="stateHidden|adjustPan" to the line:
 <activity android:name=".MainActivity">
 
 like so:
-<activity android:name=".MainActivity" android:windowSoftInputMode="stateHidden|adjustPan" > 
+<activity android:name=".MainActivity" android:windowSoftInputMode="stateHidden|adjustPan" >
+
