@@ -1,0 +1,9 @@
+use:
+android:layout_marginLeft="4dp"
+for entire view object to parent.
+eg. if button or textview is on exact edge of screen, use above.
+
+use:
+android:padding="4dp"
+to fit content into view.
+eg. if button text is not centered in button, use above.
