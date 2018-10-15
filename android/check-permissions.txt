@@ -2,6 +2,6 @@ import android.app.Activity;
 import android.Manifest;
 
 
-if (android.os.Build.VERSION.SDK_INT > 23) {
-    requestPermissions(new String[] {Manifest.permission.DO_THING}, 0);  #all that is needed
+if (android.os.Build.VERSION.SDK_INT > 22) {
+    requestPermissions(new String[] {Manifest.permission.DO_THING}, 0);  #all that is needed. requestPermissions is used as is by android.app.Activity.
 }
