@@ -1,0 +1,15 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following additional packages will be installed:
+  fonts-roboto fonts-roboto-hinted gettext intltool-debian
+  libmail-sendmail-perl libsys-hostname-long-perl po-debconf
+Suggested packages:
+  gettext-doc autopoint libasprintf-dev libgettextpo-dev libmail-box-perl
+The following NEW packages will be installed:
+  fonts-roboto fonts-roboto-hinted gettext google-android-sdk-docs-installer
+  intltool-debian libmail-sendmail-perl libsys-hostname-long-perl po-debconf
+0 upgraded, 8 newly installed, 0 to remove and 0 not upgraded.
+Need to get 34.3 kB/4,121 kB of archives.
+After this operation, 13.9 MB of additional disk space will be used.
+Do you want to continue? [Y/n] 
