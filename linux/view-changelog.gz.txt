@@ -1,0 +1,1 @@
+dpkg-parsechangelog -l /usr/share/doc/app/files/changelog.gz
