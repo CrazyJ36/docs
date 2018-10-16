@@ -1,0 +1,6 @@
+in activity_main.xml add attribute to your listview: eg. <ListView></ListView> part:
+-----
+android:nestedScrollingEnabled="true"
+-----
+added in api 21
+
