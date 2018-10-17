@@ -1,10 +1,8 @@
-# To cut/copy/paste text
-
--arrows to set cursor to any starting position for cut/copy.
--alt-a to start text selection move arrows to where to end for cut/copy.
--alt-6 to copy selected text
--ctrl-k to cut text
--ctrl-u to paste at any position in file.
-
-# Navigate file with cursor
--ctrl-arrow go back, forward one word(left-right) or paragraph(up-down)
+ARROW           - to set cursor to any starting position for cut/copy
+ALT-A			- move to select text 
+SHIFT ARROWS	- also selects text
+ALT 6           - to copy selected text
+CTRL K          - to cut text
+CTRL U          - to paste at any position in file
+CTRL W			- delete back whole word
+CTRL ARROW      - go back, forward one word(left-right) or paragraph(up-down)
