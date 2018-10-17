@@ -1,0 +1,12 @@
+You can quickly expand text using braces:
+
+$ touch file{1..5}
+makes:
+file1 file2 file3 file4 file5
+
+$ touch file{-one, -two, -three}
+makes:
+file-one file-two file-three
+
+$ for i in {1..5}
+is for loop using variables 1-5
