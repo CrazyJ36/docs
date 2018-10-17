@@ -1,0 +1,2 @@
+alt-b: go back one word
+alt-f: go forward one word
