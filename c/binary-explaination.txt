@@ -1,0 +1,12 @@
+The phrase: Ten to the... or power of(^) 10,
+Simply means:
+
+10(Ten) multiplied(to) by itself(the) {nunber of times} 
+
+So:
+- 10^1 (ten 1 times) = 10 
+- 10^2 (10 x 10) = 100
+
+But 10 to the 0 just equals 1
+
+
