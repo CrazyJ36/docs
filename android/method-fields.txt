@@ -1,0 +1,3 @@
+When using an api Methods' part from the "fields" section, type as
+
+methodVar.fieldName = input;
