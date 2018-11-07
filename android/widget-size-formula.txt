@@ -1,0 +1,5 @@
+Generally you may calculate a widgets initial grid size in the two fields:
+android:minWidth
+android:minHeight
+from an appwidget-provider-info.xml by the mathmatical formula:
+70 x [grid_size] - 30
