@@ -9,7 +9,3 @@ $ adb tcpip 5555
 $ adb connect [PHONE_WIFI_IP]
 
 4. disconnect from usb, adb over network will still be connected.
-
-TODO:
-find other ways/workarounds, like:
-do you need to connect over usb at all? Maybe 'adb tcpip' will activate the functionality without usb at first
