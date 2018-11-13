@@ -14,11 +14,6 @@ git
 curl
 libcurl4:i386
 
-# w3m
-w3m
-libgc1c2
-libgpm2
-
 # openssh-server sshpass
 libwrap0
 openssh-server
@@ -181,3 +176,6 @@ apksigner fastjar jarwrapper
 
 # dos2unix
 dos2unix
+
+# elinks
+elinks elinks-data libfsplib0 liblua5.1-0 libtre5 libgpm2
