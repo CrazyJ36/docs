@@ -1,0 +1,19 @@
+In Termux, non-root:
+
+GO TO INSTALLED APK's DIRECTORY:
+cd /data/app
+
+USE ROOT TO SEE ALL APP FOLDERS THEN EXIT 
+su -c ls
+
+GO TO DESIRED APP DIRECTORY
+cd com.termux-1
+
+FIND APK, NORMALLY BASE.APK
+
+TO SEE WHAT ACTIVITIES EXIST FOR THE APP DUMP ANDROIDMANIFEST 
+ACTIVITIES:
+aapt dump xmltree base.apk AndroidManifest.xml 
+
+START A LISTED ACTIVITY
+am start -n com.termux.app/.TermuxActivity
