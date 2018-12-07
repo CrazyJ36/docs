@@ -1,0 +1,12 @@
+get android usb tetherer name:
+$ ip link
+
+add to /etc/network/interfaces:
+#USB Tether
+auto {name}
+iface {name} inet dhcp
+
+set it as 'up':
+$ sudo ip link set {name} up
+
+$ sudo dhclient {name}
