@@ -1,0 +1,4 @@
+$ cat /proc/cpuinfo
+
+Works in termux too as android has A /proc 
+system folder at least.
