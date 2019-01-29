@@ -1,0 +1,23 @@
+- find hw vendor id and product id for the device trying to use adb
+$ lsusb
+take note of the 'ID 1234:1234' part for your brand device.
+
+- change config to allow device to be recognized by pc
+$ sudo nano /etc/udev/rules.d/51-android.rules
+example 51-android.rules:
+_________
+# LG Connect 4G usb init
+SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="6315", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+
+# ZTE Z Blade Max usb init
+# normal adb/storage mode
+SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="0501", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+# usb tethering mode
+SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="1373", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+
+# LG Stylo 4 usb init
+SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="61f9", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+_________
+the ATTR{} fields are values from lsusb
+
+- unplug and reconnect device and adb devices should work properly.
