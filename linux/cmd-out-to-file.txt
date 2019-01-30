@@ -1,0 +1,5 @@
+Send commands output to file (Overwrites file).
+$ ls > dir.txt
+
+Append output to file.
+$ ls >> dir.txt
