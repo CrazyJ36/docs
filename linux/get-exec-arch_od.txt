@@ -1,0 +1,17 @@
+As an alternative to installing the package 'file',
+the 'od' program dumps file information.
+
+$ od -An -t x1 -j 4 -N 1 program
+
+It outputs octal format code, which can be 
+translated by the abovd options.
+
+Outputing '01' show the 5th bit of elf binary,
+meaning it is 32 bit. An '02' means 64 bit.
+
+Other uses of od:
+# Display file.txt contents in octal format. One byte per int.
+$ od -b file.txt
+
+# Display file.txt content in ASCII character format, with byte offsets displayed as hexadecimal.
+$ od -Ax -c file.txt
