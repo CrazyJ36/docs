@@ -1,12 +1,19 @@
+# Power of 10
 The phrase: Ten to the... or power of(^) 10,
 Simply means:
 
 10(Ten) multiplied(to) by itself(the) {nunber of times} 
 
 So:
+- 10^0 (ten time 0) = 
 - 10^1 (ten 1 times) = 10 
 - 10^2 (10 x 10) = 100
 
-But 10 to the 0 just equals 1
+But 10 to the 0 just equals 1, as 10 'put to' is 1.
 
-
+# Binary code
+hexidecimal means 10. Using '10s' places', or power 
+of 10, is how binary 0 and 1 works after 
+multiplying itself to store data values through 
+switches that can be on or off at the time of 
+writing to hsrd drive.

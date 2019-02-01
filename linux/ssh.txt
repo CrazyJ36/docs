@@ -3,3 +3,9 @@
 -fix: edit ~/.ssh/known_hosts
 delete the line that contains info for the desired(to-be-connected-to) ip address.
 connect again: ssh user@host. without using sshpass.
+
+# connect to an ssh server using private/public keys
+# instead of using 'sshpass'. You should copy keys
+# to/from server/client device on per-device basis
+# like 'directories named after desired pc.' 
+ssh -i path/to/id_rsa user@host
