@@ -1,0 +1,19 @@
+MessageBox in Win32 API C programming instantiates
+A basic popup dialog.
+
+Example MessageBox statement code:
+____
+MessageBox(NULL, "MessageTxt, "TitleTxt", MB_OK);
+____
+
+- MessageBox can show buttons as
+MB_YESNOCANCEL shows three buttons(yes,no,cancel)
+MB_DEFBUTTON2 mean second option(no) is the default option
+
+- Define the type of dialog to windows:
+MB_ICON states the type of dialog(different icons and alert sounds): 
+MB_ICON[WARNING,QUESTION,EXCLAMATION, or ASTERISK]
+
+MessageBox can return IDOK,IDNO,IDCANCEL,IDABORT,IDRETRY,IDIGNORE
+as result codes.
+These have simple numbers assigned to them as well.
