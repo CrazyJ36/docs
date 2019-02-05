@@ -16,10 +16,10 @@ $ sudo wpa_cli
 - add A new network id to wpa as configuration in linux
 > add_network 0
 
-- set the new network 0's ssid name
+- set the new network 0's ssid name (type with the quotes in ssid)
 > set_network 0 ssid "SSID Name"
 
-- set the new network 0's network password
+- set the new network 0's network password (type with the quotes in psk password)
 > set_networt 0 psk "secretpassword"
 
 - enable this new virtual network id
