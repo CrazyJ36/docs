@@ -1,0 +1,9 @@
+At least for desktop apps,
+cl compiler generates .obj,
+linker combines .obj with included .lib,
+exe is created.
+
+Normally the libs: kernel32.lib, user32.lib, gdi.lib(graphical desktop)
+are included. Those contain dll names and reference code that is bound to exe.
+Then windows can resolve the calls to those internal library names
+and handle execution.

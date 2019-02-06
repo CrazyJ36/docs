@@ -1,0 +1,48 @@
+Code and explaination are at: www.winprog.org/tutorial/start.html
+I made this usable with vs build tools basic cl compiler.
+
+This is for compiling basic console and desktop applications with no IDE.
+
+- Download/install Visual Studio Build Tools, to get Developer Command
+  Prompt for VS.
+
+- Simple C desktop program code:
+________ 
+#include <windows.h>
+//#pragma comment(lib,"user32.lib")
+
+int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine, int nCmdShow)
+{
+    MessageBox(NULL, "Hello, World", "Note", MB_OK);
+    return 0;
+}
+________
+The commented #pragma line is optional, it calls "desktop program" linker
+in place. If this wasn't in the code, you could link "user32.lib" when compiling with:
+# Code and Compile
+> cl program.c /link User32.LIB
+
+- Simple console program code (no different than linux at basic level):
+________
+#include <stdio.h>
+int main()
+{
+    printf("Hello, World");
+	return 0;
+}
+________
+Compile with:
+> cl program.c
+run this from cmd in the programs' compiled directory:
+> program.exe
+
+cl generates .exe and .obj(machine code) files with the original
+.c program name. The .obj file is not necessary to run the new single-file 
+program .exe, but may be needed to import code later.
+
+# Compiler options
+- cl compiler options are listed here:
+https://docs.microsoft.com/en-us/cpp/build/reference/compiler-options-listed-by-category?view=vs-2017
+- some important options are:
+  >cl prog.c /O2 /GALw    max windows optimization
+  /GALw is a combination(/GA, /GL) of windows whole program global optimization.

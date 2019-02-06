@@ -1,0 +1,5 @@
+#The first few lines of output form this command
+#will show the executables compiled architecture.
+
+> dumpbin /headers program.exe
+
