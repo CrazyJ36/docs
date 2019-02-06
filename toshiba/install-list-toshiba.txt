@@ -180,3 +180,5 @@ dos2unix
 # elinks
 elinks elinks-data libfsplib0 liblua5.1-0 libtre5 libgpm2
 
+# net-tools
+net-tools
