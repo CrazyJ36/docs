@@ -1,0 +1,29 @@
+# This should be last resort! It fully cleans fhe boot partition.
+# Only for UEFI systems. Only if bootloader won't show up.
+# Tested on Windows 10 1709-1809
+Insert the Media (DVD/USB) in your PC and restart.
+Boot from the media.
+Select Repair Your Computer.
+Select Troubleshoot.
+Choose Command Prompt from the menu:
+
+Type in the command:
+
+>diskpart
+>list disk    (normally use disk 0 if there's only hard drive)
+>sel disk 0    (select which hard drive has operating systems
+>list vol    (Find you EFI(boot files) partition by:
+             >sel vol [any, probably 4]
+             >detail partition
+             top 'type' number would be:
+             C12A7328-F81F-11D2-BA4B-00A0C93EC93B)
+
+>sel vol 4
+>assign letter=G:    (any unused letter, try to stay in order. C: 
+                      should be normal C:\ files)
+>exit    (exit diskpart util)
+>cd /d G:
+
+>format G: /FS:FAT32    (format the whole partition)
+>bcdboot C:\windows /s G: /f UEFI    (write new bootloader)
+
