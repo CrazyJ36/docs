@@ -1,13 +1,17 @@
-Sometimes switch pc wireless switch on-off A few times.
+Remember to switch pc wireless switch on.
 
-# Show adapter device interface name
-iw dev
+# Show wirelesd adapter device interface name
+$ iw dev
 
 # Check wifi connection 
-iw <device> link
+$ iw <device> link
 
-# Check whether wifi enabled:
-sudo ip link set wlp*s0 ip
+# Set wifi switch on/off:
+$ sudo ip link set <device> [up, down]
 
-# list lan ip addresses
-arp (from net-tools package)
+# list lan ip addresses (arp from net-tools package)
+$ arp
+
+# normal wifi acccess point config file: wpa_supplicant
+_____
+
