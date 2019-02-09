@@ -1,10 +1,92 @@
 Remember to switch pc wireless switch on.
+Remember if using phone mobile hotspot to enter correct SSID between phone and pc.
+If you can't see adapter hardware, check '$ lshw' and make sure wifi adapter is supported with drivers.
 
-# Show wirelesd adapter device interface name
+# test connection, should send and recieve web packets
+$ ping google.com
+
+# show quick status of network adapter and connection
+$ sudo ip link show <adapter-name>
+- or 
+$ networkctl status
+- or 
+$ iw <adapter-name> link
+- or 
+$ ip address show <adapter-name>
+
+# example wifi configuration
+# this is the only config file that should be needed for wifi to work
+# normal wifi acccess point config file: /etc/wpa_supplicant.conf
+_____
+ctrl_interface=/var/run/wpa_supplicant
+ctrl_interface_group=0
+update_config=1
+network={
+  ssid="SSID NAME"
+  psk="Wifi password"
+}
+_____
+
+# ethernet and enabling network interfaces to system
+# example file for /etc/network/interfaces
+_____
+auto lo
+iface lo inet loopback
+
+auto enp0s29f7u5
+iface enp0s29f7u5 inet dhcp
+
+auto wlp4s0
+iface wlp4s0 inet dhcp
+_____
+# scan networks get ssid name, wpa security type if needed
+$ iwlist <adapter-name> scan
+
+# start wpa_supplicant network config and connect to wireless with new config file
+$ sudo wpa_supplicant -B -i <adapter-name> -c /etc/wpa_supplicant.conf
+$ sudo dhclient <adapter-name>
+
+# quickly add network ssid/passwords, or keep password hidden in files
+$ sudo wpa_passphrase <SSID> >> /etc/wpa_supplicant.conf    // then enter wifi password
+- it will appear to do nothing, you must enter wifi password after command, then press enter.
+- the >> adds a new network slot, a single > will delete old all networks.
+- edit top of file(/etc/wpa_supplicant.conf) to make sure the other needed config lines are there
+  see above section 'example wifi configuration'
+- password 'hidden' keys are generated, delete commented(#) out real password line from network in file 
+
+# you can use '$ sudo wpa_cli -i <adapter-name>' to add networks interactively as well
+- You could remove any existent config files if no existing networks are needed.
+  wpa_cli adds new networks to /etc/wpa_supplicant.conf
+$ sudo rm /etc/wpa_supplicant.conf 
+$ sudo rm /var/lib/dhcp/dhcp.leases
+- reboot to clear wpa_supplicants config after this
+- start wpa_cli. run the whole setup in sudo
+$ sudo wpa_cli
+- scan for wireless networks if wpa_cli hasn't done so already
+> scan
+- view the scan results to get the ssid name
+> scan_results
+- add A new network id to wpa as configuration in linux
+> add_network 0
+- set the new network 0's ssid name (type with the quotes in ssid)
+> set_network 0 ssid "SSID Name"
+- set the new network 0's network password (type with the quotes in psk password)
+> set_networt 0 psk "secretpassword"
+- enable this new virtual network id
+> enable_network 0
+- save this config to pc. likely at /etc/wpa_suppicant/myconfig.conf
+> save config
+- internet should work after this. open new terminal(alt-2 for no graphical pc setup) to test:
+$ ip a
+- now if the machine is rebooted, wpa_supplicant can be started as before
+and it will connect to the "SSID Name" network with this command:
+$ wpa_supplicant -B -i {your-adapter-interface(wlp4s0)} -c /etc/wpa_supplicant/myconfig.conf
+
+# Show wireless adapters device interface name
 $ iw dev
 
 # Check wifi connection 
-$ iw <device> link
+$ iw <adapter-name> link
 
 # Set wifi switch on/off:
 $ sudo ip link set <device> [up, down]
@@ -12,6 +94,19 @@ $ sudo ip link set <device> [up, down]
 # list lan ip addresses (arp from net-tools package)
 $ arp
 
-# normal wifi acccess point config file: wpa_supplicant
-_____
+# generate an wifi ip address if there is no local ip address for wifi connection.
+# this can initiate connection to wifi network, if 'dhclient lease to ip' is lost.
+# like with commands in the next section ' reset connections'
+$ sudo dhclient <adapter-name>
 
+
+# check ip routes for dhclient (I don't know what this is exactly but it should output only 
+# two items during wifi normal connection)
+ip route
+
+# reset connections
+$ sudo ip link set dev <adapter-name> down    // turns off pc wifi
+$ sudo dhclient -r <adapter-name>    // removes releases(-r) dhcp address leases for this pc
+$ sudo rm /var/lib/dhcp/dhclient.<adapter-name>.leases
+$ sudo ip link set dev <adapter-name> up
+$ sudo dhclient <adapter-name>
