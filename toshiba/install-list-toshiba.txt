@@ -182,3 +182,6 @@ elinks elinks-data libfsplib0 liblua5.1-0 libtre5 libgpm2
 
 # nmap (for raspberry pi initial setup)
 libblas3 liblinear3 liblua5.3-0 nmap
+
+# net-tools(for rfkill, ip link, dhclient operations)
+net-tools
