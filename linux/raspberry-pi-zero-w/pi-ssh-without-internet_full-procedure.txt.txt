@@ -1,0 +1,15 @@
+Use raspberry pi cli without internet (windows)
+
+-in windows after flash os image with etcher usb
+- in boot partition append to config.txt:
+ dtoverlay=dwc2
+- in boot partition cmdline.txt append after 'rootwait':
+ modules-load=dwc2,g_ether
+- (may or may not need to blank 'ssh' file in boot partition in windows)
+- insert sd into pi
+- connect usb from pi OTG(not power) to usb in pc
+- if windows doesn't see pi as usb ethernet/rndis gadget network controller type,
+ instead a com-port serial device, update com-port driver with files located at:
+ 'Google Drive'\Programs\Windows\Programs\Development\RaspberryPI\RPI Driver OTG.zip,
+ then unplug/replug pi from pc.
+- ssh pi@raspberrypi.local (default password: raspberry).

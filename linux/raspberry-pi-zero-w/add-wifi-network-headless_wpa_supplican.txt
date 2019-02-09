@@ -1,0 +1,18 @@
+Before booting(probably any time, not just first setup),
+add A file like this to boot partition by mounting sd card in windows
+and copying file:
+____
+
+country=US
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant
+
+network={
+ ssid="Alcatel LINKZONE"
+ psk="03239230"
+}
+_____
+
+Name it 'wpa_supplicant.conf'
+After pi boot, this file will reside in /etc/wpa_supplicant/wpa_supplicant.conf
+pi should automatically connect

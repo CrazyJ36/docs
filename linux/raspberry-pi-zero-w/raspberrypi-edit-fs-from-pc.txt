@@ -1,0 +1,7 @@
+remove PI's sd card, insert to linux pc
+- sudo mount /dev/mmcblk1p2 /mnt
+- cd /mnt
+- ls 
+do edits, when done:
+- sudo umount /mnt
+insert sd card back into PI, and boot again.
