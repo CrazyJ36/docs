@@ -4,4 +4,4 @@ remove PI's sd card, insert to linux pc
 - ls 
 do edits, when done:
 - sudo umount /mnt
-insert sd card back into PI, and boot again.
+insert sd card back into PI, plug in to boot again.
