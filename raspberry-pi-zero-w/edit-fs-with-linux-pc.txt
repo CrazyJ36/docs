@@ -1,5 +1,6 @@
 remove PI's sd card, insert to linux pc
 - sudo mount /dev/mmcblk1p2 /mnt
+  mmcblk1p2 should be which ever block device and partition the PIs' root filesystem is on
 - cd /mnt
 - ls 
 do edits, when done:

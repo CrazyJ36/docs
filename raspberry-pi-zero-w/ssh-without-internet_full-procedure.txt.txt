@@ -1,0 +1,33 @@
+# Windows
+-in windows after flash os image with etcher usb
+- in boot partition append to config.txt:
+ dtoverlay=dwc2
+- in boot partition cmdline.txt append after 'rootwait':
+ modules-load=dwc2,g_ether
+- (may or may not need to blank 'ssh' file in boot partition in windows)
+- insert sd into pi
+- connect usb from pi OTG(not power) to usb in pc
+- if windows doesn't see pi as usb ethernet/rndis gadget network controller type,
+ instead a com-port serial device, update com-port driver with files located at:
+ 'Google Drive'\Programs\Windows\Programs\Development\RaspberryPI\RPI Driver OTG.zip,
+ then unplug/replug pi from pc.
+- ssh pi@raspberrypi.local (default password: raspberry).
+
+# Linux
+- in pi(through ssh or by mounting PIs' sd) edit /etc/dhcpcd.conf and add:
+_____
+interface usb0
+static ip_address=192.168.7.2
+static routers=192.168.7.1
+static domain_name_servers=192.168.7.1
+_____
+the last two numbers in the IPs' can be any numbers that are free around local networks,
+though the last 1 must be 1 at the last two entries.
+- on linux pc: 
+- find interface name(probably enp0s29f..):
+  $ ip link
+- add the PIs' ip to PCs' interface card
+  $ ip a add 192.168.7.1/24 dev <interface-name>
+- $ ssh pi@192.168.7.2
+- if no internet in pi, you could connect PIs' usb to power and it should
+  auto-connect with the /etc/wpa_supplicant.conf network entry.

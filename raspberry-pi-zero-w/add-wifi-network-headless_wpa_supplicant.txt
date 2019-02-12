@@ -1,4 +1,4 @@
-Before booting(probably any time, not just first setup),
+Before booting (or edit any time, not just at first setup),
 add A file like this to boot partition by mounting sd card in windows
 and copying file:
 ____
