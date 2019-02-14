@@ -12,6 +12,7 @@
  'Google Drive'\Programs\Windows\Programs\Development\RaspberryPI\RPI Driver OTG.zip,
  then unplug/replug pi from pc.
 - ssh pi@raspberrypi.local (default password: raspberry).
+- bonjour required for internet adapter sharing(extract bonjour setup from package)
 
 # Linux
 - in pi(through ssh or by mounting PIs' sd) edit /etc/dhcpcd.conf and add:
