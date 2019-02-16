@@ -1,0 +1,6 @@
+# git
+git git-man liberror-perl
+
+# libbcm2835. PI C library for GPIO interfacing. Built from source.
+libbcm2835.a: in /usr/local/lib
+bcm2835.h: in /usr/local/include
