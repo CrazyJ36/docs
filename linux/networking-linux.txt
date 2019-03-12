@@ -75,7 +75,7 @@ $ sudo wpa_cli
 - enable this new virtual network id
 > enable_network 0
 - save this config to pc. likely at /etc/wpa_suppicant/myconfig.conf
-> save config
+> save_config
 - internet should work after this. open new terminal(alt-2 for no graphical pc setup) to test:
 $ ip a
 - now if the machine is rebooted, wpa_supplicant can be started as before
