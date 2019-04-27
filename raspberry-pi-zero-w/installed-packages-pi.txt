@@ -4,3 +4,11 @@ git git-man liberror-perl
 # libbcm2835. PI C library for GPIO interfacing. Built from source.
 libbcm2835.a: in /usr/local/lib
 bcm2835.h: in /usr/local/include
+
+# elinks
+elinks elinks-data libfsplib0 libgpm2 liblua5.1-0 libtre5
+
+# apache2
+apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
+
