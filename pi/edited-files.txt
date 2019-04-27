@@ -1,0 +1,5 @@
+/etc/ssh/ssh_config: at 'Port' line was 22, now '23456' for
+alternate ssh network port to avoid conflicts.
+
+/etc/ssh/sshd_config: at 'Port' line was 22, now '23456' for
+alternate ssh network port to avoid conflicts.
