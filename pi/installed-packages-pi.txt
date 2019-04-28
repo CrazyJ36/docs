@@ -41,7 +41,7 @@ libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
   x11proto-record-dev x11proto-render-dev x11proto-xext-dev
   x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
 
-#x11-apps (after install vncserver with rasp-config>enable vnc)
+# x11-apps (after install vncserver with rasp-config>enable vnc)
 libice6 libsm6 libxaw7 libxcursor1 libxfixes3 libxft2 libxkbfile1 libxmu6
 libxt6 x11-apps xbitmaps
 
