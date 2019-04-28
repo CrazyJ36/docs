@@ -43,21 +43,15 @@ libxt6 x11-apps xbitmaps
   x11proto-fixes-dev x11proto-input-dev x11proto-kb-dev x11proto-randr-dev
   x11proto-record-dev x11proto-render-dev x11proto-xext-dev
   x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev↑
+  at-spi2-core autoconf automake autopoint autotools-dev debhelper
+  dh-autoreconf dh-strip-nondeterminism gettext gir1.2-gtk-3.0 intltool-debian
+  libarchive-zip-perl libfile-stripnondeterminism-perl libgtk-3-0 libgtk-3-bin
+  libgtk-3-dev libltdl-dev libmail-sendmail-perl libsigsegv2
+  libsys-hostname-long-perl libtimedate-perl libtool libx11-doc
+  libxcomposite-dev libxcomposite1 libxdamage-dev libxdamage1 libxinerama-dev
+  libxinerama1 libxkbcommon-dev libxkbcommon0 libxrandr-dev libxrandr2 m4
+  po-debconf
 
-# i3
-  dunst fonts-dejavu fonts-dejavu-extra fonts-vlgothic i3 i3-wm i3lock
-  i3status libanyevent-i3-perl libanyevent-perl libasync-interrupt-perl
-  libasyncns0 libcommon-sense-perl libconfuse-common libconfuse1
-  libdrm-amdgpu1 libdrm-freedreno1 libdrm-nouveau2 libdrm-radeon1 libev-perl
-  libev4 libflac8 libfontenc1 libgl1-mesa-dri libgl1-mesa-glx libglapi-mesa
-  libguard-perl libjson-xs-perl libllvm3.9 libogg0 libpulse0 libsensors4
-  libsndfile1 libstartup-notification0 libtxc-dxtn-s2tc
-  libtypes-serialiser-perl libvorbis0a libvorbisenc2 libx11-xcb1
-  libxcb-cursor0 libxcb-dpms0 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0
-  libxcb-icccm4 libxcb-image0 libxcb-keysyms1 libxcb-present0 libxcb-randr0
-  libxcb-render-util0 libxcb-shape0 libxcb-sync1 libxcb-util0 libxcb-xinerama0
-  libxcb-xkb1 libxcb-xrm0 libxcomposite1 libxdamage1 libxdg-basedir1 libxfont1
-  libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxrandr2 libxshmfence1
-  libxss1 libxv1 libxxf86dga1 libxxf86vm1 libyajl2 rxvt-unicode suckless-tools
-  x11-utils xfonts-base xfonts-encodings xfonts-utils
+# python3-tk
+blt libtcl8.6 libtk8.6 libxss1 python3-tk tk8.6-blt2.5
 
