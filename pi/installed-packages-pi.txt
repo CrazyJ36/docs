@@ -48,3 +48,5 @@ libxt6 x11-apps xbitmaps
 # python3-tk
 blt libtcl8.6 libtk8.6 libxss1 python3-tk tk8.6-blt2.5
 
+# python3-rpi.gpio
+  python3-rpi.gpio
