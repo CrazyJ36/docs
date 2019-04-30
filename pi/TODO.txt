@@ -1,0 +1,8 @@
+try to stick to cmdline. no need for all the 'ui-mods' packages,
+though i should first:
+fix audio (to toshiba) over bluetooth in pandora
+try playing to bluetooth audio with mp3 file
+there's a video in my development playlist on youtube on
+how to use bluetooth from commandline.
+
+finish raspberrypi-ui-mods install list file.
