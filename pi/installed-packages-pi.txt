@@ -41,7 +41,8 @@ libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
   x11proto-record-dev x11proto-render-dev x11proto-xext-dev
   x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
 
-# in use by libgtk. originally installed with x11-apps (list from the after install vncserver with rasp-config>enable vnc)
+# in use by libgtk. originally installed with x11-apps
+# (list from the after install vncserver with rasp-config>enable vnc)
 libice6 libsm6 libxcursor1 libxfixes3 libxft2
 
 # python3-tk
@@ -79,4 +80,15 @@ openjdk-8-jre-headless
 
 # xterm 
 libutempter0 libxcb-shape0 libxv1 libxxf86dga1 x11-utils xbitmaps xterm
+
+# realvnc-vnc-server
+  bc cups cups-browsed cups-client cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ppdc cups-server-common libavahi-glib1
+  libcupscgi1 libcupsmime1 libcupsppdc1 libfontembed1 libgutenprint2
+  liblouis-data liblouis12 liblouisutdml-bin liblouisutdml-data liblouisutdml7
+  libqpdf17 libyaml-0-2 printer-driver-gutenprint qpdf realvnc-vnc-server
+
+# fluxbox
+  feh fluxbox libgif7 libid3tag0 libimlib2 libjpeg-progs libjpeg9 libxfont1
+  menu xfonts-encodings xfonts-terminus xfonts-utils
 
