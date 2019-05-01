@@ -58,3 +58,57 @@ oracle-java8-jdk
   gir1.2-gtk-2.0 libgail-common libgail18 libgtk2.0-0 libgtk2.0-bin
   libgtk2.0-common libgtk2.0-dev libxml2-utils
 
+# raspberrypi-ui-mods
+xserver-xorg-input-all hunspell-en-us alsa-base lxde-core libhttp-daemon-perl libgdata-common gnome-keyring libldb1 xserver-xorg
+libhttp-message-perl fuse gconf2-common libglade2-0 xserver-xorg-video-vesa libgksu2-0 liblxqt-l10n
+dbus-x11 enchant libwww-robotrules-perl libaa1 libgles2-mesa libdrm-freedreno1 gnome-accessibility-themes libraw1394-11 libencode-locale-perl
+libjpeg-turbo-progs libqt5svg5 rc-gui libfontenc1 libxcb-icccm4 libgstreamer0.10-0 libplist3 libart-2.0-2 libvte-2.91-0  
+libimlib2 termit libgnomecanvas2-common libgtop2-common xserver-xorg-video-nouveau libauthen-sasl-perl
+xserver-xorg-video-fbturbo libdrm-nouveau21 libgnomeui-0 xserver-xorg-video-amdgpu gvfs-backends libxklavier16
+raspberrypi-ui-mods libfile-basedir-perl libnet-ssleay-perl libgcr-base-3-1 xserver-common libxcb-xfixes0 libwacom-common lxtask
+libhtml-form-perl python-xdg lxsession-logout qt5-gtk-platformtheme xserver-xorg-core lxplug-ptbatt libdv4
+lxpanel-data plymouth-themes libgoa-1.0-0b rpd-icons libgoa-1.0-common libcdparanoia0 ntfs-3g libtxc-dxtn-s2tc libfile-desktopentry-perl
+gnome-mime-data libfm4 libfm-modules libfm-extra4 laptop-detect libhttp-negotiate-perl libpciaccess0 libpgm-5.2-0 libxcb-present0 
+libshout3 libzmq5 gstreamer1.0-plugins-good libipc-system-simple-perl libgstreamer-plugins-base0.10-0 libglapi-mesa libxfce4util7 libsecret-1-0 
+liborc-0.4-0 libcdio13 libgnome-keyring-common giblib1 libogg0 libxcb-render-util0 libqt5xdg2 gnome-icon-theme fontconfig-infinality
+pimixer libarchive13 lxsession-default-apps p11-kit lightdm-gtk-greeter xserver-xorg-video-fbdev libhttp-date-perl libxcb-util0
+liblwp-mediatypes-perl libqt5dbus5 lxmenu-data gconf-service libcdio-cdda1 libgdata22 xfonts-utils lxde-common notification-daemon
+rpd-wallpaper xserver-xorg-input-libinput lxde-icon-theme gcr gnome-themes-standard xserver-xorg-legacy libqt5widgets5 libfm-gtk4 libpolkit-qt5-1-1
+mesa-utils libvorbisfile3 libmtdev1 libwacom-bin libbonobo2-common libegl1-mesa gstreamer1.0-plugins-base libid3tag0 libsecret-common 
+light-locker x11-xkb-utils gnome-screenshot gtk2-engines-clearlookspix libxcb-randr0 lxplug-ejecter libhyphen0 libwww-perl pishutdown
+gnome-themes-standard-data libio-html-perl libntfs-3g871 libwavpack1 libbdplus0 xserver-xorg-input-wacom libobrender32v5 libnet-http-perl
+libcanberra-gtk3-module p11-kit-modules liboauth0 libopus0 libbonoboui2-common libvpx4 raspberrypi-artwork libgcr-ui-3-1 libnet-smtp-ssl-perl
+libturbojpeg0 libio-socket-ssl-perl libqt5xml5 libpam-gnome-keyring gstreamer1.0-pulseaudio libgbm1 libkeybinder0 libxshmfence1 obconf
+python-talloc libxkbcommon-x11-0 libllvm3.9 libusbmuxd4 libwayland-client0 libaspell15 samba-libs libstartup-notification0
+libcdio-paranoia1 pi-greeter gdisk libdrm-amdgpu1 libinput-bin libhtml-tagset-perl libqt5gui5 libnfs8 udisks2 libfile-mimeinfo-perl 
+gvfs-libs gvfs-fuse libfile-listing-perl lxplug-bluetooth gksu libpulse0 libgnomeui-common libcaca0 libxcb-image0 libimobiledevice6
+xscreensaver-data liblwp-protocol-https-perl libqt5x11extras5 lxsession libgcr-3-common gtk2-engines-pixbuf libiec61883-0 libxv1
+liblxqt0 libvorbisenc2 libtag1v5 libfuse2 exfat-utils xfconf libgif7 libspeex1 libwnck-common libenchant1c2a libhtml-tree-perl libaacs0
+libjack-jackd2-0 libxcb-xinerama0 libxcb-keysyms1 libmailtools-perl zenity perl-openssl-defaults libpcre2-8-0 libglew2.0 libgck-1-0 
+libxfont1 libxfont2 libgstreamer-plugins-base1.0-0 libtheora0 libsndfile1 libxcb-shape0 gstreamer1.0-x libwebkit2gtk-4.0-37 libdbus-glib-1-2
+libgnome-2-0 libmenu-cache-bin libqt5core5a libcanberra-gtk3-0 libglu1-mesa libfont-afm-perl libhttp-cookies-perl xserver-xorg-video-all
+lxplug-network xserver-xorg-video-ati eject libxxf86dga1 emacsen-common libkf5windowsystem5 libasyncns0 libgl1-mesa-dri aspell
+exfat-fuse lxlock libsmbclient libbonoboui2-0 libsodium18 libtdb1 desktop-base x11-xserver-utils libxxf86vm1 lxplug-volume libxfce4util-bin
+libvisual-0.4-0 libgnome-keyring0 scrot dictionaries-common openbox gvfs libobt2v5 libgl1-mesa-glx xserver-xorg-video-radeon usbmuxd 
+libgnomevfs2-common libhunspell-1.4-0 lxqt-policykit-l10n libvte-2.91-common libflac8 xfonts-base libfm-data pipanel qttranslations5-l10n
+lxinput libwacom2 xscreensaver libudisks2-0 gstreamer0.10-alsa point-rpi gvfs-common libkf5windowsystem-data fonts-piboto 
+lxrandr libxres1 openbox-lxde-session gstreamer0.10-plugins-base libdrm-radeon1 dbus-user-session lxsession-data x11-utils 
+libgnomevfs2-0 libvorbis0a libxfce4util-common lxpanel libqt5network5 miscfiles lxqt-policykit pcmanfm libtag1v5-vanilla libmenu-cache3
+libqt5xdgiconloader2 libbluetooth3 xfonts-encodings xinput libcanberra0 libgconf-2-4 liborbit-2-0 pinentry-gnome3 libavc1394-0 libgnomecanvas2-0
+libxcb-glx0 desktop-file-utils libtevent0 libxcb-dri2-0 libxfconf-0-2 libbonobo2-0 libjavascriptcoregtk-4.0-18 libhtml-parser-perl
+libsensors4 libgstreamer1.0-0 libnotify4 liburi-perl gvfs-daemons libxcb-dri3-0 libwnck22 gconf2 libbluray1 lightdm libatasmart4
+libgnome2-common zenity-common bluealsa rpd-plym-splash libunique-1.0-0 libwayland-server0 libxcb-xkb1 liblightdm-gobject-1-0 libx11-xcb1
+libxcb-sync1 libgtop-2.0-10 libsbc1 libinput10 libgnomevfs2-extra libxslt1.1 libdouble-conversion1 aspell-en libfm-gtk-data 
+libhtml-format-perl libevdev2
+
+# pianobar
+  libao-common libao4 libass5 libavcodec57 libavfilter6 libavformat57
+  libavresample3 libavutil55 libbs2b0 libchromaprint1 libebur128-1 libflite1
+  libfribidi0 libgme0 libgsm1 libjson-c3 libmp3lame0 libmpg123-0
+  libopencv-core2.4v5 libopencv-imgproc2.4v5 libopenmpt0 libpiano0
+  libpostproc54 librubberband2 libshine3 libsnappy1v5 libsoxr0 libssh-gcrypt-4
+  libswresample2 libswscale4 libtwolame0 libva-drm1 libva-x11-1 libva1
+  libvdpau-va-gl1 libvdpau1 libx264-148 libx265-95 libxvidcore4 libzvbi-common
+  libzvbi0 mesa-va-drivers mesa-vdpau-drivers pianobar va-driver-all
+  vdpau-driver-all
+
