@@ -77,3 +77,6 @@ openjdk-8-jre-headless
   xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-nouveau
   xserver-xorg-video-radeon xserver-xorg-video-vesa xinit
 
+# xterm 
+libutempter0 libxcb-shape0 libxv1 libxxf86dga1 x11-utils xbitmaps xterm
+
