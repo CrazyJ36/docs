@@ -41,19 +41,14 @@ libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
   x11proto-record-dev x11proto-render-dev x11proto-xext-dev
   x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
 
-# x11-apps (after install vncserver with rasp-config>enable vnc)
-libice6 libsm6 libxaw7 libxcursor1 libxfixes3 libxft2 libxkbfile1 libxmu6
-libxt6 x11-apps xbitmaps
+# in use by libgtk. originally installed with x11-apps (list from the after install vncserver with rasp-config>enable vnc)
+libice6 libsm6 libxcursor1 libxfixes3 libxft2
 
 # python3-tk
 blt libtcl8.6 libtk8.6 libxss1 python3-tk tk8.6-blt2.5
 
 # python3-rpi.gpio
 python3-rpi.gpio
-
-# libgtk2.0-dev
-  gir1.2-gtk-2.0 libgail-common libgail18 libgtk2.0-0 libgtk2.0-bin
-  libgtk2.0-common libgtk2.0-dev libxml2-utils
 
 # pianobar
   libao-common libao4 libass5 libavcodec57 libavfilter6 libavformat57
