@@ -3,4 +3,4 @@ You can get names and PIDs' from:
 $ ps -a
 
 This worked for something as low-level as aplay:
-killall -STOP aplay
+killall -s KILL aplay

@@ -66,21 +66,6 @@ python3-rpi.gpio
 ca-certificates-java java-common openjdk-8-jdk-headless
 openjdk-8-jre-headless
 
-# xserver
-  libdrm-amdgpu1 libdrm-nouveau2 libdrm-radeon1 libegl1-mesa libevdev2
-  libfontenc1 libgbm1 libgl1-mesa-glx libglapi-mesa libinput-bin libinput10
-  libmtdev1 libpciaccess0 libwacom-common libwacom2 libwayland-client0
-  libwayland-server0 libx11-xcb1 libxaw7 libxcb-dri2-0 libxcb-dri3-0
-  libxcb-glx0 libxcb-present0 libxcb-sync1 libxcb-xfixes0 libxfont2
-  libxkbfile1 libxmu6 libxshmfence1 libxt6 libxxf86vm1 x11-xkb-utils
-  xserver-common xserver-xorg xserver-xorg-core xserver-xorg-input-all
-  xserver-xorg-input-libinput xserver-xorg-video-all xserver-xorg-video-amdgpu
-  xserver-xorg-video-ati xserver-xorg-video-fbdev xserver-xorg-video-nouveau
-  xserver-xorg-video-radeon xserver-xorg-video-vesa xinit
-
-# xterm 
-libutempter0 libxcb-shape0 libxv1 libxxf86dga1 x11-utils xbitmaps xterm
-
 # realvnc-vnc-server
   bc cups cups-browsed cups-client cups-core-drivers cups-daemon cups-filters
   cups-filters-core-drivers cups-ppdc cups-server-common libavahi-glib1

@@ -1,8 +1,4 @@
 # Gathering info first, organize later into instructions.
-delete /RaspController
-### startup
-work on .profile script and make sure no graphics(xserver, vnc)
-run at startup.
 
 #### VNC
 I think Vnc server runs at boot verify(and disable)
