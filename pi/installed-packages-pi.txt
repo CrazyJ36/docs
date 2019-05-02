@@ -77,3 +77,5 @@ openjdk-8-jre-headless
   feh fluxbox libgif7 libid3tag0 libimlib2 libjpeg-progs libjpeg9 libxfont1
   menu xfonts-encodings xfonts-terminus xfonts-utils
 
+# small terminal rxvt
+rxvt
