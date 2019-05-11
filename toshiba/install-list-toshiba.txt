@@ -185,3 +185,22 @@ libblas3 liblinear3 liblua5.3-0 nmap
 
 # jdk8
 openjdk-8-jdk-headless openjdk-8-jre-headless
+
+# i3
+  dunst fonts-dejavu fonts-dejavu-extra fonts-vlgothic i3 i3-wm i3lock
+  i3status libanyevent-i3-perl libanyevent-perl libasync-interrupt-perl
+  libasyncns0 libcommon-sense-perl libconfuse-common libconfuse2
+  libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libev-perl
+  libev4 libflac8 libfontenc1 libgl1 libgl1-mesa-dri libgl1-mesa-glx
+  libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libguard-perl libice6
+  libjson-xs-perl libllvm7 libpciaccess0 libpulse0 libsensors4 libsm6
+  libsndfile1 libstartup-notification0 libtypes-serialiser-perl libx11-xcb1
+  libxaw7 libxcb-cursor0 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-icccm4
+  libxcb-image0 libxcb-keysyms1 libxcb-present0 libxcb-randr0
+  libxcb-render-util0 libxcb-shape0 libxcb-sync1 libxcb-util1 libxcb-xinerama0
+  libxcb-xkb1 libxcb-xrm0 libxcomposite1 libxdamage1 libxdg-basedir1 libxft2
+  libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxmu6 libxpm4 libxrandr2
+  libxshmfence1 libxss1 libxt6 libxv1 libxxf86dga1 libxxf86vm1 libyajl2
+  ncurses-term rxvt-unicode suckless-tools x11-utils xfonts-base
+  xfonts-encodings xfonts-utils
+
