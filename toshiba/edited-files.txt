@@ -1,2 +1,3 @@
 # /etc/ssh/ssh_config
-changed Port to 23456 from 22
+changed Port to 23457 from 22
+(pi is using port 23456 from outside)
