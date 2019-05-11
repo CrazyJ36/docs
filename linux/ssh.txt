@@ -19,3 +19,13 @@ $ sshd
 $ pkill sshd
 See https://wiki.termux.com/wiki/Remote_Access for 
 more.
+
+# SSH Ports
+To avoid conflicts, you should make different ports for ssh-in connections
+and ssh-out connections. ssh-in meaning ssh to this server from anywhere.
+ssh out meaning to connect to other computers, or git.
+- /etc/ssh/ssh_config should stay port 22, this allows any 'normal'
+server(like bitbucket, github) to be reached for git push/pull.
+- /etc/ssh/sshd_config shoud be changed to an unused port(like 23456)
+so that any device can connect to your server from anywhere while 
+avoiding conflicts.
