@@ -204,3 +204,17 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   ncurses-term rxvt-unicode suckless-tools x11-utils xfonts-base
   xfonts-encodings xfonts-utils
 
+# xinit
+  apport apport-symptoms libegl-mesa0 libegl1 libegl1-mesa libepoxy0 libevdev2
+  libgbm1 libgudev-1.0-0 libinput-bin libinput10 libmtdev1 libpolkit-agent-1-0
+  libpolkit-backend-1-0 libwacom-bin libwacom-common libwacom2
+  libwayland-client0 libwayland-server0 libxatracker2 libxcb-xfixes0
+  libxcursor1 libxfont2 libxkbfile1 libxvmc1 policykit-1 python3-apport
+  python3-httplib2 python3-problem-report python3-requests-unixsocket
+  python3-systemd x11-xkb-utils xinit xserver-common xserver-xorg
+  xserver-xorg-core xserver-xorg-input-all xserver-xorg-input-libinput
+  xserver-xorg-input-wacom xserver-xorg-legacy xserver-xorg-video-all
+  xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev
+  xserver-xorg-video-intel xserver-xorg-video-nouveau xserver-xorg-video-qxl
+  xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware
+
