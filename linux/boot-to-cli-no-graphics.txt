@@ -1,0 +1,11 @@
+# Makes ubuntu mini cli-only, no x graphics.
+- edit /etc/default/grub:
+GRUB_CMDLINE_LINUX_DEFAULT="text"
+GRUB_TERMINAL=console
+
+- run:
+$ sudo update-grub
+$ sudo systemctl set-default multi-user.target
+
+# Undo text-only mode
+$ sudo systemctl set-default graphical.target
