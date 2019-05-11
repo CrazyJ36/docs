@@ -43,7 +43,8 @@ python3-gpiozero python3-spidev python3-colorzero
 javascript-common libjs-jquery libjs-sphinxdoc libjs-underscore
 python-gpiozero-doc
 
-# libgtk3-dev pianobar apache elinks java python3-rpi.gpio python3-tk fluxbox
+# ALL THESE: libgtk3-dev pianobar apache elinks java python3-rpi.gpio python3-tk fluxbox
+
   libaacs0 libbdplus0 libbluray1 libdrm-amdgpu1 libdrm-freedreno1
   libdrm-nouveau2 libdrm-radeon1 libexpat1-dev libfontenc1 libgl1-mesa-dri
   libgl1-mesa-glx libglapi-mesa libllvm3.9 libogg0 libopus0 libpgm-5.2-0
