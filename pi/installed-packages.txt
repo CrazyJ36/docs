@@ -38,18 +38,18 @@ libpango-1.0-0  libcupscgi1  poppler-data  cups-client
 libpng12-0  libdconf1  libnspr4  libsane  update-inetd  
 cups-browsed  colord  imagemagick-6-common libdatrie1 
 
-# gpiozero
-python-gpiozero python-gpiozero-doc
+# python3-gpiozero python-gpiozero-doc
+python3-gpiozero python3-spidev python3-colorzero
+javascript-common libjs-jquery libjs-sphinxdoc libjs-underscore
+python-gpiozero-doc
 
-
-# libgtk3-dev pianobar apache elinks java
+# libgtk3-dev pianobar apache elinks java python3-rpi.gpio python3-tk fluxbox
   libaacs0 libbdplus0 libbluray1 libdrm-amdgpu1 libdrm-freedreno1
   libdrm-nouveau2 libdrm-radeon1 libexpat1-dev libfontenc1 libgl1-mesa-dri
   libgl1-mesa-glx libglapi-mesa libllvm3.9 libogg0 libopus0 libpgm-5.2-0
   libsensors4 libsodium18 libspeex1 libtheora0 libtxc-dxtn-s2tc libvorbis0a
   libvorbisenc2 libvorbisfile3 libvpx4 libwavpack1 libwebpmux2 libx11-xcb1
   libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-sync1  libxshmfence1 libxxf86vm1 libzmq5
-
   adwaita-icon-theme apache2 apache2-bin apache2-data apache2-utils
   at-spi2-core autoconf automake autopoint autotools-dev blt
   ca-certificates-java debhelper dh-autoreconf dh-strip-nondeterminism elinks
@@ -100,3 +100,4 @@ python-gpiozero python-gpiozero-doc
   x11proto-randr-dev x11proto-record-dev x11proto-render-dev x11proto-xext-dev
   x11proto-xinerama-dev xfonts-encodings xfonts-terminus xfonts-utils
   xorg-sgml-doctools xtrans-dev
+
