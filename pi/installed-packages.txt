@@ -1,0 +1,42 @@
+# git
+git git-man liberror-perl
+
+# libbcm2835. PI C library for GPIO interfacing. Built from source.
+libbcm2835.a: in /usr/local/lib
+bcm2835.h: in /usr/local/include
+
+# vnc-auto
+libsane-extras  libdjvulibre-text  libwebp6  libqpdf17 
+liblouisutdml-data  libopenjp2-7  libpangoft2-1.0-0  
+libjxr0  poppler-utils  libgusb2  libgphoto2-port12  
+libieee1284-3  libcups2  netpbm  bc  libgphoto2-6  
+libgdk-pixbuf2.0-0  sane-utils  liblcms2-2  dconf-service
+imagemagick  acl  libgd3  libavahi-glib1  libgs9 
+libpixman-1-0  libxrender1  libmagickwand-6.q16-3 
+liblouis12  dconf-gsettings-backend  libgphoto2-l10n
+libthai-data  fonts-droid-fallback  cups-server-common 
+libxcb-shm0  libxcb-render0  libwmf0.2-7  cups-common 
+ssl-cert  colord-data  libgudev-1.0-0  fontconfig-config 
+libsane-extras-common  libltdl7  libpaper1  liblqr-1-0  
+libexif12  cups-filters  fontconfig  imagemagick-6.q16  
+libtiff5  libpangocairo-1.0-0  cups-ppdc  libcupsmime1  
+libxtst6  libxi6  libjbig2dec0  libilmbase12  liblouisutdml7
+libcupsfilters1  fonts-dejavu-core  printer-driver-gutenprint
+realvnc-vnc-server  libpaper-utils  ghostscript  libcolord2 
+libfontembed1  hicolor-icon-theme  libthai0  libgutenprint2 
+libijs-0.35  libfontconfig1  libfile-copy-recursive-perl 
+libgdk-pixbuf2.0-common  libopenexr22  libmagickcore-6.q16-3
+liblouisutdml-bin  libgs9-common  gsfonts  libgraphite2-3  
+libfftw3-double3  qpdf  cups-filters-core-drivers 
+libdjvulibre21  libjbig0  libsane-common  libcupsppdc1 
+libnss3  liblouis-data  libmagickcore-6.q16-3-extra
+libjxr-tools  x11-common  libxpm4  libnetpbm10  
+cups-core-drivers  cups-daemon  libharfbuzz0b  libyaml-0-2  
+libcolorhug2  libcairo2  libcupsimage2  libpoppler64  
+libavahi-client3  fonts-noto-mono  cups  
+libpango-1.0-0  libcupscgi1  poppler-data  cups-client 
+libpng12-0  libdconf1  libnspr4  libsane  update-inetd  
+cups-browsed  colord  imagemagick-6-common libdatrie1 
+
+# gpiozero
+python-gpiozero python-gpiozero-doc
