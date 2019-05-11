@@ -79,3 +79,6 @@ openjdk-8-jre-headless
 
 # small terminal rxvt
 rxvt
+
+# gpiozero
+python-gpiozero python-gpiozero-doc
