@@ -1,0 +1,7 @@
+tmux libutempter0
+
+python3-rpi.gpio
+
+python3-colorzero
+python3-spidev python3-gpiozero
+
