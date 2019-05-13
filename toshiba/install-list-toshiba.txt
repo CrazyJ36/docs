@@ -200,7 +200,7 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   libxcb-xkb1 libxcb-xrm0 libxcomposite1 libxdamage1 libxdg-basedir1 libxft2
   libxinerama1 libxkbcommon-x11-0 libxkbcommon0 libxmu6 libxpm4 libxrandr2
   libxshmfence1 libxss1 libxt6 libxv1 libxxf86dga1 libxxf86vm1 libyajl2
-  ncurses-term rxvt-unicode suckless-tools x11-utils xfonts-base
+  ncurses-term suckless-tools x11-utils xfonts-base
   xfonts-encodings xfonts-utils
 
 # xinit
@@ -352,8 +352,9 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   x11proto-randr-dev x11proto-record-dev x11proto-xext-dev
   x11proto-xf86vidmode-dev x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
 
-# xvt
-xvt
+# fonts..
+fonts-dejavu-core fonts-liberation fontconfig-config
 
-# stterm
-stterm
+# rxvt
+  fonts-dejavu fonts-dejavu-extra fonts-vlgothic rxvt-unicode
+
