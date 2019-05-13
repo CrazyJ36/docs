@@ -1,18 +1,3 @@
-# Gathering info first, organize later into instructions.
-
-#### VNC
-I think Vnc server runs at boot verify(and disable)
-
-in ~/.profile, I have 'export DISPLAY=":1"' as that was normally used while 
-not being used to it. try on next boot with display0.
-
-Vnc server seems to run be always running 'virtual' mode,
-# Stopped with:
-$ vncserver-virtual -kill :1
-
-More info here:
-https://www.realvnc.com/en/connect/docs/unix-start-stop.html
-
 ### AUDIO
 here:
 https://raspberrypi.stackexchange.com/questions/73706/how-can-i-select-the-audio-output-to-be-a-known-bluetooth-device-headless

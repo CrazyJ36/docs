@@ -1,0 +1,4 @@
+# power-in directly at board
+the 5v pins can be used to power the pi. This would 
+make A system even smaller.
+
