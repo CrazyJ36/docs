@@ -1,0 +1,12 @@
+There are two files in /etc/NetworkManager/conf.d/wifi-powersave-[on,off]
+
+wifi.powersave = [0,1,2,3] options mean:
+
+- 0 = NM_SETTING_WORELESS_POWERSAVE_DEFAULT: default setting. I don't know what
+default is(normal, when needed?)
+
+- 1 = NM_SETTING_WIRELESS_POWERSAVE_IGNORE: don't touch setting
+
+- 2 = NM_SETTING_WIRELESS_POWERSAVE_DISABLE: disable powersaving
+
+- 3 = NM_SETTING_WIRELESS_POWERSAVE_ENABLE: enable powersaving
