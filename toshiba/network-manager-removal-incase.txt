@@ -1,0 +1,58 @@
+Reading package lists...
+Building dependency tree...
+Reading state information...
+The following packages were automatically installed and are no longer required:
+  aptdaemon aptdaemon-data diffstat dns-root-data dnsmasq-base fonts-ubuntu
+  geoclue-2.0 gir1.2-vte-2.91 gnome-control-center-data gnome-settings-daemon
+  iio-sensor-proxy iputils-arping language-selector-gnome libapt-pkg-perl
+  libauthen-sasl-perl libbluetooth3 libcgi-fast-perl libcgi-pm-perl
+  libclass-accessor-perl libclone-perl libcolord-gtk1 libdata-dump-perl
+  libdigest-hmac-perl libemail-valid-perl libencode-locale-perl
+  libexporter-tiny-perl libfcgi-perl libfile-basedir-perl libfile-listing-perl
+  libfont-afm-perl libgeoclue-2-0 libgmime-3.0-0 libgrilo-0.3-0
+  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libio-html-perl libio-pty-perl
+  libio-socket-inet6-perl libio-socket-ssl-perl libio-string-perl
+  libipc-run-perl libipc-system-simple-perl liblist-moreutils-perl
+  liblwp-mediatypes-perl liblwp-protocol-https-perl libmailtools-perl
+  libmbim-glib4 libmbim-proxy libmm-glib0 libndp0 libnet-dns-perl
+  libnet-domain-tld-perl libnet-http-perl libnet-ip-perl libnet-libidn-perl
+  libnet-smtp-ssl-perl libnm0 libnma0 libnss-myhostname
+  libparse-debianchangelog-perl libperlio-gzip-perl libqmi-glib5 libqmi-proxy
+  libsbc1 libsocket6-perl libsub-name-perl libteamdctl0
+  libtext-levenshtein-perl libtotem-plparser-common libtotem-plparser18
+  libtry-tiny-perl liburi-perl libvte-2.91-0 libvte-2.91-common libwww-perl
+  libwww-robotrules-perl libxml-libxml-perl libxml-namespacesupport-perl
+  libxml-parser-perl libxml-sax-base-perl libxml-sax-expat-perl
+  libxml-sax-perl libxml-simple-perl libyaml-libyaml-perl lintian
+  mobile-broadband-provider-info modemmanager patchutils ppp pptp-linux
+  pulseaudio-module-bluetooth python3-aptdaemon python3-aptdaemon.gtk3widgets
+  python3-defer t1utils usb-modeswitch usb-modeswitch-data
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  gnome-control-center* network-manager* network-manager-gnome*
+  network-manager-pptp*
+0 upgraded, 0 newly installed, 4 to remove and 0 not upgraded.
+After this operation, 14.2 MB disk space will be freed.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 141880 files and directories currently installed.)
+Removing gnome-control-center (1:3.28.2-0ubuntu0.18.04.3) ...
+Removing network-manager-gnome (1.8.10-2ubuntu2) ...
+Removing network-manager-pptp (1.2.6-1) ...
+Removing network-manager (1.10.6-2ubuntu1.1) ...
+Processing triggers for mime-support (3.60ubuntu1) ...
+Processing triggers for desktop-file-utils (0.23-1ubuntu3.18.04.2) ...
+Processing triggers for libglib2.0-0:i386 (2.56.4-0ubuntu0.18.04.2) ...
+Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Processing triggers for gnome-menus (3.13.3-11ubuntu1.1) ...
+Processing triggers for dbus (1.12.2-1ubuntu1) ...
+Processing triggers for hicolor-icon-theme (0.17-2) ...
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 141658 files and directories currently installed.)
+Purging configuration files for network-manager-pptp (1.2.6-1) ...
+Purging configuration files for network-manager-gnome (1.8.10-2ubuntu2) ...
+Purging configuration files for network-manager (1.10.6-2ubuntu1.1) ...
+Processing triggers for ureadahead (0.100.0-21) ...
+ureadahead will be reprofiled on next reboot
+Processing triggers for systemd (237-3ubuntu10.21) ...
+Processing triggers for dbus (1.12.2-1ubuntu1) ...

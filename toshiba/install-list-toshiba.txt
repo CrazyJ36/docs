@@ -52,7 +52,6 @@ alpine
 
 # poppler-utils
 fontconfig-config
-fonts-dejavu-core
 libcairo2
 libfontconfig1
 libjbig0
@@ -352,9 +351,10 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   x11proto-randr-dev x11proto-record-dev x11proto-xext-dev
   x11proto-xf86vidmode-dev x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
 
-# fonts..
-fonts-dejavu-core fonts-liberation fontconfig-config
+# fonts... commented ones might be removed 
+fonts-liberation fontconfig-config
+
 
 # rxvt
-  fonts-dejavu fonts-dejavu-extra fonts-vlgothic rxvt-unicode
+rxvt-unicode
 

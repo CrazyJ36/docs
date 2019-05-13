@@ -1,0 +1,4 @@
+$dpkg -S command
+
+outputs:
+package: /usr/bin/command
