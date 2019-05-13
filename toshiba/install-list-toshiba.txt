@@ -351,3 +351,9 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   x11proto-damage-dev x11proto-dev x11proto-fixes-dev x11proto-input-dev
   x11proto-randr-dev x11proto-record-dev x11proto-xext-dev
   x11proto-xf86vidmode-dev x11proto-xinerama-dev xorg-sgml-doctools xtrans-dev
+
+# xvt
+xvt
+
+# stterm
+stterm
