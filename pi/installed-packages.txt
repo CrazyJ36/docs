@@ -5,3 +5,13 @@ python3-rpi.gpio
 python3-colorzero
 python3-spidev python3-gpiozero
 
+apache2
+apache2-bin
+apache2-data
+apache2-utils
+libapr1
+libaprutil1
+libaprutil1-dbd-sqlite3
+libaprutil1-ldap
+liblua5.2-0
+ssl-cert
