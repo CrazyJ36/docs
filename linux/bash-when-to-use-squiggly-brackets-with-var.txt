@@ -1,0 +1,4 @@
+In bash, to use/insert variables before text,
+you must use "${var}text".
+you can add text after(like numbers from counter loop) like:
+text$var
