@@ -1,0 +1,6 @@
+This will change where your local repo points to remotely.
+In case you need to upload your code to A different git host(Github, Bitbucket):
+$ git remote set-url origin git@[server.com]:User/repo-name.git
+
+Show current settings before or after change:
+$ git remote -v
