@@ -1,9 +1,11 @@
-tmux libutempter0
+tmux
+libutempter0
 
 python3-rpi.gpio
 
 python3-colorzero
-python3-spidev python3-gpiozero
+python3-spidev
+python3-gpiozero
 
 apache2
 apache2-bin
@@ -15,3 +17,9 @@ libaprutil1-dbd-sqlite3
 libaprutil1-ldap
 liblua5.2-0
 ssl-cert
+
+elinks
+libfsplib0
+libgpm2
+liblua5.1-0
+libtre5
