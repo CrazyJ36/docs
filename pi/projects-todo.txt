@@ -1,0 +1,23 @@
+### BLUETOOTH AUDIO
+here:
+https://raspberrypi.stackexchange.com/questions/73706/how-can-i-select-the-audio-output-to-be-a-known-bluetooth-device-headless
+
+when raspbian-desktop(raspberrypi-ui-mods) was running, bluetooth
+audio worked. A package was bluealsa. try other methods, no package first.
+video on youtube explaining pairing. the site above selects audio out to bluetooth
+
+
+### POWER-IN DIRECTLY AT BOARD
+The 5v pins can be used to power the pi. This would 
+make A system even smaller.
+
+
+### USB DIRECT CONNECT FOR PERMANENT USB GADGET
+Cut male usb cable to use it's wires.
+Mount the usb port somehow on the pi
+
+red- 5v
+black- ground
+green- center set of inward micro-usb bottom pins, closest to power
+white- other inward pin of micro-usb pin
+
