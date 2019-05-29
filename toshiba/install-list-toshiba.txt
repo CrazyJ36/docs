@@ -358,3 +358,27 @@ fonts-liberation fontconfig-config
 # rxvt
 rxvt-unicode
 
+# firefox
+firefox
+
+# terminator
+  gir1.2-keybinder-3.0 gir1.2-vte-2.91 libauthen-sasl-perl libdata-dump-perl
+  libencode-locale-perl libfile-basedir-perl libfile-desktopentry-perl
+  libfile-listing-perl libfile-mimeinfo-perl libfont-afm-perl
+  libhtml-form-perl libhtml-format-perl libhtml-parser-perl
+  libhtml-tagset-perl libhtml-tree-perl libhttp-cookies-perl
+  libhttp-daemon-perl libhttp-date-perl libhttp-message-perl
+  libhttp-negotiate-perl libio-html-perl libio-socket-ssl-perl
+  libipc-system-simple-perl libkeybinder-3.0-0 liblwp-mediatypes-perl
+  liblwp-protocol-https-perl libmailtools-perl libnet-dbus-perl
+  libnet-http-perl libnet-smtp-ssl-perl libpython-stdlib libtie-ixhash-perl
+  libtry-tiny-perl liburi-perl libvte-2.91-0 libvte-2.91-common libwww-perl
+  libwww-robotrules-perl libx11-protocol-perl libxml-parser-perl
+  libxml-twig-perl libxml-xpathengine-perl python python-cairo python-dbus
+  python-gi python-gi-cairo python-minimal python-psutil python2.7
+  python2.7-minimal terminator x11-xserver-utils xdg-utils
+
+# pavucontrol
+  libatkmm-1.6-1v5 libcairomm-1.0-1v5 libglibmm-2.4-1v5 libgtkmm-3.0-1v5
+  libpangomm-1.4-1v5 libsigc++-2.0-0v5 pavucontrol
+
