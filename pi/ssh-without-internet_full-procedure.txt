@@ -4,7 +4,8 @@
  dtoverlay=dwc2
 - in boot partition cmdline.txt append after 'rootwait':
  modules-load=dwc2,g_ether
-- (may or may not need to blank 'ssh' file in boot partition in windows)
+- ($ touch ssh) in root of sd
+- refer to add-wifi-network-headless_wpa_supplicant for instant wifi
 - insert sd into pi
 - connect usb from pi OTG(not power) to usb in pc
 - if windows doesn't see pi as usb ethernet/rndis gadget network controller type,
