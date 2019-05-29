@@ -1,3 +1,6 @@
 - /etc/ssh/sshd_config: at 'Port' line was 22, now '23456' for
  ssh server(out). 
  The ssh_config remains port 22(in).
+
+- /etc/dhcpcd.conf
+  add static ip address block for pi wlan0
