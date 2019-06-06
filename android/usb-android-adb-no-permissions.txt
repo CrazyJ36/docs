@@ -7,16 +7,16 @@ $ sudo nano /etc/udev/rules.d/51-android.rules
 example 51-android.rules:
 _________
 # LG Connect 4G usb init
-SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="6315", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="1234", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
 
 # ZTE Z Blade Max usb init
 # normal adb/storage mode
-SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="0501", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="1234", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
 # usb tethering mode
-SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="1373", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+SUBSYSTEM=="usb" ATTR{idVendor}=="19d2", ATTR{idProduct}=="1234", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
 
 # LG Stylo 4 usb init
-SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="61f9", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
+SUBSYSTEM=="usb" ATTR{idVendor}=="1004", ATTR{idProduct}=="1234", MODE="0660", GROUP="plugdev", SYMLINK+="android%n"
 _________
 the ATTR{} fields are values from lsusb
 
