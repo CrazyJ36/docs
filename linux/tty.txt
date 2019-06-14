@@ -13,6 +13,9 @@ $ setupcon
 tput cols -shows columbs
 tput lines -shows rows
 
+- or
+stty size
+
 # TTY Session management
 -see current session tty name:
 $ tty
