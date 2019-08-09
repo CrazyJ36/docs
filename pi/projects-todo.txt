@@ -11,6 +11,8 @@ video on youtube explaining pairing. the site above selects audio out to bluetoo
 The 5v pins can be used to power the pi. This would 
 make A system even smaller.
 
+### Battery
+Self-explainatory
 
 ### USB DIRECT CONNECT FOR PERMANENT USB GADGET
 Cut male usb cable to use it's wires.

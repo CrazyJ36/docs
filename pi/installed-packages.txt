@@ -1,25 +1,14 @@
-tmux
-libutempter0
+git git-man libcurl3-gnutls liberror-perl
 
-python3-rpi.gpio
+python3-colorzero python3-gpiozero python3-rpi.gpio python3-spidev
 
-python3-colorzero
-python3-spidev
-python3-gpiozero
-
-apache2
-apache2-bin
-apache2-data
-apache2-utils
-libapr1
-libaprutil1
-libaprutil1-dbd-sqlite3
-libaprutil1-ldap
-liblua5.2-0
+apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libjansson4 liblua5.2-0
 ssl-cert
 
-elinks
-libfsplib0
-libgpm2
-liblua5.1-0
-libtre5
+elinks elinks-data libev4 libfsplib0 liblua5.1-0 libtre5
+
+ca-certificates-java fontconfig-config fonts-dejavu-core java-common
+libavahi-client3 libcups2 libfontconfig1 liblcms2-2 libnspr4 libnss3 libxi6
+libxrender1 libxtst6 openjdk-8-jdk-headless openjdk-8-jre-headless
+x11-common
