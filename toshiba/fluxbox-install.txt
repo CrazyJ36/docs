@@ -1,0 +1,2 @@
+  feh fluxbox libgif7 libid3tag0 libimlib2 libjpeg-progs libjpeg9 menu
+  xfonts-terminus yudit-common

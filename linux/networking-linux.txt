@@ -1,5 +1,5 @@
 Remember to switch pc wireless switch on.
-Remember if using phone mobile hotspot to enter correct SSID between phone and pc.
+Remember to enter correct SSID.
 If you can't see adapter hardware, check '$ lshw' and make sure wifi adapter is supported with drivers.
 
 # test connection, should send and recieve web packets
