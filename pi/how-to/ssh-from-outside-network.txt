@@ -1,6 +1,16 @@
 - in pi: change /etc/sshd_config 'Port' to unique port like 23456
-to not cross other system configs. don't change 'ssh_config', ssh_config
-port must stay 22 for outside services, like bitbucket to get in.
-- in router config(browse to 192.168.0.1): add port forward entry
+DO NOT 'ssh_config', this files port must stay 22 for outside services, 
+like bitbucket/github to get in.
+
+- in router config(browse to 192.168.1.1): add port forward entry
 using above port numbers. With pi's private ip as host.
-- while not connected to home wifi: '$ ssh -p 23456 pi@public-ip'
+Example:
+Name: PI2 SSH Public
+Protocol: TCP-UPD
+External Host: * (meaning all, this specifies which machine ip can get in)
+Internal Host: 192.168.1.166 (Pi2s' Local Wifi IP, use '$ ip address'(under wlan)
+External Port: 1024 (Custom port, don't use 22, it interfears.)
+Internal Port: 1024 (Must be the same as external port)
+
+- while not connected to home wifi:
+$ ssh -p [custom-port] pi@[your-wifis-public-ip]
