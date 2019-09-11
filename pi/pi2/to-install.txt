@@ -96,7 +96,7 @@ libxcb-sync1
 mesa-va-drivers
 
 # git
-git git-man liberror-perl libcurl3-gnutls
+git git-man liberror-perl
 
 # gpiozero
 python3-gpiozero python3-rpi.gpio
