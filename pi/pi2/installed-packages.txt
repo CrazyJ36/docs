@@ -1,0 +1,37 @@
+# git
+git git-man liberror-perl
+
+# pianobar
+fontconfig fontconfig-config fonts-dejavu-core
+libao-common libao4 libaom0 libass9 libavcodec58
+libavfilter7 libavformat58 libavutil56 libbluray2 libbs2b0
+libcairo2 libchromaprint1 libcodec2-0.8.1 libcroco3
+libdatrie1 libdrm-common libdrm2 libfftw3-double3
+libflite1 libfontconfig1 libgdk-pixbuf2.0-0
+libgdk-pixbuf2.0-common libgme0 libgraphite2-3 libgsm1
+libharfbuzz0b libjbig0 liblilv-0-0 libmp3lame0 libmpg123-0
+libmysofa0 libnorm1 libogg0 libopenjp2-7 libopenmpt0
+libopus0 libpango-1.0-0 libpangocairo-1.0-0
+libpangoft2-1.0-0 libpgm-5.2-0 libpiano0 libpixman-1-0
+libpostproc55 librsvg2-2 librubberband2 libserd-0-0
+libshine3 libsnappy1v5 libsodium23 libsord-0-0 libsoxr0
+libspeex1 libsratom-0-0 libssh-gcrypt-4 libswresample3
+libswscale5 libthai-data libthai0 libtheora0 libtiff5
+libtwolame0 libva-drm2 libva-x11-2 libva2 libvdpau1
+libvidstab1.1 libvorbis0a libvorbisenc2 libvorbisfile3
+libvpx5 libwavpack1 libwebp6 libwebpmux3 libx264-155
+libx265-165 libxcb-render0 libxcb-shm0 libxfixes3
+libxrender1 libxvidcore4 libzmq5 libzvbi-common libzvbi0
+pianobar
+
+# GpioZero for Python3
+python3-colorzero python3-gpiozero python3-rpi.gpio
+python3-spidev
+
+# Apache2 Webserver
+apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libjansson4 liblua5.2-0
+ssl-cert
+
+# libbcm2835.a installed to: /usr/local/lib
+# bcm2835.h installed to: /usr/local/include

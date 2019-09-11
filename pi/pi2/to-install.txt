@@ -1,3 +1,0 @@
-git git-man liberror-perl
-python3-gpiozero python3-rpi.gpio
-pianobar
