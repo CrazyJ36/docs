@@ -29,7 +29,9 @@ though the last 1 must be 1 at the last two entries.
 - find interface name(probably enp0s29f..):
   $ ip link
 - add the PIs' ip to PCs' interface card
-  $ ip a add 192.168.7.1/24 dev <interface-name>
+  $ sudo ip a add 192.168.7.1/24 dev <interface-name>
+- set device host up
+  $ sudo ip link set <dev> up
 - $ ssh pi@192.168.7.2
 - if no internet in pi, you could connect PIs' usb to power and it should
   auto-connect with the /etc/wpa_supplicant.conf network entry.
