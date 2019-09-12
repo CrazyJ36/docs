@@ -1,2 +1,0 @@
-/etc/ssh/sshd_config:
-Changed Port to 23456 for incoming connections to ssh deamon
