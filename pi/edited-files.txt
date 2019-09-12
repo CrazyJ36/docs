@@ -1,2 +1,6 @@
 # /etc/ssh/sshd_config
 Port 1024
+
+# /etc/dhcpcd.conf
+static ip section under # USB gadget connection
+
