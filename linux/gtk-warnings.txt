@@ -1,0 +1,7 @@
+Disable the accessibility warning when running any gtk app:
+
+$ export NO_AT_BRIDGE=1
+
+This A temporary workaround for current session. Or you can use it
+in .profile or .bashrc, but you may need to see accessibility warnings
+later.

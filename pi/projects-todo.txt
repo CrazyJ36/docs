@@ -1,3 +1,10 @@
+### Multiple attachable hardware setups
+Get several perma-proto boards for pi zero, and setup them up with
+different hardware to make each board start as A different game, music
+player, or other hardware systems. Could probably detect which board is 
+which with memory chip to start the hardware-specific program when the boards
+are plugged-in/powered on.
+
 ### BLUETOOTH AUDIO
 here:
 https://raspberrypi.stackexchange.com/questions/73706/how-can-i-select-the-audio-output-to-be-a-known-bluetooth-device-headless

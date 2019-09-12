@@ -15,8 +15,9 @@ $ iw <adapter-name> link
 $ ip address show <adapter-name>
 
 # example wifi configuration
-# this is the only config file that should be needed for wifi to work
-# normal wifi acccess point config file: /etc/wpa_supplicant.conf
+# this is the only config that should be needed for wifi to work
+# wifi acccess point config file: /etc/wpa_supplicant/wpa_supplicant.conf
+# or: /var/run/netplan/wpa-wlp4s0.conf
 _____
 ctrl_interface=/var/run/wpa_supplicant
 ctrl_interface_group=0

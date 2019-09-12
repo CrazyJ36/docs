@@ -1,0 +1,33 @@
+To add A custom resolution to xrandrs' monitors selection:
+The names and data here are examples for 1366x768 tv-monitor.
+
+# Get connected monitor names:
+$ xrandr
+Or:
+$ xrandr --listmonitors
+
+# Get info for needed resolution
+$ cvt resolution-width resolution-hight refresh-rate
+eg: $ cvt 1366 768 60
+This returns correct settings for this new resolution like:
+  1368x768 59.88 Hz (CVT) hsync: 47.79 kHz; pclk: 85.25 MHz
+  Modeline "1368x768_60.00"   85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+
+Copy returned data after "Modeline".
+
+# define new  mode
+$ xrandr --newmode "custom-profile-name" 85.25 1368 1440 1576 1784 768 771 781 798 -hsync +vsync
+
+# add mode to monitor in xrandr
+$ xrandr --addmode [monitor-name] custom-profile-name
+
+# set mode to monitor
+$ xrandr --output [monitor-name] --mode custom-profile-name
+ 
+##### Scriptable format(for persistance):
+
+#!/bin/sh
+xrandr --newmode "720p" 85.25  1368 1440 1576 1784  768 771 781 798 -hsync +vsync
+xrandr --addmode VGA1 720
+
+#####
