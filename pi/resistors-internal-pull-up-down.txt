@@ -1,0 +1,26 @@
+# What are internal pull-up and down Resistors?
+These internal resistors serve the only needed resistor
+in A circuit that uses inputs such as buttons.
+They will keep GPIOs' from reading incorrect input
+state, as in wether A circut is open or closed.
+The resistors 'force' the gpio pin into A open or
+closed state as needed for it's desired function.
+Whether they should be set as pull-up or pull-down
+in code depends on whether your code should be
+on or off by default.
+
+
+# Default behaviour.
+By default, the first eight GPIOs have pull-ups enabled,
+and the rest have pull-downs enabled.
+
+# Pull-down.
+When you have a circuit that connects 3.3v to a GPIO pin as
+closed when HIGH, it could read anything.
+You need a "pull down" resistor connecting your circuit
+to ground, so that it reads LOW when the circuit is open.
+
+# Pull-up.
+if you have a circuit connecting your GPIO pin to ground when
+it's closed, it'll read LOW. You need a "pull up" resistor so that,
+when it's open, it defaults to the HIGH state.
