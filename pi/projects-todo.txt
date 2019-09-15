@@ -1,11 +1,19 @@
-### Multiple attachable hardware setups
+# Multiple attachable hardware setups
 Get several perma-proto boards for pi zero, and setup them up with
 different hardware to make each board start as A different game, music
-player, or other hardware systems. Could probably detect which board is 
-which with memory chip to start the hardware-specific program when the boards
-are plugged-in/powered on.
+player, or other hardware systems. Could probably detect which board is
+pluggin-in using some memory chip to start the hardware-specific program
+when the different boards are plugged-in/powered on.
 
-### BLUETOOTH AUDIO
+# Redo all c and python hardware-related programs
+for newest 'perma-proto organized hardware setup'
+
+# constantly running 'main loop' app
+- start at boot
+- each button can start various functions in the system anytime(like start flashing led)
+- should be used as A 'master control center' program for pi hardware functions.
+
+# BLUETOOTH AUDIO
 here:
 https://raspberrypi.stackexchange.com/questions/73706/how-can-i-select-the-audio-output-to-be-a-known-bluetooth-device-headless
 
@@ -14,19 +22,19 @@ audio worked. A package was bluealsa. try other methods, no package first.
 video on youtube explaining pairing. the site above selects audio out to bluetooth
 
 
-### POWER-IN DIRECTLY AT BOARD
+# POWER-IN DIRECTLY AT BOARD
 The 5v pins can be used to power the pi. This would 
 make A system even smaller.
 
-### Battery
-Self-explainatory
+# Battery
+Self-explainatory, could purchase adafruit battery kit.
 
-### USB DIRECT CONNECT FOR PERMANENT USB GADGET
+# USB DIRECT CONNECT FOR PERMANENT USB GADGET
 Cut male usb cable to use it's wires.
 Mount the usb port somehow on the pi
 
 red- 5v
-black- ground
-green- center set of inward micro-usb bottom pins, closest to power
-white- other inward pin of micro-usb pin
+black - ground
+green - center set of inward micro-usb bottom pins, closest to power
+white - other inward pin of micro-usb pin
 
