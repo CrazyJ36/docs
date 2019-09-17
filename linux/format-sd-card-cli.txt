@@ -1,0 +1,21 @@
+# get name of inserted sd card device(mmcblk1 or sbd normally)
+$ lsblk
+
+# run the parted linux utility on the above device
+$ sudo parted /dev/mmcblk1
+
+# with parted running, create partition table
+$ [parted] mklabel msdos
+
+# create partitions
+$ [parted] mkpart primary fat32 1Mib 100%
+
+# set boot flag (probably)
+$ [parted] set 1 boot on
+
+# quit parted
+$ [parted] quit
+
+# format this new partition for use. remember to do this
+# on the partition(mmcblk1p1), not just device(mmcblk1)!
+$ sudo mkfs.vfat /dev/mmcblk1p1
