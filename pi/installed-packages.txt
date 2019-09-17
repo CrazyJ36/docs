@@ -14,3 +14,11 @@ libxrender1 libxtst6 openjdk-8-jdk-headless openjdk-8-jre-headless
 x11-common
 
 libncurses-dev ncurses-doc
+
+bpython libjs-sphinxdoc libjs-underscore libyaml-0-2 python-argcomplete
+python-argh python-asn1crypto python-blessings python-certifi
+python-cffi-backend python-chardet python-cryptography python-curtsies
+python-enum34 python-greenlet python-idna python-ipaddress python-openssl
+python-pathtools python-pkg-resources python-pygments python-requests
+python-six python-urllib3 python-urwid python-watchdog python-wcwidth
+python-yaml
