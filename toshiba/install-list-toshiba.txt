@@ -382,3 +382,7 @@ firefox
   libatkmm-1.6-1v5 libcairomm-1.0-1v5 libglibmm-2.4-1v5 libgtkmm-3.0-1v5
   libpangomm-1.4-1v5 libsigc++-2.0-0v5 pavucontrol
 
+# gcc arm
+binutils-arm-none-eabi gcc-arm-none-eabi libisl15 libnewlib-arm-none-eabi
+libnewlib-dev libstdc++-arm-none-eabi-newlib
+
