@@ -15,10 +15,7 @@ x11-common
 
 libncurses-dev ncurses-doc
 
-bpython libjs-sphinxdoc libjs-underscore libyaml-0-2 python-argcomplete
-python-argh python-asn1crypto python-blessings python-certifi
-python-cffi-backend python-chardet python-cryptography python-curtsies
-python-enum34 python-greenlet python-idna python-ipaddress python-openssl
-python-pathtools python-pkg-resources python-pygments python-requests
-python-six python-urllib3 python-urwid python-watchdog python-wcwidth
-python-yaml
+bpython3 libjs-sphinxdoc libjs-underscore libyaml-0-2 python3-argcomplete
+python3-argh python3-blessings python3-curtsies python3-greenlet
+python3-pathtools python3-pygments python3-watchdog python3-wcwidth
+python3-yaml
