@@ -16,3 +16,6 @@ be used offline.
 
 All android api class sources as java files:
 http://dl.google.com/android/repository/sources-29_r01.zip
+
+build-tools:
+http://dl.google.com/android/repository/build-tools_r29.0.2-linux.zip
