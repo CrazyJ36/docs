@@ -1,0 +1,18 @@
+To build android apps simply by using aapt on linux command line,
+you need some files from google.
+One is 'platform' or 'android.jar'. This makes android work.
+To download it you should download directly from google with:
+http://dl.google.com/android/repository/platform-29_r03.zip
+You can then put new 'android.jar' files (after unzip) in your local
+sdk directory to build from command line. Refer to:
+http://github.com/CrazyJ36/linux-scripts/build-android.sh
+to see what is need to be done to build android apps using only A
+few local files.
+
+To download the reference documentation for android, use:
+http://dl.google.com/android/repository/docs-24_r01.zip
+This allows the same reference from developer.android.com to 
+be used offline.
+
+All android api class sources as java files:
+http://dl.google.com/android/repository/sources-29_r01.zip
