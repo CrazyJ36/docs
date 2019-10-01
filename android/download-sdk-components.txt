@@ -19,3 +19,11 @@ http://dl.google.com/android/repository/sources-29_r01.zip
 
 build-tools:
 http://dl.google.com/android/repository/build-tools_r29.0.2-linux.zip
+
+also in at the same linked website(dl.google.com) there is:
+tools
+platform-tools (manually install adb)
+
+refer to:
+https://dl.google.com/android/repository/repository-11.xml
+for names and versions of downloadable content.
