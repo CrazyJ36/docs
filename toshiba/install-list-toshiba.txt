@@ -354,7 +354,6 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
 # fonts... commented ones might be removed 
 fonts-liberation fontconfig-config
 
-
 # rxvt
 rxvt-unicode
 
@@ -385,11 +384,3 @@ firefox
 # gcc arm
 binutils-arm-none-eabi gcc-arm-none-eabi libisl15 libnewlib-arm-none-eabi
 libnewlib-dev libstdc++-arm-none-eabi-newlib
-
-# fluxbox
-feh fluxbox libgif7 libid3tag0 libimlib2 libjpeg-progs libjpeg9 menu
-xfonts-terminus yudit-common
-
-# chromium-browser
-chromium-browser chromium-browser-l10n chromium-codecs-ffmpeg-extra
-
