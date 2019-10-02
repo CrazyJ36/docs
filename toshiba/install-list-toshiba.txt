@@ -384,3 +384,18 @@ firefox
 # gcc arm
 binutils-arm-none-eabi gcc-arm-none-eabi libisl15 libnewlib-arm-none-eabi
 libnewlib-dev libstdc++-arm-none-eabi-newlib
+
+# Guitarix
+fonts-roboto fonts-roboto-hinted gtk2-engines gtk2-engines-pixbuf 
+guitarix guitarix-common guitarix-ladspa guitarix-lv2 jack-capture
+jackd jackd2 jackd2-firewire lame libavahi-gobject0 libbluetooth3 
+libconfig++9v5 libdouble-conversion1 libffado2 libgail-common 
+libgail18 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common 
+libgtkmm-2.4-1v5 libgxw0 libgxwmm0 liblilv-0-0 liblo7 liblrdf0 
+libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5svg5 
+libqt5widgets5 libqt5x11extras5 libqt5xml5 libraptor2-0
+libsdl-image1.2 libsdl1.2debian libserd-0-0 libsord-0-0
+libsratom-0-0 libxml++2.6-2v5 libzita-convolver3 libzita-resampler1
+meterbridge qjackctl qt5-gtk-platformtheme qttranslations5-l10n
+vorbis-tools
+
