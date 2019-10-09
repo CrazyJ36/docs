@@ -181,9 +181,6 @@ elinks elinks-data libfsplib0 liblua5.1-0 libtre5 libgpm2
 # nmap
 libblas3 liblinear3 liblua5.3-0 nmap
 
-# jdk8
-openjdk-8-jdk-headless openjdk-8-jre-headless
-
 # i3
   dunst fonts-dejavu fonts-dejavu-extra fonts-vlgothic i3 i3-wm i3lock
   i3status libanyevent-i3-perl libanyevent-perl libasync-interrupt-perl
@@ -215,7 +212,6 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
   xserver-xorg-video-amdgpu xserver-xorg-video-ati xserver-xorg-video-fbdev
   xserver-xorg-video-intel xserver-xorg-video-nouveau xserver-xorg-video-qxl
   xserver-xorg-video-radeon xserver-xorg-video-vesa xserver-xorg-video-vmware
-
 
 # lightdm
   acl activity-log-manager adwaita-icon-theme apg aptdaemon aptdaemon-data
@@ -354,9 +350,6 @@ openjdk-8-jdk-headless openjdk-8-jre-headless
 # fonts... commented ones might be removed 
 fonts-liberation fontconfig-config
 
-# rxvt
-rxvt-unicode
-
 # firefox
 firefox
 
@@ -377,25 +370,7 @@ firefox
   python-gi python-gi-cairo python-minimal python-psutil python2.7
   python2.7-minimal terminator x11-xserver-utils xdg-utils
 
-# pavucontrol
-  libatkmm-1.6-1v5 libcairomm-1.0-1v5 libglibmm-2.4-1v5 libgtkmm-3.0-1v5
-  libpangomm-1.4-1v5 libsigc++-2.0-0v5 pavucontrol
-
 # gcc arm
 binutils-arm-none-eabi gcc-arm-none-eabi libisl15 libnewlib-arm-none-eabi
 libnewlib-dev libstdc++-arm-none-eabi-newlib
-
-# Guitarix
-fonts-roboto fonts-roboto-hinted gtk2-engines gtk2-engines-pixbuf 
-guitarix guitarix-common guitarix-ladspa guitarix-lv2 jack-capture
-jackd jackd2 jackd2-firewire lame libavahi-gobject0 libbluetooth3 
-libconfig++9v5 libdouble-conversion1 libffado2 libgail-common 
-libgail18 libgtk2.0-0 libgtk2.0-bin libgtk2.0-common 
-libgtkmm-2.4-1v5 libgxw0 libgxwmm0 liblilv-0-0 liblo7 liblrdf0 
-libqt5core5a libqt5dbus5 libqt5gui5 libqt5network5 libqt5svg5 
-libqt5widgets5 libqt5x11extras5 libqt5xml5 libraptor2-0
-libsdl-image1.2 libsdl1.2debian libserd-0-0 libsord-0-0
-libsratom-0-0 libxml++2.6-2v5 libzita-convolver3 libzita-resampler1
-meterbridge qjackctl qt5-gtk-platformtheme qttranslations5-l10n
-vorbis-tools
 
