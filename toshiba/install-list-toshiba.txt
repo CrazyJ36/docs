@@ -378,3 +378,6 @@ libnewlib-dev libstdc++-arm-none-eabi-newlib
 feh fluxbox libgif7 libid3tag0 libimlib2 libjpeg-progs libjpeg9 menu
 xfonts-terminus yudit-common
 
+# work with pi from toshiba (pip install)
+gpiozero pigpio colorzero
+
