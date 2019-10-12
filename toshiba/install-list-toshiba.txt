@@ -381,3 +381,7 @@ xfonts-terminus yudit-common
 # work with pi from toshiba (pip install)
 gpiozero pigpio colorzero
 
+# Gtk devhelp
+devhelp devhelp-common libatk1.0-doc libdevhelp-3-5 libglib2.0-doc
+libgtk-3-doc libpango1.0-doc
+
