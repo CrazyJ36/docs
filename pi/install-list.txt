@@ -8,11 +8,6 @@ ssl-cert
 
 elinks elinks-data libev4 libfsplib0 liblua5.1-0 libtre5
 
-ca-certificates-java fontconfig-config fonts-dejavu-core java-common
-libavahi-client3 libcups2 libfontconfig1 liblcms2-2 libnspr4 libnss3 libxi6
-libxrender1 libxtst6 openjdk-8-jdk-headless openjdk-8-jre-headless
-x11-common
-
 libncurses-dev ncurses-doc
 
 bpython3 libjs-sphinxdoc libjs-underscore libyaml-0-2 python3-argcomplete
@@ -20,3 +15,7 @@ python3-argh python3-blessings python3-curtsies python3-greenlet
 python3-pathtools python3-pygments python3-watchdog python3-wcwidth
 python3-yaml
 
+ca-certificates-java fontconfig-config fonts-dejavu-core java-common
+libavahi-client3 libcups2 libfontconfig1 liblcms2-2 libnspr4 libnss3 libxi6
+libxrender1 libxtst6 openjdk-8-jdk-headless openjdk-8-jre-headless
+x11-common

@@ -1,4 +1,4 @@
 - BCM2835 1ghz single-core processor
 - 512Mib Ram
-- requires 5v power supply
+- requires 5v power supply at ~2 amps
 - gpio outs give 3.3volts
