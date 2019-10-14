@@ -5,10 +5,7 @@ player, or other hardware systems. Could probably detect which board is
 pluggin-in using some memory chip to start the hardware-specific program
 when the different boards are plugged-in/powered on.
 
-# Redo all c and python hardware-related programs
-for newest 'perma-proto organized hardware setup'
-
-# constantly running 'main loop' app
+# constantly running 'main loop' app(started in /etc/rc.local)
 - start at boot
 - each button can start various functions in the system anytime(like start flashing led)
 - should be used as A 'master control center' program for pi hardware functions.
