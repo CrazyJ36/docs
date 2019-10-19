@@ -1,0 +1,5 @@
+# edit /etc/locale.gen uncomment "en_US.UTF8"
+$ sudo local-gen
+$ sudo localectl set-locale en_US.utf8
+$ sudo localectl set-keymap us
+# edit /etc/locale.gen comment en_GB...
