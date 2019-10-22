@@ -6,14 +6,7 @@ apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
 libaprutil1-dbd-sqlite3 libaprutil1-ldap libbrotli1 libjansson4 liblua5.2-0
 ssl-cert
 
-elinks elinks-data libev4 libfsplib0 liblua5.1-0 libtre5
-
 libncurses-dev ncurses-doc
-
-bpython3 libjs-sphinxdoc libjs-underscore libyaml-0-2 python3-argcomplete
-python3-argh python3-blessings python3-curtsies python3-greenlet
-python3-pathtools python3-pygments python3-watchdog python3-wcwidth
-python3-yaml
 
 ca-certificates-java fontconfig-config fonts-dejavu-core java-common
 libavahi-client3 libcups2 libfontconfig1 liblcms2-2 libnspr4 libnss3 libxi6
