@@ -180,3 +180,6 @@ libpq5 python3-psycopg2 python3-webpy
 # kotlin (references elsewhere must be removed: ~/.profile, ~/.kotlinc_hist)
 ~/downloads/apps/kotlinc
 
+# cups printing
+cups-client cups-common libcupsfilters1 libcupsimage2
+
