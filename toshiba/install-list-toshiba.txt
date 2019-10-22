@@ -123,6 +123,9 @@ make
 libncurses5-dev
 libtinfo-dev
 
+# ncurses-doc (man page)
+ncurses-doc
+
 # python3-pip
 build-essential dpkg-dev fakeroot g++ g++-7 libalgorithm-diff-perl
 libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl libexpat1-dev
