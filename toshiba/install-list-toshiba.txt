@@ -183,3 +183,21 @@ libpq5 python3-psycopg2 python3-webpy
 # cups printing
 cups-client cups-common libcupsfilters1 libcupsimage2
 
+# cups
+acl avahi-daemon bc colord colord-data cups cups-browsed cups-core-drivers
+cups-daemon cups-filters cups-filters-core-drivers cups-ipp-utils cups-ppdc
+cups-server-common dconf-gsettings-backend dconf-service
+fonts-droid-fallback fonts-noto-mono ghostscript gsfonts hicolor-icon-theme
+imagemagick imagemagick-6-common imagemagick-6.q16 libavahi-core7
+libavahi-glib1 libcolord2 libcolorhug2 libcupscgi1 libcupsmime1 libcupsppdc1
+libdaemon0 libdconf1 libdjvulibre-text libdjvulibre21 libexif12
+libfile-copy-recursive-perl libfontembed1 libgd3 libgphoto2-6
+libgphoto2-l10n libgphoto2-port12 libgs9 libgs9-common libgudev-1.0-0
+libgusb2 libgutenprint2 libieee1284-3 libijs-0.35 libilmbase12 libjbig2dec0
+liblouis-data liblouis14 liblouisutdml-bin liblouisutdml-data liblouisutdml8
+liblqr-1-0 libltdl7 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+libmagickwand-6.q16-3 libnetpbm10 libnss-mdns libopenexr22 libpaper-utils
+libpaper1 libpolkit-agent-1-0 libpolkit-backend-1-0 libqpdf21 libsane-common
+libsane1 libwmf0.2-7 libxpm4 netpbm policykit-1 poppler-data
+printer-driver-gutenprint qpdf sane-utils ssl-cert update-inetd
+

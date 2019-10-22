@@ -1,13 +1,9 @@
-# /etc/ssh/ssh_config
+# /etc/ssh/sshd_config
 changed Port to 23457 from 22
 (pi is using port 23456 from outside)
 
-# /etc/NetworkManager/conf.g/default-wifi-powersave-on.conf
-changed wifi.powersave value from 3 to 2.
-
-# /etc/i3/i3status.conf
-original is i3status.bak
-edited copy of i3status.conf
-
 # /run/netplan/wpa-wlp4s0.conf: (this apparently controls wifi, not /etc/wpa_supplicant)
 add networks in this directory, netplan worked better than wpa_supplicant.
+
+# ~/.nanorc
+set tabsize 4 
