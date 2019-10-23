@@ -1,0 +1,5 @@
+# Above android 2.3:
+$ mount -o rw,remount /system
+
+# Android 2.3:
+$ mount -o remount,rw /system /system
