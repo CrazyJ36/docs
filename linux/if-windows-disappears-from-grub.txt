@@ -1,0 +1,5 @@
+In linux:
+$ update-grub
+Grub finds Windows.
+This works if Grub was installed to
+/dev/sda, not /dev/sda(partition).
