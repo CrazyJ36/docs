@@ -32,3 +32,8 @@ python3-setuptools python3-wheel python3-xdg python3.7-dev
 # pysimpleguiweb (different from pysimplegui, pip install)
 remi pysimpleguiweb
 
+# bpython
+bpython3 libjs-sphinxdoc libjs-underscore libyaml-0-2 python3-argcomplete
+python3-argh python3-blessings python3-curtsies python3-greenlet
+python3-pathtools python3-pygments python3-watchdog python3-wcwidth
+python3-yaml
