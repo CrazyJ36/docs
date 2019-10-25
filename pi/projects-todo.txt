@@ -4,11 +4,7 @@ different hardware to make each board start as A different game, music
 player, or other hardware systems. Could probably detect which board is
 pluggin-in using some memory chip to start the hardware-specific program
 when the different boards are plugged-in/powered on.
-
-# constantly running 'main loop' app(started in /etc/rc.local)
-- start at boot
-- each button can start various functions in the system anytime(like start flashing led)
-- should be used as A 'master control center' program for pi hardware functions.
+Get eeproms and program them one per board for auto configure from fresh raspbian.
 
 # BLUETOOTH AUDIO
 here:
@@ -18,6 +14,7 @@ when raspbian-desktop(raspberrypi-ui-mods) was running, bluetooth
 audio worked. A package was bluealsa. try other methods, no package first.
 video on youtube explaining pairing. the site above selects audio out to bluetooth
 
+Get audio from ip to android using bluetooth.
 
 # POWER-IN DIRECTLY AT BOARD
 The 5v pins can be used to power the pi. This would 
@@ -35,3 +32,57 @@ black - ground
 green - center set of inward micro-usb bottom pins, closest to power
 white - other inward pin of micro-usb pin
 
+# C headers for perma-proto setup
+- This is implemented in python already
+- on header function should led flash on programs return 0
+- need A c header that initializes all pins
+
+# Act as usb audio interface over usb
+realtime os might help.
+needs input/output jacks.
+This is not really needed as it would not improve guitar playability,
+unless It could eliminate latency realtime in kernel.
+
+# make android phone
+self-explainatory, could build android source for pi hardware(make/find device trees, then build android source against).
+need touchscreen hardware.
+
+# Share Windows PC internet to pi over usb gadget.
+Didn't work at first(chrome bookmarks for references).
+
+# explore raspbian file-system.
+get used to /dev and /sys/class
+could build upon system for pi.
+Find all that can be done of pi itself without internet of external hardware/software.
+This would help baremetal programming.
+use arm manual to interact with pi built in hardware.
+Minimize system and use cc, or python only.
+
+# get bluetooth terminal to work
+
+# direct usb-gadget terminal over static ip without bonjour or avahi-deamon
+This should already work
+
+# GET SSD!
+for cloud server or media center
+
+# make good audio bonnet
+clean headphone jack sound with pwm (half-done, used adafruit instructions)
+i have several amplifier chips for direct speaker connection 
+find proper-fitting but small jacks and stuff for sturdy pHat
+can be battery powered mp3 player
+
+# Make Ad-free Pandora player
+using pianobar and pwm headphone jack
+
+# Connect to android app
+control leds, sliders(for buzzer or pwm-led tone/rate)
+from android interface.
+
+# full-size usb
+add or replace hardware soldered directly.
+research to make sure it won't hurt to do.
+
+# add microsd slots
+solder directly to pins on back,
+or see if i can combine sdcards by connecting each other cards terminals.
