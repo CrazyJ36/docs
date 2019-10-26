@@ -1,0 +1,1 @@
+search html document for two words in the same <p><\p>
