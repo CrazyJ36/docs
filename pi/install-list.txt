@@ -40,3 +40,7 @@ python3-yaml
 
 # curses-menu (pip)
 curses-menu
+
+# libcaca-dev
+libcaca-dev libcaca0 libslang2-dev
+
