@@ -1,0 +1,13 @@
+# List installed package names
+$ adb shell pm list pacakges -d
+- Or use 'Application Inspector' from Play Store.
+
+# Uninstall - keeps data, base apk still in /data/app
+$ adb shell pm uninstall -k --user 0 com.package.name
+- Reinstall:
+  adb shell cmd package install-existing com.package.name
+
+# Disable - Regular disable for any app, could be auto-re-enabled by system.
+$ adb shell pm disable-user --user 0 com.package.name
+- To re-enable:
+  $ adb shell 
