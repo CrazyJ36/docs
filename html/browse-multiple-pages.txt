@@ -1,0 +1,15 @@
+# To make 1 website domain root for multiple directories in apache2 server:
+
+I used the default site, then added directories to that named website,
+that enabled me to use only one website name, saving money if purchasing
+A domain name.
+
+Directories:
+- main served site, served at a no-ip url:
+/var/www/html/
+
+- other directries
+/var/www/html/other-site1
+/var/www/html/other-site2
+
+Then just append /other-site.. to the main /html url you normally would go to.
