@@ -44,3 +44,7 @@ curses-menu
 # libcaca-dev
 libcaca-dev libcaca0 libslang2-dev
 
+# pigpio (remote gpiozero)
+  libpigpio-dev libpigpio1 libpigpiod-if-dev libpigpiod-if1 libpigpiod-if2-1
+  pigpio pigpio-tools pigpiod
+
