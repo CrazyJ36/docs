@@ -1,0 +1,22 @@
+# cups site
+cups.org
+
+# install cups printing service (maybe only need cups package):
+$ sudo apt-get install cups
+
+# find printers:
+$ lpinfo -v
+
+# set select printer using ip socket result from above.
+# -p option name can be anything(HP_Envy_5660 here)
+lpadmin -p HP_Envy_5660 -E -v "socket://192.168.1.157:9100" -m everywhere
+
+# set selected printer as default(use the same name as you did after the -p
+# option in last step.
+lpoptions -d HP_Envy_5660
+
+# try printing with:
+lp filename
+
+# there also are page customization options shown at:
+http://cups.org/doc/options.html
