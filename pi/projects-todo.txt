@@ -63,7 +63,7 @@ Minimize system and use cc, or python only.
 # direct usb-gadget terminal over static ip without bonjour or avahi-deamon
 This should already work
 
-# GET SSD!
+# get ssd
 for cloud server or media center
 
 # make good audio bonnet
@@ -86,3 +86,6 @@ research to make sure it won't hurt to do.
 # add microsd slots
 solder directly to pins on back,
 or see if i can combine sdcards by connecting each other cards terminals.
+
+# C only shell os
+make an embedded os. download embedch at softintegration.com

@@ -8,11 +8,14 @@ outputs:
   dev/bash/git-push.sh
   bin/git-push.sh
 $ locate "*.xml" -n 10
+
 # find
 locate]gs filss based on criteria(name, type, size, 
 owner, permissions). Specify path or search in 
-current directory.
+current directory. Directories are still found by default.
 $ find . -name filename
 $ find /dir -type d
+$ find /tmp/.X*
+ 
 # whereis
 Easy to find binary location

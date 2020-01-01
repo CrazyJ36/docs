@@ -1,0 +1,2 @@
+If you want to ignore output:
+$ command $>/dev/null/ &
