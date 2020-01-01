@@ -1,6 +1,9 @@
-#Show info for installed package
-$dpkg -s installed-package
+# Show info for installed package
+$ dpkg -s installed-package
 
-#Show info for A package that is not installed
+# Get size of packages sorted by size
+$ dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
+
+# Show info for A package that is not installed
 $ apt show package
 

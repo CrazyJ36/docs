@@ -129,10 +129,9 @@ ncurses-doc
 
 # python3-pip
 build-essential dpkg-dev fakeroot g++ g++-7 libalgorithm-diff-perl
-libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl libexpat1-dev
-libfakeroot libfile-fcntllock-perl libpython3-dev libpython3.6
-libpython3.6-dev libstdc++-7-dev patch python-pip-whl python3-dev
-python3-pip python3-pkg-resources python3-setuptools python3.6-dev
+libalgorithm-diff-xs-perl libalgorithm-merge-perl libdpkg-perl
+libfakeroot libfile-fcntllock-perl libstdc++-7-dev patch python-pip-whl
+python3-pip python3-pkg-resources python3-setuptools
 
 # howdoi
 howdoi libxslt1.1 python3-certifi python3-chardet python3-cssselect
