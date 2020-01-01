@@ -24,7 +24,7 @@ libmtp-common
 libmtp9
 jmtpfs
 
-# openjdk-11-jdk-headless
+# openjdk-8-jdk-headless (was 11, remaining packages depend)
 ca-certificates-java
 java-common
 libavahi-client3
@@ -39,9 +39,10 @@ libnss3
 libxi6
 libxrender1
 libxtst6
-openjdk-11-jdk-headless
-openjdk-11-jre-headless
 x11-common
+openjdk-8-jdk-headless
+openjdk-8-jre-headless
+
 
 # poppler-utils
 fontconfig-config
@@ -198,3 +199,4 @@ libpq5 python3-psycopg2 python3-webpy
   libpaper1 libpolkit-agent-1-0 libpolkit-backend-1-0 libqpdf21 libsane-common
   libsane1 libwmf0.2-7 libxpm4 netpbm policykit-1 poppler-data
   printer-driver-gutenprint qpdf sane-utils ssl-cert update-inetd
+
