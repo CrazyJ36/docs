@@ -1,12 +1,16 @@
-edit /etc/default/grub: 
-GRUB_CMDLINE_LINUX_DEFAULT="text"
-GRUB_TERMINAL=console After saving 
+# To make Ubuntu/Debian run like A text-only computer
+# edit /etc/default/grub: 
+ GRUB_CMDLINE_LINUX_DEFAULT="text"
+ GRUB_TERMINAL=console 
+# then,
+$ sudo update-grub
+$ sudo systemctl set-default multi-user.target
 
-sudo update-grub
-sudo systemctl set-default multi-user.target
 
+# To revert, set GRUB_CMDLINE_LINUX_DEFAULT to "quiet splash"
+# and comment outthe line that says GRUB_TERMINAL="console,
+# then,
+$ sudo systemctl set-default graphical.target
+$ sudo update-grub
 
-To revert:
-sudo systemctl set-default graphical.target
-
-Tip: Press ESC to show text boot during Ubuntu boot screen.
+Tip: Press ESC to show text boot sequence during Ubuntus' loading screen.
