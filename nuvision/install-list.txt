@@ -1,0 +1,10 @@
+# git
+git
+git-man
+liberror-perl
+
+# openssh-server
+ncurses-term
+openssh-server
+openssh-sftp-server
+ssh-import-id
