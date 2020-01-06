@@ -10,3 +10,12 @@ git git-man liberror-perl
 libedit2 libssl1.0.0 libwrap0 openssh-client openssh-server
 openssh-sftp-server
 
+# jdk
+ca-certificates-java fontconfig-config fonts-dejavu-core java-common
+libavahi-client3 libavahi-common-data libavahi-common3 libcups2
+libfontconfig1 libjpeg-turbo8 libjpeg8 liblcms2-2 libnspr4 libnss3 libxext6
+libxi6 libxrender1 libxtst6 openjdk-8-jdk-headless openjdk-8-jre-headless
+x11-common
+
+# usbutils (for lsusb)
+usbutils
