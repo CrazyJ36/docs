@@ -1,0 +1,4 @@
+# If terminal ends up showing funky characters:
+$ reset
+
+

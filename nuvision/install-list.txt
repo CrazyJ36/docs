@@ -1,10 +1,12 @@
-# git
-git
-git-man
-liberror-perl
+# started with only ubuntu-minimal installed.
+
+# nano
+nano 
+
+# git 
+git git-man liberror-perl
 
 # openssh-server
-ncurses-term
-openssh-server
+libedit2 libssl1.0.0 libwrap0 openssh-client openssh-server
 openssh-sftp-server
-ssh-import-id
+

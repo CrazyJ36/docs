@@ -1,0 +1,15 @@
+# this will make your ubuntu installation the absolute minimum console pc system, .
+
+# aptitude does the trick here.
+$ sudo apt-get install aptitude ubuntu-minimal
+
+# this command tells the system that every package besides 'ubuntu-minimal' is not required.
+$ sudo aptitude markauto `~i!~nubuntu-minimal`
+
+# remove all the uneeded packages(there will be a lot).
+$ sudo apt-get autoremove --purge
+
+# done.
+# you can remove aptitude is you don't need it now.
+# also if your kernel package 'linux-image-generic' is not installed or removed,
+# install it before reboot.
