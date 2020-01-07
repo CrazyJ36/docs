@@ -19,3 +19,8 @@ x11-common
 
 # usbutils (for lsusb)
 usbutils
+
+# apache2
+apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
+libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
+
