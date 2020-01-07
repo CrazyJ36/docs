@@ -24,3 +24,8 @@ usbutils
 apache2 apache2-bin apache2-data apache2-utils libapr1 libaprutil1
 libaprutil1-dbd-sqlite3 libaprutil1-ldap liblua5.2-0 ssl-cert
 
+# gcc
+gcc gcc-7 libasan4 libatomic1 libc-dev-bin libc6-dev libcc1-0 libcilkrts5
+libgcc-7-dev libgomp1 libitm1 liblsan0 libmpx2 libquadmath0 libtsan0
+libubsan0 linux-libc-dev manpages-dev
+
