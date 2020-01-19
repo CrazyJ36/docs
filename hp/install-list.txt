@@ -1,0 +1,6 @@
+# Git
+  git git-man liberror-perl ncurses-term 
+
+# ssh
+  openssh-server openssh-sftp-server
+  ssh-import-id
