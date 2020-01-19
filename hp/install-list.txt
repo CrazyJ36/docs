@@ -4,3 +4,11 @@
 # ssh
   openssh-server openssh-sftp-server
   ssh-import-id
+
+# python3-tk
+  blt libtcl8.6 libtk8.6 python3-tk tk8.6-blt2.5
+
+# java
+  ca-certificates-java java-common openjdk-8-jdk-headless
+  openjdk-8-jre-headless
+
