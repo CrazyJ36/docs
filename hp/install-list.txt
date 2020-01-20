@@ -34,3 +34,20 @@ astroid-2.3.3 isort-4.3.21 lazy-object-proxy-1.4.3 mccabe-0.6.1 pylint-2.4.4 six
 
 # cpu-checker (check for virtual machine acceleration with kvm)
 cpu-checker msr-tools
+
+# canberra-gtk (module for android studios' runtime)
+libcanberra-gtk3-module
+libcanberra-gtk-module
+
+# kvm (android emulator vm)
+  augeas-lenses bridge-utils dmeventd ebtables ibverbs-providers ipxe-qemu
+  ipxe-qemu-256k-compat-efi-roms libaio1 libaugeas0 libcacard0
+  libdevmapper-event1.02.1 libfdt1 libibverbs1 libiscsi7 liblvm2app2.2
+  liblvm2cmd2.02 libnetcf1 libnl-route-3-200 librados2 librbd1 librdmacm1
+  libreadline5 libsdl1.2debian libspice-server1 libusbredirparser1
+  libvirt-clients libvirt-daemon libvirt-daemon-driver-storage-rbd
+  libvirt-daemon-system libvirt0 libxen-4.9 libxenstore3.0 libxml2-utils
+  libyajl2 lvm2 qemu-block-extra qemu-kvm qemu-system-common qemu-system-x86
+  qemu-utils seabios sharutils
+
+
