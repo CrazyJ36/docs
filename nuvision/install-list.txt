@@ -29,3 +29,26 @@ gcc gcc-7 libasan4 libatomic1 libc-dev-bin libc6-dev libcc1-0 libcilkrts5
 libgcc-7-dev libgomp1 libitm1 liblsan0 libmpx2 libquadmath0 libtsan0
 libubsan0 linux-libc-dev manpages-dev
 
+# cups
+  acl avahi-daemon bc bind9-host colord colord-data cups cups-browsed
+  cups-client cups-common cups-core-drivers cups-daemon cups-filters
+  cups-filters-core-drivers cups-ipp-utils cups-ppdc cups-server-common
+  dconf-gsettings-backend dconf-service fontconfig fonts-droid-fallback
+  fonts-noto-mono geoip-database ghostscript gsfonts hicolor-icon-theme
+  imagemagick imagemagick-6-common imagemagick-6.q16 libavahi-core7
+  libavahi-glib1 libbind9-160 libcairo2 libcolord2 libcolorhug2 libcupscgi1
+  libcupsfilters1 libcupsimage2 libcupsmime1 libcupsppdc1 libdatrie1 libdconf1
+  libdjvulibre-text libdjvulibre21 libdns1100 libexif12 libfftw3-double3
+  libfile-copy-recursive-perl libfontembed1 libgd3 libgeoip1 libgphoto2-6
+  libgphoto2-l10n libgphoto2-port12 libgraphite2-3 libgs9 libgs9-common
+  libgusb2 libgutenprint2 libharfbuzz0b libieee1284-3 libijs-0.35 libilmbase12
+  libisc169 libisccc160 libisccfg160 libjbig0 libjbig2dec0 liblouis-data
+  liblouis14 liblouisutdml-bin liblouisutdml-data liblouisutdml8 liblqr-1-0
+  libltdl7 liblwres160 libmagickcore-6.q16-3 libmagickcore-6.q16-3-extra
+  libmagickwand-6.q16-3 libnetpbm10 libnss-mdns libopenexr22 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpaper-utils libpaper1 libpixman-1-0
+  libpoppler73 libqpdf21 libsane-common libsane1 libthai-data libthai0
+  libtiff5 libwebp6 libwmf0.2-7 libxcb-render0 libxcb-shm0 libxpm4 netpbm
+  poppler-data poppler-utils printer-driver-gutenprint qpdf sane-utils
+  update-inetd
+
