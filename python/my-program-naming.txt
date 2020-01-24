@@ -1,0 +1,9 @@
+Many program example names stands for:
+use_function.py
+
+as:
+'useful in'_'the functionality'
+
+Example:
+interpreter_auto-complete.py
+
