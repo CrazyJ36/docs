@@ -52,7 +52,7 @@ libjbig0
 libpixman-1-0
 libpoppler73
 libtiff5
-libxcb-render0
+cd libxcb-render0
 libxcb-shm0
 poppler-utils
 
