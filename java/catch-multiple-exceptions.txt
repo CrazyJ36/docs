@@ -1,0 +1,6 @@
+In try catch block, at catch:
+
+catch (SecurityException | RuntimeException exeptionVariable) 
+
+In english this means: "catch exception1 or exception2 as variable",
+then you can act on exceptions no matter which one was thrown.

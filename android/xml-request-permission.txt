@@ -1,0 +1,6 @@
+Example declaring permission in AndroidManifest.xml. Before <application> write:
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+API Reference:
+package: android
+class: Manifest.permission
