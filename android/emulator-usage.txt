@@ -1,0 +1,10 @@
+# You should tell linux where the android sdk tools are:
+# in ~/.profile: PATH="/home/thomas/Android/Sdk/tools/:$PATH"
+
+# list avds' you've already made:
+$ emulator -list-avds
+
+# start emulator from command line:
+$ emulator @EMULATOR_NAME
+# or:
+$ emulator -avd EMULATOR_NAME

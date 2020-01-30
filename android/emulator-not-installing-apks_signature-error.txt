@@ -1,0 +1,3 @@
+If you did sign your apk already, you (lately) have to 
+zipalign apk before signing apk during build,
+doing it the other way breaks apks' signature.
