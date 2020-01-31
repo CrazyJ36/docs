@@ -1,0 +1,39 @@
+LIST:
+square brackets [ ]
+ex:
+L1 = ['a', 'b']
+L2 = [2, 1]
+can hold different types
+index sliceable
+mutable
+nestable
+has python functions
+
+TUPLE:
+perenthesis (in expressions) or not
+ex:
+T1 = (1234, 'hello')
+T2 = 1234, 'hello'
+T1, T2 = tuple3
+can hold different types
+immutable (but can be in mutable obj)
+
+SET:
+curly braces or set() (for empty set)
+set1 = {'apple', 'banana'}
+unordered
+no duplicate elements, they're removed
+can test members(item in set bool)
+mathmatically test members
+list comprehension(for in set)
+
+DICTIONARY:
+curly braces with key value
+ex:
+dict(one=1, two=2, three=3    )
+dict([('one', 1), ('two', 2), ('three', 3)])
+num = {'one': 1, 'two': 2}
+add by: num['three'] = 3
+get value by key
+can be made by comprehension
+mutable
