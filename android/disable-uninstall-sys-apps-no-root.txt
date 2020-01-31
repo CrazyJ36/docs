@@ -1,5 +1,5 @@
 # List installed package names
-$ adb shell pm list pacakges -d
+$ adb shell pm list packages -d
 - Or use 'Application Inspector' from Play Store.
 
 # Uninstall - keeps data, base apk still in /data/app
