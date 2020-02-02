@@ -74,3 +74,6 @@ python3-six python3-urllib3 python3-watchdog python3-wcwidth
 
 # ncurses dev for c
 libncurses5-dev libtinfo-dev
+
+# tree
+tree
