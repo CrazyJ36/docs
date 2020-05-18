@@ -1,0 +1,15 @@
+#setup wifi
+
+nmcli con add type wifi con-name [ssid] ssid [ssid] ifname wlan0
+
+# add password under wifi in /etc/NetworkMangager/system-connections
+# add this section after the [wifi] section
+
+[wifi-security]
+key-mgmt=wpa-psk
+psk=PASSWORD
+
+sudo systemctl restart network-manager
+
+check connection by nmcli
+
