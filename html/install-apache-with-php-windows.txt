@@ -1,0 +1,3 @@
+Download apache zip from apachelounge
+
+this site covers php install : https://www.sitepoint.com/how-to-install-php-on-windows/
