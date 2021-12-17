@@ -5,3 +5,7 @@ git git-man liberror-perl
 
 # python3 version of RPi.GPIO
 python3-rpi.gpio
+
+# i2c-tools to run i2cdetect, showing the address of connected i2c peripherals.
+i2c-tools libi2c0 read-edid
+
