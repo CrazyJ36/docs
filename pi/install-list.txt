@@ -3,8 +3,8 @@ git git-man liberror-perl
 
 # installed local make package bcm2835 with files: /usr/local/lib/libbcm2835.a, /usr/local/include/bcm2835.h
 
-# python3 version of RPi.GPIO
-python3-rpi.gpio
+# rpi.gpio - required by gpiozero
+python3-rpi.gpio rpi.gpio-common
 
 # i2c-tools to run i2cdetect, showing the address of connected i2c peripherals.
 i2c-tools libi2c0 read-edid
