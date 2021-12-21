@@ -9,3 +9,24 @@ python3-rpi.gpio rpi.gpio-common
 # i2c-tools to run i2cdetect, showing the address of connected i2c peripherals.
 i2c-tools libi2c0 read-edid
 
+# pip
+javascript-common libexpat1-dev libjs-jquery libjs-sphinxdoc
+libjs-underscore libpython3-dev libpython3.9-dev python-pip-whl python3-dev
+python3-distutils python3-lib2to3 python3-pip python3-setuptools
+python3-wheel python3.9-dev
+
+# circuitpython installed with pip
+Adafruit-PlatformDetect-3.18.0
+adafruit-python-shell-1.3.3-and-args-0.1.0
+clint-0.5.1
+python3-pil
+
+# pioled python apis, installed with pip
+adafruit-circuitpython-busdevice-5.1.1
+adafruit-circuitpython-framebuf-1.4.8
+adafruit-circuitpython-ssd1306-2.12.3
+
+# python imageing library
+file libimagequant0 liblcms2-2 libmagic-mgc libmagic1 libwebpdemux2
+libwebpmux3 mailcap mime-support python3-olefile python3-pil
+
