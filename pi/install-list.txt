@@ -31,3 +31,6 @@ file libimagequant0 liblcms2-2 libmagic-mgc libmagic1 libwebpdemux2
 libwebpmux3 mailcap mime-support python3-olefile python3-pil
 
 # /usr/local/include/oled96.h /usr/local/lib/liboled96.a
+
+# libncurses-dev for c
+libncurses-dev
