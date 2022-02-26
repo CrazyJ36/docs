@@ -4,3 +4,6 @@
 
 # change ssh port at /etc/ssh/sshd_config
 Port 23456
+
+# add tty scrollback
+edit /etc/default/grub at GRUB_CMDLINE_LINUX to include "fbcon=scrollback:1024k"
