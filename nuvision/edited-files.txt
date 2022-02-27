@@ -7,3 +7,6 @@ Port 23456
 
 # add tty scrollback
 edit /etc/default/grub at GRUB_CMDLINE_LINUX to include "fbcon=scrollback:1024k"
+
+# show boot messages
+edite/etc/default/grub at GRUB_CMDLINE_LINUX_DEFAULT removeing "quiet splash"
