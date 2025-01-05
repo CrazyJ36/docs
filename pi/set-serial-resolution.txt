@@ -1,0 +1,10 @@
+# In host, remember the output of:
+> echo $LINES
+> echo $COLUMNS
+# or:
+> tput lines
+> tput cols
+
+# Under serial connection with pi (in picocom), use:
+> stty rows 50 cols 160
+
