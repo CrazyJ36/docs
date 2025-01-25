@@ -1,2 +1,0 @@
-# /etc/rc.local:
-add python program to set some gpio pins on boot.
