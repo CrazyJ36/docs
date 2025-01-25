@@ -1,0 +1,7 @@
+git
+git-man
+liberror-perl
+
+picocom
+libutempter0
+screen
